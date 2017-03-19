@@ -10,7 +10,8 @@ deploy:
   app:
     master: grupo-f-012017
     
- before_install:
-  - cd desapp-groupF-backend
+    
+before_install:
+- cd desapp-groupF-backend
 
 
