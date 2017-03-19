@@ -3,6 +3,7 @@ language: java
 jdk:
   - oraclejdk8
   
+- cd desapp-groupF-backend
 deploy:
   provider: heroku
   api_key:
@@ -11,5 +12,5 @@ deploy:
     master: grupo-f-012017
     
     
-before_install:
- - cd desapp-groupF-backend
+
+
