@@ -18,6 +18,11 @@
     <groupId>javax.servlet</groupId>
     <artifactId>javax.servlet-api</artifactId>
     <version>3.1.0</version>
+	</dependency>
+	<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-runner</artifactId>
+    <version>9.0.0.M5</version>
 </dependency>
   </dependencies>
   <build>
