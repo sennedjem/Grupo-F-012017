@@ -5,10 +5,11 @@
 div#map_container{
 	width:50%;
 	height:50%;
+	margin: 0 auto;
 }
 </style>
 <script type="text/javascript"
-   src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+   src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
 <script type="text/javascript">
   function loadMap() {
