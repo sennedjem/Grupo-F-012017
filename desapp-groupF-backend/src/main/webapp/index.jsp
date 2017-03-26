@@ -9,7 +9,7 @@ div#map_container{
 }
 </style>
 <script type="text/javascript"
-   src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+   src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyBIxrL384l4aB3C3mDMffKEhbnScbQVm54"></script>
 
 <script type="text/javascript">
   function loadMap() {
