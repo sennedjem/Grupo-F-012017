@@ -13,28 +13,31 @@ div#map_container{
 
 <script type="text/javascript">
   function loadMap() {
-    var homelatlng = new google.maps.LatLng(-34.8192083, -58.26899709999998);
-    var marketlatlng = new google.maps.LatLng(-34.7583823, -58.275060800000006);
+  	var directionsDisplay = new google.maps.DirectionsRenderer();
+	var directionsService = new google.maps.DirectionsService();
 
-    var myOptions = {
-      zoom: 11,
-      center: homelatlng,
+    var myOptions = {	
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
     var map = new google.maps.Map(document.getElementById("map_container"),myOptions);
 
-    var homeMarker = new google.maps.Marker({
-      position: homelatlng,
-      map: map,
-      title:"Casa"
-    });
+    var request = {
+		origin: "Roque Sáenz Peña 352",
+		destination: "Av. Calchaquí 3950",
+		travelMode: google.maps.DirectionsTravelMode.DRIVING,
+		unitSystem: google.maps.DirectionsUnitSystem.METRIC,
+		provideRouteAlternatives: true
+	};
 
-    var marketMarker = new google.maps.Marker({
-      position: marketlatlng,
-      map: map,
-      title:"Mercado cercano"
-    });
+    directionsService.route(request, function(response, status) {
+    if (status == google.maps.DirectionsStatus.OK) {
+        directionsDisplay.setMap(map);
+        directionsDisplay.setDirections(response);
+    } else {
+            alert("No existen rutas entre ambos puntos");
+    }
+	});
 
   }
 </script>
