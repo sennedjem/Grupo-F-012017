@@ -1,0 +1,67 @@
+package utils;
+
+public class Money {
+	
+	Integer entirePart;
+	Integer decimalPart;
+	
+	public Money(Integer entire, Integer decimal){
+		this.entirePart = entire;
+		this.decimalPart = decimal;
+	}
+
+	public Integer getEntirePart() {
+		return entirePart;
+	}
+
+	public void setEntirePart(Integer entirePart) {
+		this.entirePart = entirePart;
+	}
+
+	public Integer getDecimalPart() {
+		return decimalPart;
+	}
+
+	public void setDecimalPart(Integer decimalPart) {
+		this.decimalPart = decimalPart;
+	}
+	
+	@Override
+	public String toString(){
+		return "$" + this.entirePart.toString() + "," + this.decimalPart.toString();
+	}
+	
+	@Override
+	public boolean equals(Object moneyToCompare){
+		if (moneyToCompare != null && moneyToCompare instanceof Money){
+			Money newMoney = (Money) moneyToCompare;
+			return this.entirePart.equals(newMoney.entirePart) && this.decimalPart.equals(newMoney.decimalPart);
+		}
+		return false;		
+	}
+	
+	public void add(Money otherMoney){
+		this.decimalPart += this.addCents(otherMoney.decimalPart);
+		this.entirePart += this.carryCents(otherMoney.decimalPart);
+		this.entirePart += otherMoney.entirePart;
+	}
+	
+	public Integer addCents(Integer cents){
+		return (this.decimalPart + cents) % 100;
+	}
+	
+	public Integer carryCents(Integer cents){
+		return (this.decimalPart + cents) / 100;
+	}
+	
+	public Money times(Integer quantity){
+		Integer uncalculatedCents = this.decimalPart * quantity;
+		Integer uncalculatedEntire = this.entirePart * quantity;
+		Money result = new Money(0,0);
+		Integer newCents = result.addCents(uncalculatedCents);
+		Integer newCarry = result.carryCents(uncalculatedCents);
+		newCarry += uncalculatedEntire;
+		return new Money(newCarry, newCents);
+	}
+
+}
