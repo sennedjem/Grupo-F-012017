@@ -9,4 +9,12 @@ public class ByCombination extends Offer{
 		this.product1 = product1;
 		this.product2 = product2;
 	}
+	
+	public Product getProduct1() {
+		return this.product1;
+	}
+	
+	public Product getProduct2() {
+		return this.product2;
+	}
 }

@@ -5,7 +5,7 @@ public class ByProduct extends Offer{
 	private Product product;
 
 	public Product getProduct() {
-		return product;
+		return this.product;
 	}
 
 	public void setProduct(Product product) {
