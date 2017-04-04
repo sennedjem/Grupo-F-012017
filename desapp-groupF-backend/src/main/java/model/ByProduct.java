@@ -2,7 +2,7 @@ package model;
 
 public class ByProduct extends Offer{
 
-	Product product;
+	private Product product;
 
 	public Product getProduct() {
 		return product;

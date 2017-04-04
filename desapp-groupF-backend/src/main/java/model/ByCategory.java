@@ -4,7 +4,7 @@ import utils.Category;
 
 public class ByCategory extends Offer{
 
-	Category category;
+	private Category category;
 
 	public Category getCategory() {
 		return category;

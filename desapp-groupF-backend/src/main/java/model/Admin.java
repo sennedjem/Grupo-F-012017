@@ -5,7 +5,7 @@ import utils.Money;
 
 public class Admin extends User{
 	
-	Management management;
+	private Management management;
 	
 	public void addProduct(Product product){
 		this.management.addProduct(product);

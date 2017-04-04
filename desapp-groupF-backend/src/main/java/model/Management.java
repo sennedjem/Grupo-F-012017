@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Management {
 	
-	List<Product> products = new ArrayList<Product>();
+	private List<Product> products = new ArrayList<Product>();
 	
 	public void addProduct(Product product){
 		this.products.add(product);

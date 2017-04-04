@@ -6,9 +6,9 @@ import utils.Money;
 
 public class Offer {
 	
-	LocalDate startDate;
-	LocalDate endDate;
-	Money discount;
+	private LocalDate startDate;
+	private LocalDate endDate;
+	private Money discount;
 	
 	public LocalDate getStartDate() {
 		return startDate;
