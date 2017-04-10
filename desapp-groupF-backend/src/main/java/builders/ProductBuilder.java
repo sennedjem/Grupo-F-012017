@@ -17,11 +17,18 @@ public class ProductBuilder {
 	}
 	
 	public Product build(){
-		return this.getProduct();
+		Product result = this.getProduct();
+		this.product = new Product();
+		return result;
 	}
 	
 	public ProductBuilder withName(String newName){
 		this.getProduct().setName(newName);
+		return this;
+	}
+	
+	public ProductBuilder withId(String newID){
+		this.getProduct().setId(newID);
 		return this;
 	}
 	
