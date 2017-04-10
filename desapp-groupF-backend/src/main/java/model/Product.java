@@ -5,13 +5,13 @@ import utils.Money;
 
 public class Product {
 
-	String id;
-	String name;
-	String brand;
-	Money price;
-	Integer stock;
-	String image;
-	Category category;
+	private String id;
+	private String name;
+	private String brand;
+	private Money price;
+	private Integer stock;
+	private String image;
+	private Category category;
 
 	public Product(String id, String name, String brand, Money price, Integer stock, String image, Category category){
 		this.id = id;
@@ -23,6 +23,10 @@ public class Product {
 		this.category = category;
 	}
 
+	public Product() {
+		
+	}
+
 	@Override
 	public boolean equals(Object productToCompare){
 		if (productToCompare != null && productToCompare instanceof Product){
@@ -32,7 +36,7 @@ public class Product {
 			boolean eqBrand = this.getBrand() == oneProduct.getBrand();
 			return eqName && eqPrice && eqBrand;
 		}
-		return false;		
+		return false;
 	}
 	
 	public String getId() {

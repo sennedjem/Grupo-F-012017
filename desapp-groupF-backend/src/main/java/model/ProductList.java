@@ -8,8 +8,20 @@ import java.util.ArrayList;
 
 public class ProductList {
 	
-	String name;
-	List<ListItem> products = new ArrayList<ListItem>();
+	private String name;
+	private List<ListItem> products = new ArrayList<ListItem>();
+	
+	public ProductList(String name){
+		this.name = name;
+	}
+	
+	public String getName(){
+		return this.name;
+	}
+	
+	public void setName(String newName){
+		this.name = newName;
+	}
 	
 	public void addProduct(Product product, Integer quantity){
 		//Version simplificada
@@ -37,7 +49,7 @@ public class ProductList {
 	public Money totalAmount(){
 		Money total = new Money(0,0);
 		for (ListItem oneProduct : products){
-			total.add(oneProduct.totalValue);
+			total.add(oneProduct.getTotalValue());
 		}
 		return total;		
 	}
@@ -46,7 +58,7 @@ public class ProductList {
 		Money spent = new Money(0,0);
 		for (ListItem oneProduct : products){
 			if(oneProduct.getPurchased()){
-				spent.add(oneProduct.totalValue);
+				spent.add(oneProduct.getTotalValue());
 			};
 		}
 		return spent;	

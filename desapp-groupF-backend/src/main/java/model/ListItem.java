@@ -4,16 +4,16 @@ import utils.Money;
 
 public class ListItem {
 	
-	Product product;
-	Integer quantity;
-	boolean purchased;
-	Money totalValue;
+	private Product product;
+	private Integer quantity;
+	private boolean purchased;
+	private Money totalValue;
 	
 	public ListItem(Product product, Integer quantity){
 		this.product = product;
 		this.quantity = quantity;
 		this.purchased = false;
-		this.totalValue = product.getPrice().times(quantity);
+		this.setTotalValue(product.getPrice().times(quantity));
 	}
 
 	public Product getProduct() {
@@ -38,5 +38,13 @@ public class ListItem {
 
 	public void setPurchased(boolean purchased) {
 		this.purchased = purchased;
+	}
+
+	public Money getTotalValue() {
+		return totalValue;
+	}
+
+	public void setTotalValue(Money totalValue) {
+		this.totalValue = totalValue;
 	}
 }
