@@ -59,7 +59,7 @@ public class ProductList {
 		for (ListItem oneProduct : products){
 			if(oneProduct.getPurchased()){
 				spent.add(oneProduct.getTotalValue());
-			};
+			}
 		}
 		return spent;	
 	}

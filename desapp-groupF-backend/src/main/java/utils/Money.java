@@ -2,8 +2,8 @@ package utils;
 
 public class Money {
 	
-	Integer entirePart;
-	Integer decimalPart;
+	private Integer entirePart;
+	private Integer decimalPart;
 	
 	public Money(Integer entire, Integer decimal){
 		this.entirePart = entire;
