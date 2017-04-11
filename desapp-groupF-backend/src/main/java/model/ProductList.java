@@ -15,6 +15,9 @@ public class ProductList {
 		this.name = name;
 	}
 	
+	public ProductList() {
+	}
+
 	public String getName(){
 		return this.name;
 	}
