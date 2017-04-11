@@ -5,14 +5,16 @@ import utils.Money;
 
 public class Admin extends User{
 	
-	private Management management;
+	public Admin(Management management){
+		this.setManagement(management);
+	}
 	
 	public void addProduct(Product product){
-		this.management.addProduct(product);
+		this.getManagement().addProduct(product);
 	}
 	
 	public void removeProduct(Product product){
-		this.management.removeProduct(product);
+		this.getManagement().removeProduct(product);
 	}
 	
 	public void modifyProductName(Product product, String newName){
