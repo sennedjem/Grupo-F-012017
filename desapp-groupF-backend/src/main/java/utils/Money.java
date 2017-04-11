@@ -41,9 +41,10 @@ public class Money {
 	}
 	
 	public void add(Money otherMoney){
-		this.decimalPart += this.addCents(otherMoney.decimalPart);
+		Integer newCents = this.addCents(otherMoney.decimalPart);
 		this.entirePart += this.carryCents(otherMoney.decimalPart);
 		this.entirePart += otherMoney.entirePart;
+		this.decimalPart = newCents;
 	}
 	
 	public Integer addCents(Integer cents){
