@@ -2,13 +2,11 @@ package model;
 
 import java.time.LocalDate;
 
-import utils.Money;
-
 public class ByProduct extends Offer{
 
 	private Product product;
 
-	public ByProduct(LocalDate start, LocalDate end, Money discount, Product product){
+	public ByProduct(LocalDate start, LocalDate end, int discount, Product product){
 		this.setStartDate(start);
 		this.setEndDate(end);
 		this.setDiscount(discount);

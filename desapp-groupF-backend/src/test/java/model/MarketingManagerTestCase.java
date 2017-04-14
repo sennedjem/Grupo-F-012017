@@ -30,7 +30,7 @@ public class MarketingManagerTestCase {
 	public void testAddOffersByCategory() {
 		assertEquals(0, management.getOffers().size());
 		marketingManager.createOfferByCategory(LocalDate.of(2017, 04, 06), LocalDate.of(2017, 04, 16),
-                new Money(0,1), Category.CLOTHING);
+                10, Category.CLOTHING);
 		assertEquals(1, management.getOffers().size());
 	}
 	
@@ -38,7 +38,7 @@ public class MarketingManagerTestCase {
 	public void testAddOffersByCombination() {
 		assertEquals(0, management.getOffers().size());
 		marketingManager.createOfferByCombination(LocalDate.of(2017, 04, 06), LocalDate.of(2017, 04, 16),
-                new Money(0,1), product1, product2);
+				10, product1, product2);
 		assertEquals(1, management.getOffers().size());
 	}
 	
@@ -46,7 +46,7 @@ public class MarketingManagerTestCase {
 	public void testAddOffersByProduct() {
 		assertEquals(0, management.getOffers().size());
 		marketingManager.createOfferByProduct(LocalDate.of(2017, 04, 06), LocalDate.of(2017, 04, 16),
-                new Money(0,1), product1);
+				10, product1);
 		assertEquals(1, management.getOffers().size());
 	}
 	

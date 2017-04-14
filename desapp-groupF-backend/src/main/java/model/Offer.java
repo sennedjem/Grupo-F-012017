@@ -2,13 +2,11 @@ package model;
 
 import java.time.LocalDate;
 
-import utils.Money;
-
 public class Offer {
 	
 	private LocalDate startDate;
 	private LocalDate endDate;
-	private Money discount;
+	private int discount;
 	
 	public LocalDate getStartDate() {
 		return startDate;
@@ -26,11 +24,11 @@ public class Offer {
 		this.endDate = endDate;
 	}
 	
-	public Money getDiscount() {
+	public int getDiscount() {
 		return discount;
 	}
 	
-	public void setDiscount(Money discount) {
+	public void setDiscount(int discount) {
 		this.discount = discount;
 	}
 	
