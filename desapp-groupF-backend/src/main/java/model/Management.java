@@ -20,12 +20,35 @@ public class Management {
 		this.products.add(product);
 	}
 	
-	public void removeProduct(Product product){
-		for (Product oneProduct : this.products){
-			if(oneProduct.getId().equals(product)){
-				products.remove(oneProduct);
+	public void removeProduct(String productId){
+		for(int i = 0; i < this.products.size(); i++){
+			if (this.products.get(i).getId().equals(productId)){
+				this.products.remove(this.products.get(i));
 			}
 		}
+	}
+	
+	private boolean containsProduct(String id){
+		boolean res = false;
+		for(int i = 0; i < this.products.size(); i++){
+			if (this.products.get(i).getId().equals(id)){
+				res = true;
+			}
+		}
+		return res;
+	}
+	
+	public Product getProduct(String id) throws ProductDoesNotExistWithThisIdException{
+		if(this.containsProduct(id)){	
+			for(int i = 0; i < this.products.size(); i++){
+				if (this.products.get(i).getId().equals(id)){
+					return products.get(i);
+				}
+			}
+		} else {
+			throw new ProductDoesNotExistWithThisIdException();
+		}
+		return null;
 	}
 	
 	public void addOffer(Offer offer){

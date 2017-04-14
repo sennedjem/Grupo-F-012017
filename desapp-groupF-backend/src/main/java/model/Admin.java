@@ -13,31 +13,31 @@ public class Admin extends User{
 		this.getManagement().addProduct(product);
 	}
 	
-	public void removeProduct(Product product){
-		this.getManagement().removeProduct(product);
+	public void removeProduct(String productId){
+		this.getManagement().removeProduct(productId);
 	}
 	
-	public void modifyProductName(Product product, String newName){
-		product.setName(newName);
+	public void modifyProductName(String productId, String newName) throws ProductDoesNotExistWithThisIdException{
+		this.getManagement().getProduct(productId).setName(newName);
 	}
 	
-	public void modifyProductBrand(Product product, String newBrand){
-		product.setBrand(newBrand);
+	public void modifyProductBrand(String productId, String newBrand) throws ProductDoesNotExistWithThisIdException{
+		this.getManagement().getProduct(productId).setBrand(newBrand);
 	}	
 
-	public void modifyProductPrice(Product product, Money newPrice){
-		product.setPrice(newPrice);
+	public void modifyProductPrice(String productId, Money newPrice) throws ProductDoesNotExistWithThisIdException{
+		this.getManagement().getProduct(productId).setPrice(newPrice);
 	}
 	
-	public void modifyProductStock(Product product, Integer newStock){
-		product.setStock(newStock);
+	public void modifyProductStock(String productId, Integer newStock) throws ProductDoesNotExistWithThisIdException{
+		this.getManagement().getProduct(productId).setStock(newStock);
 	}
 	
-	public void modifyProductImage(Product product, String newImage){
-		product.setImage(newImage);
+	public void modifyProductImage(String productId, String newImage) throws ProductDoesNotExistWithThisIdException{
+		this.getManagement().getProduct(productId).setImage(newImage);
 	}
 	
-	public void modifyProductCategory(Product product, Category newCategory){
-		product.setCategory(newCategory);
+	public void modifyProductCategory(String productId, Category newCategory) throws ProductDoesNotExistWithThisIdException{
+		this.getManagement().getProduct(productId).setCategory(newCategory);
 	}
 }
