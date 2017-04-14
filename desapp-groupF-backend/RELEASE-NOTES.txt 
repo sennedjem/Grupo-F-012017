@@ -1,0 +1,12 @@
+---------------------------------------------------------------------
+TAG 1.0
+---------------------------------------------------------------------
+NEW FEATURES:
+* El usuario Admin puede agregar, eliminar y editar productos.
+* El usuario Gerente de Marketing (MarketingManager) puede crear ofertas de los diferentes tipos.
+
+NOTES
+* Falta vincular las ofertas con las compras.
+
+KNOWN ISSUES
+* Aún no se conocen errores
