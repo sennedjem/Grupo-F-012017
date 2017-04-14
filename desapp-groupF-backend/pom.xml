@@ -24,6 +24,12 @@
     	<artifactId>javax.servlet-api</artifactId>
     	<version>3.1.0</version>
 	</dependency>
+	<!-- Coverage Tests: https://mvnrepository.com/artifact/org.jacoco/org.jacoco.agent -->
+	<dependency>
+	    <groupId>org.jacoco</groupId>
+	    <artifactId>org.jacoco.agent</artifactId>
+	    <version>0.7.8</version>
+	</dependency>
   </dependencies>
   
   <build>
