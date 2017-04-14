@@ -10,21 +10,21 @@ public class MarketingManager extends User {
 		this.setManagement(management);
 	}
 	
-	public void createOfferByCategory(LocalDate start, LocalDate end, int discount,
+	public void createOfferByCategory(String id, LocalDate start, LocalDate end, int discount,
 			                          Category category){
 		
-		this.getManagement().addOffer(new ByCategory(start, end, discount, category));
+		this.getManagement().addOffer(new ByCategory(id, start, end, discount, category));
 	}
 	
-	public void createOfferByCombination(LocalDate start, LocalDate end, int discount, Product product1,
+	public void createOfferByCombination(String id, LocalDate start, LocalDate end, int discount, Product product1,
 			                             Product product2){
 		
-		this.getManagement().addOffer(new ByCombination(start, end, discount, product1, product2));
+		this.getManagement().addOffer(new ByCombination(id, start, end, discount, product1, product2));
 	}
 	
-	public void createOfferByProduct(LocalDate start, LocalDate end, int discount,
+	public void createOfferByProduct(String id, LocalDate start, LocalDate end, int discount,
                                      Product product){
 		
-		this.getManagement().addOffer(new ByProduct(start, end, discount, product));
+		this.getManagement().addOffer(new ByProduct(id, start, end, discount, product));
 	}
 }
