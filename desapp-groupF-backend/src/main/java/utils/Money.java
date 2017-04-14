@@ -31,6 +31,10 @@ public class Money {
 		return "$" + this.entirePart.toString() + "," + this.decimalPart.toString();
 	}
 	
+	public Boolean higher(Money otherMoney){
+		return (entirePart>otherMoney.getEntirePart()) || (entirePart.equals(otherMoney.getEntirePart()) && decimalPart > otherMoney.getDecimalPart());
+	}
+	
 	@Override
 	public boolean equals(Object moneyToCompare){
 		if (moneyToCompare != null && moneyToCompare instanceof Money){
@@ -46,6 +50,7 @@ public class Money {
 		this.entirePart += otherMoney.entirePart;
 		this.decimalPart = newCents;
 	}
+	
 	
 	public Integer addCents(Integer cents){
 		return (this.decimalPart + cents) % 100;
