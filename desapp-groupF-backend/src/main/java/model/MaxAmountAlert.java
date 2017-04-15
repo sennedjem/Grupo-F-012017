@@ -1,5 +1,6 @@
 package model;
 
+import exceptions.MaxAmountExceededException;
 import utils.Money;
 
 public class MaxAmountAlert extends AlertSystem{
