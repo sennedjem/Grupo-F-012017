@@ -5,6 +5,7 @@ import utils.Money;
 public class Purchase {
 	
 	private ProductList products;
+	@SuppressWarnings("unused")
 	private Boolean purchased = false;
 	
 	public ProductList getProducts() {

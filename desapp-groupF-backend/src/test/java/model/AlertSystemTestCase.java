@@ -1,7 +1,5 @@
 package model;
 
-import static org.junit.Assert.*;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
@@ -11,13 +9,13 @@ import utils.Money;
 
 public class AlertSystemTestCase {
 	
-	MaxAmountAlert alertSystemMaxAmount;
-	NoAlert noAlert;
-	Product capitanDelEspacio;
-	Purchase purchase;
-	Profile profile;
-	Money money = new Money(20,5);
-	Money money2 = new Money(10,5);
+	private MaxAmountAlert alertSystemMaxAmount;
+	private NoAlert noAlert;
+	private Product capitanDelEspacio;
+	private Purchase purchase;
+	private Profile profile;
+	private Money money = new Money(20,5);
+	private Money money2 = new Money(10,5);
 	
 	@Before
 	public void setUp() throws Exception {

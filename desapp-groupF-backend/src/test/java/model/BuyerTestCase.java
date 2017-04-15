@@ -23,10 +23,10 @@ public class BuyerTestCase {
 	@Before
 	public void setUp() throws Exception {
 		buyer = new Buyer();
-		turnsManager = Mockito.mock(TurnsManager.class);
+		turnsManager = mock(TurnsManager.class);
 		buyer.setTurnsManager(turnsManager);
-		listProductMock1 = Mockito.mock(ProductList.class);
-		listProductMock2 = Mockito.mock(ProductList.class);
+		listProductMock1 = mock(ProductList.class);
+		listProductMock2 = mock(ProductList.class);
 		purchaseHistory = new ArrayList<ProductList>();
 		purchaseHistory.add(listProductMock1);
 		purchaseHistory.add(listProductMock2);
@@ -51,7 +51,7 @@ public class BuyerTestCase {
 	@Test
 	public void whenThePurchaseIsMadeTheHistoryListIsUpdated() {
 		ProductList productList;
-		productList = Mockito.mock(ProductList.class);
+		productList = mock(ProductList.class);
 		Purchase currentPurchase = new Purchase();
 		currentPurchase.setProducts(productList);
 		buyer.setCurrentPurchase(currentPurchase);
@@ -64,9 +64,9 @@ public class BuyerTestCase {
 	@Test 
 	public void addAProductTest() throws Exception{
 		Product capitanDelEspacio ;
-		capitanDelEspacio = Mockito.mock(Product.class);
+		capitanDelEspacio = mock(Product.class);
 		AlertSystem alertSystem;
-		alertSystem = Mockito.mock(AlertSystem.class);
+		alertSystem = mock(AlertSystem.class);
 		Profile profile = buyer.getProfile();
 		buyer.setAlertSystem(alertSystem);
 		buyer.addProduct(capitanDelEspacio,1);
@@ -76,7 +76,7 @@ public class BuyerTestCase {
 	@Test 
 	public void setProfileAndSetMaxAmountTest(){
 		Profile profile;
-		profile = Mockito.mock(Profile.class);
+		profile = mock(Profile.class);
 		Money money = new Money(20,20);
 		buyer.setProfile(profile);
 		buyer.setMaxAmount(money);
