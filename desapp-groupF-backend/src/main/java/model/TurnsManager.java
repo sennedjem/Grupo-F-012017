@@ -2,18 +2,28 @@ package model;
 
 public class TurnsManager {
 
-	private static TurnsManager instance = null;
+	private static TurnsManager turnManagerInstance = null;
+	private static CheckoutManager checkoutManager = CheckoutManager.getInstance();
 	
-	public void requestTurn() {
-		// TODO Auto-generated method stub
+	public Turn requestTurn() {
+		Turn turn = new Turn(checkoutManager.getNextCash());
+		return turn;
 		
 	}
 
 	public static TurnsManager getInstance() {
-	      if(instance == null) {
-	    	  instance = new TurnsManager();
+	      if(turnManagerInstance == null) {
+	    	  turnManagerInstance = new TurnsManager();
 	       }
-	       return instance;
+	       return turnManagerInstance;
+	}
+	
+	public void setCheckoutManager(CheckoutManager checkoutManager){
+		this.checkoutManager = checkoutManager;
+	}
+	
+	public CheckoutManager getCheckoutManager(){
+		return checkoutManager;
 	}
 
 }

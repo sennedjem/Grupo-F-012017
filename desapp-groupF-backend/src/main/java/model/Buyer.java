@@ -2,11 +2,15 @@ package model;
 
 import java.util.List;
 
+import utils.Money;
+
 public class Buyer {
 
 	private TurnsManager turnsManager;
+	private Profile profile = new Profile();
 	private List<ProductList> purchaseHistory;
-	private ProductList currentPurchase;
+	private Purchase currentPurchase;
+	private AlertSystem alertSystem;
 	
 	
 	public void setTurnsManager(TurnsManager turnsManager){
@@ -28,18 +32,41 @@ public class Buyer {
 		return purchaseHistory;
 	}
 
-	public void setCurrentPurchase(ProductList currentPurchase) {
+	public void setCurrentPurchase(Purchase currentPurchase) {
 		this.currentPurchase = currentPurchase;
 		
 	}
 
 	public void makePurchase() {
-		addProductListToHistory(currentPurchase);
-		this.currentPurchase = new ProductList();
+		addProductListToHistory(currentPurchase.getProducts());
+		this.currentPurchase = new Purchase();
 	}
 	
 	private void addProductListToHistory(ProductList productList){
 		this.purchaseHistory.add(productList);
+	}
+
+
+	public void setAlertSystem(AlertSystem alertSystem) {
+		this.alertSystem = alertSystem;
+		
+	}
+
+	public void addProduct(Product capitanDelEspacio, Integer cant) throws Exception {
+		this.alertSystem.addProduct(capitanDelEspacio,cant,currentPurchase,profile);
+		
+	}
+
+	public Profile getProfile() {
+		return profile;
+	}
+
+	public void setProfile(Profile profile) {
+		this.profile = profile;
+	}
+	
+	public void setMaxAmount(Money cant){
+		this.profile.setMaxAmount(cant);
 	}
 	
 

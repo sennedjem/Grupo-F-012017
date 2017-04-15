@@ -10,6 +10,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
+import utils.Money;
+
 public class BuyerTestCase {
 
 	Buyer buyer;
@@ -48,13 +50,39 @@ public class BuyerTestCase {
 	
 	@Test
 	public void whenThePurchaseIsMadeTheHistoryListIsUpdated() {
-		ProductList currentPurchase;
-		currentPurchase = Mockito.mock(ProductList.class);
+		ProductList productList;
+		productList = Mockito.mock(ProductList.class);
+		Purchase currentPurchase = new Purchase();
+		currentPurchase.setProducts(productList);
 		buyer.setCurrentPurchase(currentPurchase);
 		buyer.makePurchase();
 		List<ProductList> purchaseHistory = buyer.getPurchaseHistory();
 		assertEquals(purchaseHistory.size(),3);
-		assertTrue(purchaseHistory.contains(currentPurchase));
+		assertTrue(purchaseHistory.contains(productList));
 	}
+	
+	@Test 
+	public void addAProductTest() throws Exception{
+		Product capitanDelEspacio ;
+		capitanDelEspacio = Mockito.mock(Product.class);
+		AlertSystem alertSystem;
+		alertSystem = Mockito.mock(AlertSystem.class);
+		Profile profile = buyer.getProfile();
+		buyer.setAlertSystem(alertSystem);
+		buyer.addProduct(capitanDelEspacio,1);
+		verify(alertSystem).addProduct(capitanDelEspacio, 1, null, profile);
+	}
+	
+	@Test 
+	public void setProfileAndSetMaxAmountTest(){
+		Profile profile;
+		profile = Mockito.mock(Profile.class);
+		Money money = new Money(20,20);
+		buyer.setProfile(profile);
+		buyer.setMaxAmount(money);
+		assertEquals(profile,buyer.getProfile());
+		verify(profile).setMaxAmount(money);
+	}
+	
 
 }
