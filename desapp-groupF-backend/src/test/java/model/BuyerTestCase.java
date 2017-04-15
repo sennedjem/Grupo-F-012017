@@ -10,6 +10,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
+import utils.Money;
+
 public class BuyerTestCase {
 
 	Buyer buyer;
@@ -70,5 +72,17 @@ public class BuyerTestCase {
 		buyer.addProduct(capitanDelEspacio,1);
 		verify(alertSystem).addProduct(capitanDelEspacio, 1, null, profile);
 	}
+	
+	@Test 
+	public void setProfileAndSetMaxAmountTest(){
+		Profile profile;
+		profile = Mockito.mock(Profile.class);
+		Money money = new Money(20,20);
+		buyer.setProfile(profile);
+		buyer.setMaxAmount(money);
+		assertEquals(profile,buyer.getProfile());
+		verify(profile).setMaxAmount(money);
+	}
+	
 
 }

@@ -11,27 +11,43 @@ import utils.Money;
 
 public class AlertSystemTestCase {
 	
-	MaxAmountAlert alertSystem;
+	MaxAmountAlert alertSystemMaxAmount;
+	NoAlert noAlert;
+	Product capitanDelEspacio;
+	Purchase purchase;
+	Profile profile;
+	Money money = new Money(20,5);
+	Money money2 = new Money(10,5);
 	
 	@Before
 	public void setUp() throws Exception {
-		alertSystem = new MaxAmountAlert();
+		alertSystemMaxAmount = new MaxAmountAlert();
+		noAlert = new NoAlert();
+		purchase = Mockito.mock(Purchase.class);
+		capitanDelEspacio = Mockito.mock(Product.class);
+		profile = Mockito.mock(Profile.class);
+		Mockito.when(capitanDelEspacio.getPrice()).thenReturn(money);
+		Mockito.when(purchase.getTotal()).thenReturn(money);
 	}
 
 	@Test(expected = MaxAmountExceededException.class)
 	public void alertMaxAmountExceededtest() throws Exception {
-		Product capitanDelEspacio;
-		capitanDelEspacio = Mockito.mock(Product.class);
-		Purchase purchase = Mockito.mock(Purchase.class);
-		Profile profile = Mockito.mock(Profile.class);
-		Money money = new Money(20,5);
-		Money money2 = new Money(10,5);
-		Mockito.when(capitanDelEspacio.getPrice()).thenReturn(money);
-		Mockito.when(purchase.getTotal()).thenReturn(money);
 		Mockito.when(profile.getMaxAmount()).thenReturn(money2);
-		alertSystem.addProduct(capitanDelEspacio, 2, purchase, profile);
+		alertSystemMaxAmount.addProduct(capitanDelEspacio, 2, purchase, profile);
 	}
 
+
+	@Test
+	public void alertMaxAmountNotExceededtest() throws Exception {
+		Mockito.when(profile.getMaxAmount()).thenReturn(money);
+		alertSystemMaxAmount.addProduct(capitanDelEspacio, 2, purchase, profile);
+	}
+	
+	@Test
+	public void addProductTest() throws Exception{
+		noAlert.addProduct(capitanDelEspacio, 2, purchase, profile);
+		Mockito.verify(purchase).addProduct(capitanDelEspacio,2);
+	}
 
 
 }
