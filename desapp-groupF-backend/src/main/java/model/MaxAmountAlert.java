@@ -1,11 +1,12 @@
 package model;
 
+import exceptions.MaxAmountExceededException;
 import utils.Money;
 
 public class MaxAmountAlert extends AlertSystem{
 
 	@Override
-	void checkAlert(Purchase currentPurchase, Money priceToItem, Profile profile) throws Exception {
+	public void checkAlert(Purchase currentPurchase, Money priceToItem, Profile profile) throws Exception {
 		if(maxAmountExceeded(currentPurchase, profile)){
 			throw new MaxAmountExceededException();
 		}

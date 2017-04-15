@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import exceptions.ProductDoesNotExistWithThisIdException;
 import utils.Category;
 import utils.Money;
 

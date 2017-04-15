@@ -2,6 +2,7 @@ package model;
 
 import java.util.List;
 
+import exceptions.ProductDoesNotExistsInListException;
 import utils.Money;
 
 import java.util.ArrayList;
@@ -18,6 +19,10 @@ public class ProductList {
 	public ProductList() {
 	}
 
+	public List<ListItem> getProducts(){
+		return this.products;
+	}
+	
 	public String getName(){
 		return this.name;
 	}
@@ -27,17 +32,33 @@ public class ProductList {
 	}
 	
 	public void addProduct(Product product, Integer quantity){
-		//Version simplificada
-		//ToDo: Si existe el producto en el carrito, agregar stock
-		this.products.add(new ListItem(product, quantity));
+		boolean exists = false;
+		for (ListItem oneProduct : products){
+			if(oneProduct.getProduct().equals(product)){
+				oneProduct.setQuantity(oneProduct.getQuantity() + quantity);
+				exists = exists || true;
+				break;
+			}
+		}
+		
+		if (!exists){
+			this.products.add(new ListItem(product, quantity));
+		}
 	}
 	
-	public void removeProduct(Product someProduct){
-		//Agregar excepcion si no existe
+	public void removeProduct(Product someProduct) throws ProductDoesNotExistsInListException{
+		boolean exists = false;
+		
 		for (ListItem oneProduct : products){
 			if(oneProduct.getProduct().equals(someProduct)){
 				products.remove(oneProduct);
+				exists = exists || true;
+				break;
 			}
+		}
+		
+		if (!exists){
+			throw new ProductDoesNotExistsInListException();
 		}
 	}
 	
@@ -55,6 +76,18 @@ public class ProductList {
 			total.add(oneProduct.getTotalValue());
 		}
 		return total;		
+	}
+	
+	public Integer getQuantityOfProductTypes(){
+		return products.size();
+	}
+	
+	public Integer getQuantityOfProducts(){
+		Integer quantity = 0;
+		for(ListItem product : products){
+			quantity += product.getQuantity();
+		}
+		return quantity;
 	}
 	
 	public Money spentAmount(){

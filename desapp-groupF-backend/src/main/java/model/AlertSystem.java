@@ -10,7 +10,7 @@ public abstract class AlertSystem {
 		checkAlert(currentPurchase,priceToItem,profile);
 	}
 
-	abstract void checkAlert(Purchase currentPurchase, Money priceToItem, Profile profile) throws Exception;
+	public abstract void checkAlert(Purchase currentPurchase, Money priceToItem, Profile profile) throws Exception;
 
 
 

@@ -20,6 +20,14 @@ public class ListItemTestCase {
 		aProduct = builder.withPrice(new Money(10,00)).build();
 		anItem = new ListItem(aProduct, 2);	
 	}
+	
+	@Test
+	public void testSetProduct(){
+		Product aNewProduct = new Product();
+		anItem.setProduct(aNewProduct);
+		
+		assertFalse(anItem.getProduct().equals(aProduct));
+	}
 
 	@Test
 	public void testConstructor() {
