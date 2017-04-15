@@ -1,0 +1,22 @@
+====== aLoLoco  ==========
+aLoLoco es una Aplicación de gestión de compras de supermercado
+
+
+---------------------------------------------------------------------
+release 1.0.0
+---------------------------------------------------------------------
+NEW FEATURES:
+* Se agrega la funcionalidad de listar, agregar y borrar productos 
+* Los usuarios pueden crear listas de compra 
+* Se puede configurar que haya notificaciones o no con respecto a si la compra sobrepasa el umbral de compra
+* El usuario puede definir el umbral de compra maxima
+* Se puede crear ofertas ya sea por categoria o por producto 
+* El usuario puede ver su historial de compra
+
+NOTES:
+* Falta la compra
+* Falta el gestor de turnos
+* Falta el servicio de envio a domicilios
+
+KNOWN ISSUES:
+
