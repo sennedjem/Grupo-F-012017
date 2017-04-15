@@ -3,6 +3,8 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
+import exceptions.ProductDoesNotExistWithThisIdException;
+
 public class Management {
 	
 	private List<Product> products;
