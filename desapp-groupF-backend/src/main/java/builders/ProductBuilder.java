@@ -27,7 +27,7 @@ public class ProductBuilder {
 		return this;
 	}
 	
-	public ProductBuilder withId(String newID){
+	public ProductBuilder withId(Integer newID){
 		this.getProduct().setId(newID);
 		return this;
 	}

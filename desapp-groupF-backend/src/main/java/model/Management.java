@@ -19,7 +19,7 @@ public class Management {
 		this.products.add(product);
 	}
 	
-	public void removeProduct(String productId){
+	public void removeProduct(Integer productId){
 		for(int i = 0; i < this.products.size(); i++){
 			if (this.products.get(i).getId().equals(productId)){
 				this.products.remove(this.products.get(i));
@@ -27,7 +27,7 @@ public class Management {
 		}
 	}
 	
-	private boolean containsProduct(String id){
+	private boolean containsProduct(Integer id){
 		boolean res = false;
 		for(int i = 0; i < this.products.size(); i++){
 			if (this.products.get(i).getId().equals(id)){
@@ -37,7 +37,7 @@ public class Management {
 		return res;
 	}
 	
-	public Product getProduct(String id) throws ProductDoesNotExistWithThisIdException{
+	public Product getProduct(Integer id) throws ProductDoesNotExistWithThisIdException{
 		if(this.containsProduct(id)){	
 			for(int i = 0; i < this.products.size(); i++){
 				if (this.products.get(i).getId().equals(id)){

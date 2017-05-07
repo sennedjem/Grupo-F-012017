@@ -14,31 +14,31 @@ public class Admin extends User{
 		this.getManagement().addProduct(product);
 	}
 	
-	public void removeProduct(String productId){
+	public void removeProduct(Integer productId){
 		this.getManagement().removeProduct(productId);
 	}
 	
-	public void modifyProductName(String productId, String newName) throws ProductDoesNotExistWithThisIdException{
+	public void modifyProductName(Integer productId, String newName) throws ProductDoesNotExistWithThisIdException{
 		this.getManagement().getProduct(productId).setName(newName);
 	}
 	
-	public void modifyProductBrand(String productId, String newBrand) throws ProductDoesNotExistWithThisIdException{
+	public void modifyProductBrand(Integer productId, String newBrand) throws ProductDoesNotExistWithThisIdException{
 		this.getManagement().getProduct(productId).setBrand(newBrand);
 	}	
 
-	public void modifyProductPrice(String productId, Money newPrice) throws ProductDoesNotExistWithThisIdException{
+	public void modifyProductPrice(Integer productId, Money newPrice) throws ProductDoesNotExistWithThisIdException{
 		this.getManagement().getProduct(productId).setPrice(newPrice);
 	}
 	
-	public void modifyProductStock(String productId, Integer newStock) throws ProductDoesNotExistWithThisIdException{
+	public void modifyProductStock(Integer productId, Integer newStock) throws ProductDoesNotExistWithThisIdException{
 		this.getManagement().getProduct(productId).setStock(newStock);
 	}
 	
-	public void modifyProductImage(String productId, String newImage) throws ProductDoesNotExistWithThisIdException{
+	public void modifyProductImage(Integer productId, String newImage) throws ProductDoesNotExistWithThisIdException{
 		this.getManagement().getProduct(productId).setImage(newImage);
 	}
 	
-	public void modifyProductCategory(String productId, Category newCategory) throws ProductDoesNotExistWithThisIdException{
+	public void modifyProductCategory(Integer productId, Category newCategory) throws ProductDoesNotExistWithThisIdException{
 		this.getManagement().getProduct(productId).setCategory(newCategory);
 	}
 }

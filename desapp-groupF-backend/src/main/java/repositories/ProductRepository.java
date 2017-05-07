@@ -17,7 +17,6 @@ public class ProductRepository extends HibernateGenericDAO<Product> implements G
     @SuppressWarnings({ "unchecked", "rawtypes" })
     public List<Product> filterProduct(final String pattern) {
         return (List<Product>) this.getHibernateTemplate().execute(new HibernateCallback() {
-            @Override
             public List<Product> doInHibernate(final Session session) throws HibernateException {
                 Criteria criteria = session.createCriteria(Product.class);
                 criteria.add(Restrictions.like("name", "%" + pattern + "%"));

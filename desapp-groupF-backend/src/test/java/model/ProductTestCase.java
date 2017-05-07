@@ -22,8 +22,8 @@ public class ProductTestCase extends TestCase{
 	
 	@Test
 	public void testProductConstructor(){
-		Product aProduct = new Product("A1", "Remera", "Levi's", aMoney, 45,"urlOfImage", Category.CLOTHING);
-		String id = aProduct.getId();
+		Product aProduct = new Product(1, "Remera", "Levi's", aMoney, 45,"urlOfImage", Category.CLOTHING);
+		Integer id = aProduct.getId();
 		String name = aProduct.getName();
 		String brand = aProduct.getBrand();
 		Money price = aProduct.getPrice();
@@ -31,7 +31,7 @@ public class ProductTestCase extends TestCase{
 		String image = aProduct.getImage();
 		Category category = aProduct.getCategory();
 		
-		assertEquals(id, "A1");
+		assertEquals(id, 1, 0);
 		assertEquals(name, "Remera");
 		assertEquals(brand, "Levi's");
 		assertEquals(price, aMoney);
@@ -68,14 +68,14 @@ public class ProductTestCase extends TestCase{
 	
 	@Test
 	public void testGetSetID(){
-		Product aProduct = builder.withId("A1").build();
-		String previousID = aProduct.getId();
-		aProduct.setId("A2");
-		String newID = aProduct.getId();
+		Product aProduct = builder.withId(1).build();
+		Integer previousID = aProduct.getId();
+		aProduct.setId(2);
+		Integer newID = aProduct.getId();
 		
 		assertFalse(previousID.equals(newID));
-		assertEquals(previousID, "A1");
-		assertEquals(newID, "A2");
+		assertEquals(previousID, 1, 0);
+		assertEquals(newID, 2, 0);
 	}
 	
 	@Test
