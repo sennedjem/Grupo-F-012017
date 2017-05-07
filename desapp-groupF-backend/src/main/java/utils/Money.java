@@ -4,7 +4,11 @@ public class Money {
 	
 	private Integer entirePart;
 	private Integer decimalPart;
+	private Integer id;
 	
+	public Money(){
+		super();
+	}
 	public Money(Integer entire, Integer decimal){
 		this.entirePart = entire;
 		this.decimalPart = decimal;

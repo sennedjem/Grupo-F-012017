@@ -5,7 +5,7 @@ import utils.Money;
 
 public class Product {
 
-	private String id;
+	private Integer id;
 	private String name;
 	private String brand;
 	private Money price;
@@ -13,7 +13,7 @@ public class Product {
 	private String image;
 	private Category category;
 
-	public Product(String id, String name, String brand, Money price, Integer stock, String image, Category category){
+	public Product(Integer id, String name, String brand, Money price, Integer stock, String image, Category category){
 		this.id = id;
 		this.name = name;
 		this.brand = brand;
@@ -39,11 +39,11 @@ public class Product {
 		return false;
 	}
 	
-	public String getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
