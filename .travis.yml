@@ -14,4 +14,10 @@ deploy:
 before_install:
 - cd desapp-groupF-backend
 
-
+install:
+  - mvn test-compile -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+script:
+  - mvn test jacoco:report
+after_success:
+  - mvn clean test jacoco:report coveralls:report
+  - mvn coveralls:report
