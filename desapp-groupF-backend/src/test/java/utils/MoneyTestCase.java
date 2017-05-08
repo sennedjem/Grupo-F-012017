@@ -65,14 +65,6 @@ public class MoneyTestCase {
 	}
 	
 	@Test
-	public void testTimes2(){
-		Money times2 = aMoney.times(2);
-		
-		assertEquals(times2.getEntirePart(), 25,0);
-		assertEquals(times2.getDecimalPart(), 0, 0);
-	}
-	
-	@Test
 	public void testTimes0(){
 		Money times0 = aMoney.times(0);
 		
