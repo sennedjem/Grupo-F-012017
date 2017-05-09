@@ -1,17 +1,27 @@
 package model;
 
+import java.io.IOException;
+
 import exceptions.ProductDoesNotExistWithThisIdException;
+import utils.CSVFileManager;
 import utils.Category;
 import utils.Money;
 
 public class Admin extends User{
 	
+	CSVFileManager csvFileManager;
+	
 	public Admin(Management management){
 		this.setManagement(management);
+		this.csvFileManager = new CSVFileManager(management);
 	}
 	
 	public void addProduct(Product product){
 		this.getManagement().addProduct(product);
+	}
+	
+	public void addProductsWithCSVFile(String filePath) throws NumberFormatException, IOException{
+		csvFileManager.importProducts(filePath);
 	}
 	
 	public void removeProduct(Integer productId){

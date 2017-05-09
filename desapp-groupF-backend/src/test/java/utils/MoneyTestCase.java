@@ -88,4 +88,13 @@ public class MoneyTestCase {
 		assertEquals(aMoney.getDecimalPart(), 0 , 0);
 		assertEquals(aMoney.getEntirePart(), 23, 0);
 	}
+	
+	@Test
+	public void testToMoney(){
+		String stringMoney1 = "10.10";
+		String stringMoney2 = "0.1";
+		assertEquals(new Money(10,10), Money.toMoney(stringMoney1));
+		assertEquals(new Money(0,1), Money.toMoney(stringMoney2));
+
+	}
 }

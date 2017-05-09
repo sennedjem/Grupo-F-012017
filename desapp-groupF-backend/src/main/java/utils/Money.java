@@ -73,5 +73,23 @@ public class Money {
 		newCarry += uncalculatedEntire;
 		return new Money(newCarry, newCents);
 	}
+	
+	public static Money toMoney(String string) {
+		String current = "";
+		Integer entire = 0;
+		Integer decimal = 0;
+		
+		for(char c : string.toCharArray()){
+			if(c == '.'){
+				entire = Integer.parseInt(current);
+				current = "";
+			} else {
+				current += c;
+			}
+		}
+		
+		decimal = Integer.parseInt(current);
+		return new Money(entire, decimal);
+	}
 
 }

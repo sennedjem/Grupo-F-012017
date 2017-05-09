@@ -1,10 +1,9 @@
 package model;
 
 import static org.junit.Assert.*;
-
+import java.io.IOException;
 import org.junit.Before;
 import org.junit.Test;
-
 import exceptions.ProductDoesNotExistWithThisIdException;
 import utils.Category;
 import utils.Money;
@@ -17,6 +16,8 @@ public class AdminTestCase {
 	private Product product1;
 	private Product product2;
 	
+	private String file;
+	
 	@Before
 	public void setUp(){
 		
@@ -27,12 +28,21 @@ public class AdminTestCase {
 		management.addProduct(product1);
 
 		admin = new Admin(management);
+		
+		file = "./src/test/java/utils/csvProductsTest.csv";
+
 	}
 
 	@Test
 	public void testAddProduct() {
 		admin.addProduct(product2);
 		assertEquals(product2, management.getProducts().get(1));
+	}
+	
+	@Test
+	public void testAddProductsWithCSVFile() throws NumberFormatException, IOException {
+		admin.addProductsWithCSVFile(file);
+		assertEquals(4, management.getProducts().size());
 	}
 	
 	@Test
