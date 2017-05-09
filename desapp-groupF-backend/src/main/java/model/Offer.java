@@ -4,16 +4,16 @@ import java.time.LocalDate;
 
 public class Offer {
 	
-	private String id;
+	private Integer id;
 	private LocalDate startDate;
 	private LocalDate endDate;
 	private int discount;
 	
-	public String getId() {
+	public Integer getId() {
 		return id;
 	}
 	
-	public void setId(String id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	
