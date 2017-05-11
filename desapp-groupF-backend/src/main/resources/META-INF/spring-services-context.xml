@@ -9,11 +9,40 @@
 	<!-- beans de spring -->
 	<bean id="services.general" class="services.GeneralService">
 		<property name="productService" ref="services.product" />
-		<!--<property name="personService" ref="services.person" />-->
+		<property name="marketingManagerService" ref="services.marketingManager" />
+		<property name="amdinService" ref="services.admin" />
+		<property name="byCategoryService" ref="services.byCategory" />
+		<property name="byCombinationService" ref="services.byCombination" />
+		<property name="byProductService" ref="services.byProduct" />
+		<property name="OfferService" ref="services.offer" />
 	</bean>
 
 	<bean id="services.product" class="services.ProductService">
 		<property name="repository" ref="persistence.productRepository" />
+	</bean>
+
+	<bean id="services.marketingManager" class="services.MarketingManagerService">
+		<property name="repository" ref="persistence.marketingManagerRepository" />
+	</bean>
+
+	<bean id="services.admin" class="services.AdminService">
+		<property name="repository" ref="persistence.adminRepository" />
+	</bean>
+
+	<bean id="services.byCategory" class="services.ByCategoryService">
+		<property name="repository" ref="persistence.byCategoryRepository" />
+	</bean>
+
+	<bean id="services.byCombination" class="services.ByCombinationService">
+		<property name="repository" ref="persistence.byCombinationRepository" />
+	</bean>
+
+	<bean id="services.byProduct" class="services.ByProductService">
+		<property name="repository" ref="persistence.byProductRepository" />
+	</bean>
+
+	<bean id="services.offer" class="services.OfferService">
+		<property name="repository" ref="persistence.offerRepository" />
 	</bean>
 	
 </beans>
