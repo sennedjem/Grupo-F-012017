@@ -1,13 +1,16 @@
 language: java
+sudo: required
 
 jdk:
   - oraclejdk8
   
 deploy:
   provider: heroku
+  skip_cleanup: true
   api_key:
     secure: 732d011b-d443-4d7d-9c7f-cc43fea577dd
   app:
+    comprando-a-lo-loco
     master: grupo-f-012017
     
     
