@@ -3,7 +3,7 @@
   "clean_urls": true,
   "proxies": {
     "/api/": {
-      "origin": "https://comprando-a-lo-loco.herokuapp.com/api"
+      "origin": "https://comprandoaloloco-grupof"
     }
   },
     "headers": {
