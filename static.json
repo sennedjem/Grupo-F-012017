@@ -3,7 +3,7 @@
   "clean_urls": true,
   "proxies": {
     "/api/": {
-      "origin": "https://comprandoaloloco-grupof"
+      "origin": "https://comprandoaloloco-grupof/api"
     }
   },
     "headers": {
