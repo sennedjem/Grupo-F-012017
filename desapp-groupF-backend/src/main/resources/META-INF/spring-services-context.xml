@@ -20,7 +20,7 @@
 	<bean id="services.product" class="services.ProductService">
 		<property name="repository" ref="persistence.productRepository" />
 	</bean>
-
+<!--
 	<bean id="services.marketingManager" class="services.MarketingManagerService">
 		<property name="repository" ref="persistence.marketingManagerRepository" />
 	</bean>
@@ -43,6 +43,6 @@
 
 	<bean id="services.offer" class="services.OfferService">
 		<property name="repository" ref="persistence.offerRepository" />
-	</bean>
+	</bean> -->
 	
 </beans>
