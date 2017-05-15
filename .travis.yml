@@ -10,7 +10,7 @@ deploy:
   api_key:
     secure: 732d011b-d443-4d7d-9c7f-cc43fea577dd
   app:
-    comprando-a-lo-loco
+    comprandoaloloco-grupof
     
     
 before_install:
