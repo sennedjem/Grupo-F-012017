@@ -1,5 +1,6 @@
 {
   "name": "comprandoaloloco",
+  "root": "desapp-groupF-frontend/dist",
   "private": true,
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
