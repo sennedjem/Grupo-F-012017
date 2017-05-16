@@ -38,7 +38,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "heroku-prebuild" : "cd desapp-groupF-frontend",
+    "heroku-prebuild" : "cd ..",
+    "heroku-prebuild" : "cd desapp-groupF-frontend/",
     "postinstall": "bower install",
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1 ./app",
