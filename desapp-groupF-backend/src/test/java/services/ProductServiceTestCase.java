@@ -1,6 +1,4 @@
-package model;
-
-import static org.junit.Assert.*;
+package services;
 
 import org.junit.Assert;
 import org.junit.Test;
