@@ -9,8 +9,8 @@ deploy:
   skip_cleanup: true
   api_key:
     secure: 732d011b-d443-4d7d-9c7f-cc43fea577dd
-  app:
-    comprandoaloloco-grupof
+  app:    
+    grupo-f-012017 
     
     
 before_install:
