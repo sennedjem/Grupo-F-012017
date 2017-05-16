@@ -7,6 +7,7 @@ import exceptions.ProductDoesNotExistWithThisIdException;
 
 public class Management {
 	
+	private Integer id;
 	private List<Product> products;
 	private List<Offer> offers;
 	
@@ -58,7 +59,15 @@ public class Management {
 		return this.products;
 	}
 	
+	public void setProducts(List<Product> products) {
+		this.products = products;
+	}
+	
 	public List<Offer> getOffers() {
 		return offers;
+	}
+	
+	public void setOffers(List<Offer> offers) {
+		this.offers = offers;
 	}
 }

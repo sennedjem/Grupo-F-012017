@@ -9,6 +9,8 @@
 	<!-- beans de spring -->
 	<bean id="services.general" class="services.GeneralService">
 		<property name="productService" ref="services.product" />
+		<property name="managementService" ref="services.management" />
+		
 		<!--
 		<property name="marketingManagerService" ref="services.marketingManager" />
 		<property name="amdinService" ref="services.admin" /> -->
@@ -22,6 +24,11 @@
 	<bean id="services.product" class="services.ProductService">
 		<property name="repository" ref="persistence.productRepository" />
 	</bean>
+	
+	<bean id="services.management" class="services.ManagementService">
+		<property name="repository" ref="persistence.managementRepository" />
+	</bean>
+	
 <!--
 	<bean id="services.marketingManager" class="services.MarketingManagerService">
 		<property name="repository" ref="persistence.marketingManagerRepository" />

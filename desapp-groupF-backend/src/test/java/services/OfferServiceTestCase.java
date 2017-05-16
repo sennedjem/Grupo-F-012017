@@ -34,14 +34,6 @@ public class OfferServiceTestCase {
     private ByProductService byProductService;
     
     @Test
-    public void testSaveOffer() {
-    	Offer offer = new Offer();
-    	offerService.save(offer);
-        Assert.assertEquals(1, offerService.retriveAll().size());
-        offerService.delete(offer);
-    }
-    
-    @Test
     public void testSaveByCategory() {
     	ByCategory byCategory = new ByCategory();
     	byCategoryService.save(byCategory);

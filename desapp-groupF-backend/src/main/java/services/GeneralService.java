@@ -3,6 +3,7 @@ package services;
 
 public class GeneralService {
 
+	private ManagementService managementService;
 	private ProductService productService;
 	private OfferService offerService;
 	private ByCategoryService byCategoryService;
@@ -47,6 +48,14 @@ public class GeneralService {
 
 	public void setByProductService(ByProductService byProductService) {
 		this.byProductService = byProductService;
+	}
+
+	public ManagementService getManagementService() {
+		return managementService;
+	}
+
+	public void setManagementService(ManagementService managementService) {
+		this.managementService = managementService;
 	}
 
 }
