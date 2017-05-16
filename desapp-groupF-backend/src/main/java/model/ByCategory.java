@@ -8,16 +8,18 @@ public class ByCategory extends Offer{
 
 	private Category category;
 
+	public ByCategory(){}
+	
 	public ByCategory(Integer id, LocalDate start, LocalDate end, int discount, Category category){
 		this.setId(id);
 		this.setStartDate(start);
 		this.setEndDate(end);
 		this.setDiscount(discount);
-		this.setCategory(category);
+		this.category = category;
 	}
 	
 	public Category getCategory() {
-		return category;
+		return this.category;
 	}
 
 	public void setCategory(Category category) {

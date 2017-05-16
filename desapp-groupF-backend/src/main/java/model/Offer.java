@@ -8,7 +8,7 @@ public class Offer {
 	private LocalDate startDate;
 	private LocalDate endDate;
 	private int discount;
-	
+
 	public Integer getId() {
 		return id;
 	}
