@@ -1,0 +1,22 @@
+<center><h3>Consulta de productos</h3></center>
+<div class="row" ng-repeat="letter in products track by $index" ng-if="$index % 4 == 0">
+  <div class="col-xs-3 letter-box" 
+       ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]" 
+       ng-if="products[i] != null">
+    <div> <center> <h5> Información del producto: </h5> 
+		  <img ng-src={{products[i].image}} alt="" /> <br>Z
+		  Marca: {{products[i].brand}} <br>
+		  Nombre: {{products[i].name}} <br>
+                  Precio: {{products[i].price}} </center></div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<p><a href="#!/login">Logout</a></a></p>

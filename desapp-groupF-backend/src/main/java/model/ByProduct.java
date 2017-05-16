@@ -6,6 +6,8 @@ public class ByProduct extends Offer{
 
 	private Product product;
 
+	public ByProduct(){}
+	
 	public ByProduct(Integer id, LocalDate start, LocalDate end, int discount, Product product){
 		this.setId(id);
 		this.setStartDate(start);

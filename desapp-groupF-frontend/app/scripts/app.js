@@ -1,37 +1,45 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name comprandoAloLocoApp
- * @description
- * # comprandoAloLocoApp
- *
- * Main module of the application.
- */
-angular
-  .module('comprandoAloLocoApp', [
-    'ngAnimate',
-    'ngAria',
-    'ngCookies',
-    'ngMessages',
-    'ngResource',
+// declare modules
+angular.module('Authentication', []);
+angular.module('Products', []);
+
+angular.module('comprandoALoLocoApp', [
+    'Authentication',
+    'Products',
     'ngRoute',
-    'ngSanitize',
-    'ngTouch'
-  ])
-  .config(function ($routeProvider) {
+    'ngCookies'
+])
+ 
+.config(['$routeProvider', function ($routeProvider) {
+
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+        .when('/login', {
+            controller: 'LoginController',
+            templateUrl: 'modules/authentication/views/login.html',
+            hideMenus: true
+        })
+ 
+        .when('/', {
+            controller: 'ProductsController',
+            templateUrl: 'modules/products/views/products.html'
+        })
+ 
+        .otherwise({ redirectTo: '/login' });
+}])
+ 
+.run(['$rootScope', '$location', '$cookieStore', '$http',
+    function ($rootScope, $location, $cookieStore, $http) {
+        // keep user logged in after page refresh
+        $rootScope.globals = $cookieStore.get('globals') || {};
+        if ($rootScope.globals.currentUser) {
+            $http.defaults.headers.common['Authorization'] = 'Basic ' + $rootScope.globals.currentUser.authdata; // jshint ignore:line
+        }
+ 
+        $rootScope.$on('$locationChangeStart', function (event, next, current) {
+            // redirect to login page if not logged in
+            if ($location.path() !== '/login' && !$rootScope.globals.currentUser) {
+                $location.path('/login');
+            }
+        });
+    }]);

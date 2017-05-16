@@ -7,6 +7,8 @@ public class ByCombination extends Offer{
 	private Product product1;
 	private Product product2;
 	
+	public ByCombination(){}
+	
 	public ByCombination(Integer id, LocalDate start, LocalDate end, int discount, Product p1, Product p2){
 		this.setId(id);
 		this.setStartDate(start);
