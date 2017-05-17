@@ -10,14 +10,13 @@
 	<bean id="services.general" class="services.GeneralService">
 		<property name="productService" ref="services.product" />
 		<property name="managementService" ref="services.management" />
-		
 		<!--
 		<property name="marketingManagerService" ref="services.marketingManager" />
-		<property name="amdinService" ref="services.admin" /> -->
+		<property name="amdinService" ref="services.admin" /> 
+		-->
 		<property name="byCategoryService" ref="services.byCategory" />
 		<property name="byCombinationService" ref="services.byCombination" />
 		<property name="byProductService" ref="services.byProduct" />
-		
 		<property name="offerService" ref="services.offer" />
 	</bean>
 
