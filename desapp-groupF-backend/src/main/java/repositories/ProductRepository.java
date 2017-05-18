@@ -2,6 +2,8 @@ package repositories;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
@@ -10,6 +12,7 @@ import org.springframework.orm.hibernate4.HibernateCallback;
 
 import model.Product;
 
+@Transactional
 public class ProductRepository extends HibernateGenericDAO<Product> implements GenericRepository<Product> {
 
     private static final long serialVersionUID = -4036535812105672110L;
@@ -30,4 +33,6 @@ public class ProductRepository extends HibernateGenericDAO<Product> implements G
     protected Class<Product> getDomainClass() {
         return Product.class;
     }
+    
+
 }

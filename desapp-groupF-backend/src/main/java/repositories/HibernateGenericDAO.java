@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * Generic hibernate DAO
@@ -60,6 +61,7 @@ public abstract class HibernateGenericDAO<T> extends HibernateDaoSupport impleme
 
     protected abstract Class<T> getDomainClass();
 
+    @Transactional
     public void save(final T entity) {
         this.getHibernateTemplate().save(entity);
         this.getHibernateTemplate().flush();

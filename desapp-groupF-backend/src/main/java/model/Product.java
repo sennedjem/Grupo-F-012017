@@ -94,6 +94,11 @@ public class Product {
 	public void setCategory(Category category) {
 		this.category = category;
 	}
+
+	public boolean valid() {
+		
+		return this.id != null ;
+	}
 	
 	
 }
