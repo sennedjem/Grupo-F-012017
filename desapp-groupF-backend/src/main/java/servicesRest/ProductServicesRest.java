@@ -5,11 +5,14 @@ import java.util.List;
 
 import javax.transaction.Transactional;
 import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
+
+import org.springframework.dao.DataAccessException;
 
 import model.Product;
 import repositories.ProductRepository;
@@ -21,6 +24,22 @@ import repositories.ProductRepository;
 public class ProductServicesRest {
 	
 	ProductRepository productRepository;
+	
+	@DELETE
+	@Path("/deleteProduct")
+	@Transactional
+	public Response deleteProduct(Product product){
+		if(!product.valid()){
+			return Response.status(Response.Status.NOT_ACCEPTABLE).build();
+		}
+		try{
+			productRepository.delete(product);
+			return Response.ok().build();
+		} catch(DataAccessException exception){
+			return Response.status(Response.Status.NOT_ACCEPTABLE).build();
+		}
+		
+	}
 	
 	@POST
 	@Consumes("application/json")
