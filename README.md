@@ -5,3 +5,7 @@ Integrantes del grupo:
 * Lopez Sebastián
 * Papadopulo Rodrigo
 * Woicik Sergio
+------------------------------
+
+Repo de proyecto frontend: https://github.com/rodrigoep94/desapp-groupF-frontend
+Link de app de frontend deployada con heroku: https://comprando-a-lo-loco.herokuapp.com/
