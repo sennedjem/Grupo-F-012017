@@ -20,3 +20,20 @@ NOTES:
 
 KNOWN ISSUES:
 
+
+---------------------------------------------------------------------
+release 2.0.0
+---------------------------------------------------------------------
+NEW FEATURES:
+* Se agregan servicios rest para producto
+* Se agrega la primera aproximación web
+* Listar productos
+* Subida batch de CSV
+
+NOTES:
+* Falta servicio rest para agregar productos al carrito de compras
+* Falta servicio rest para encolar Pedido para su posterior pago
+* Falta servicio rest para subir archivo de productos Batch 
+
+KNOWN ISSUES:
+
