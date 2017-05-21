@@ -1,4 +1,4 @@
-package model;
+ package model;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
@@ -11,7 +11,7 @@ import org.junit.Test;
 import org.mockito.Mockito;
 
 import utils.Money;
-
+ 
 public class BuyerTestCase {
 
 	Buyer buyer;

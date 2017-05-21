@@ -22,5 +22,8 @@ public class Purchase {
 		return products.totalAmount();
 	}
 
+	public Long getDurationOfPurchase(){
+		return this.products.getQuantityOfProducts().longValue();
+	}
 	
 }

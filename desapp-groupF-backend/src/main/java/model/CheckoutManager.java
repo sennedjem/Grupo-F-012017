@@ -1,18 +1,37 @@
 package model;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class CheckoutManager {
 	private static CheckoutManager checkoutManagerInstance = null;
 	
-	public static CheckoutManager getInstance() {
-	      if(checkoutManagerInstance == null) {
-	    	  checkoutManagerInstance = new CheckoutManager();
-	       }
-	       return checkoutManagerInstance;
+	private List<CashRegister> cashes;
+	
+	public CheckoutManager(Integer quantityOfCashes){
+		this.cashes = new ArrayList<CashRegister>();
+		this.initializeCashes(quantityOfCashes);
+	}
+	
+	
+	public void initializeCashes(Integer quantityOfCashes){
+		for (Integer i=0; i < quantityOfCashes; i++){
+			this.cashes.add(new CashRegister());
+		}
+	}
+	
+	public CashRegister getNextCash() {
+		Collections.sort(this.cashes);
+		return this.cashes.get(0);
 	}
 
-	public Object getNextCash() {
-		// TODO Auto-generated method stub
-		return null;
+	
+	public static CheckoutManager getInstance() {
+	      if(checkoutManagerInstance == null) {
+	    	  checkoutManagerInstance = new CheckoutManager(20);
+	       }
+	       return checkoutManagerInstance;
 	}
 
 
