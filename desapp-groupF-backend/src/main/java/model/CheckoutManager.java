@@ -26,6 +26,17 @@ public class CheckoutManager {
 		return this.cashes.get(0);
 	}
 
+	public void setCashes(List<CashRegister> cashes){
+		this.cashes = cashes;
+	}
+	
+	public List<CashRegister> getCashes(){
+		return this.cashes;
+	}
+	
+	public void setCheckoutManagerInstance(Object o){
+		this.checkoutManagerInstance = (CheckoutManager) o;
+	}
 	
 	public static CheckoutManager getInstance() {
 	      if(checkoutManagerInstance == null) {

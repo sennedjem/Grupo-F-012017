@@ -17,7 +17,7 @@ public class CashRegister implements Comparable<CashRegister> {
 	
 	public List<Purchase> getPurchases(){
 		return this.purchases;
-	}
+	} 
 	
 	public Long getWaitingTime(){
 		Long totalTime = 0L;
@@ -60,7 +60,15 @@ public class CashRegister implements Comparable<CashRegister> {
 	}
 
 	public int compareTo(CashRegister anotherCashRegister) {
-		return this.getWaitingTime().compareTo(anotherCashRegister.getWaitingTime());
+		if(this.getWaitingTime() > anotherCashRegister.getWaitingTime()){
+			return 1;
+		}else{
+			if (this.getWaitingTime() == anotherCashRegister.getWaitingTime()){
+				return 0;
+			}
+			return -1;
+		}
+		
 	}
 	
 	public void addPurchase(Purchase p){

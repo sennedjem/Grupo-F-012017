@@ -3,8 +3,11 @@ package model;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
-import static org.mockito.Mockito.*;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.junit.Before;
@@ -30,7 +33,7 @@ public class CashRegisterTestCase {
 		assertEquals(quantityOfPurchases.size(), 0, 0);
 	}
 	
-	@Test
+	@Test 
 	public void testSetOpen(){
 		this.cashRegister.setOpen(false);
 		assertFalse(this.cashRegister.isOpen());
@@ -90,25 +93,26 @@ public class CashRegisterTestCase {
 		this.cashRegister.addPurchase(p2);
 		
 		assertEquals(this.cashRegister.getWaitingTime(), 20, 0);
-	}
+	} 
 	
 	@Test
 	public void testCompareToTheSame(){
 		assertEquals(this.cashRegister.compareTo(this.cashRegister), 0, 0);		
 	}
-	
+	 
 	
 	@Test
 	public void testCompareToLarger(){
 		Purchase p1 = mock(Purchase.class);
 		Purchase p2 = mock(Purchase.class);
-		when(p1.getDurationOfPurchase()).thenReturn(3L);
-		when(p1.getDurationOfPurchase()).thenReturn(17L);
+		when(p1.getDurationOfPurchase()).thenReturn(0L);
+		when(p1.getDurationOfPurchase()).thenReturn(20L);
 		CashRegister cashRegister2 = new CashRegister();
 		cashRegister2.addPurchase(p1);
 		cashRegister2.addPurchase(p2);
 		
 		assertEquals(cashRegister2.compareTo(this.cashRegister), 1, 0);
 		assertEquals(this.cashRegister.compareTo(cashRegister2), -1, 0);
-	}
+	}	
+	
 }
