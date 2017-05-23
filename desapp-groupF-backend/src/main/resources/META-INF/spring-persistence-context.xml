@@ -126,6 +126,10 @@
 		<property name="sessionFactory" ref="persistence.sessionFactory" />
 	</bean>
 
+	<bean id="persistence.moneyRepository" class="repositories.MoneyRepository" >
+		<property name="sessionFactory" ref="persistence.sessionFactory" />
+	</bean>
+	
 	<bean id="persistence.offerRepository" class="repositories.OfferRepository" >
 		<property name="sessionFactory" ref="persistence.sessionFactory" />
 	</bean>

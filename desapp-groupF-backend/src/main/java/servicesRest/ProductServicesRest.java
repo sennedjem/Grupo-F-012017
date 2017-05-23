@@ -16,6 +16,7 @@ import org.springframework.dao.DataAccessException;
 
 import model.Product;
 import repositories.ProductRepository;
+import utils.Money;
 
 
 @Path("/products")
@@ -58,6 +59,16 @@ public class ProductServicesRest {
     @Produces("application/json")
     public List<Product> getProducts() {
         return productRepository.findAll();
+    }
+    
+    @GET
+    @Path("/moneys")
+    @Produces("application/json")
+    public List<Money> getMoneys() {
+        List<Money> mns = new ArrayList<Money>();
+        mns.add(new Money(50,00));
+        mns.add(new Money(20,00));
+        return mns;
     }
     
     public void setProductRepository(final ProductRepository productRepository) {
