@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CashRegister implements Comparable<CashRegister> {
+public class CashRegister {
 
 	private boolean open;
 	private boolean busy;
@@ -59,20 +59,10 @@ public class CashRegister implements Comparable<CashRegister> {
 		this.busy = false;
 	}
 
-	public int compareTo(CashRegister anotherCashRegister) {
-		if(this.getWaitingTime() > anotherCashRegister.getWaitingTime()){
-			return 1;
-		}else{
-			if (this.getWaitingTime() == anotherCashRegister.getWaitingTime()){
-				return 0;
-			}
-			return -1;
-		}
-		
-	}
 	
 	public void addPurchase(Purchase p){
 		this.purchases.add(p);
 	}
+
 
 }

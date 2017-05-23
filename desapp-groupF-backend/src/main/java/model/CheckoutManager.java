@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import utils.CashRegisterComparator;
+
 public class CheckoutManager {
 	private static CheckoutManager checkoutManagerInstance = null;
 	
@@ -22,7 +24,7 @@ public class CheckoutManager {
 	}
 	
 	public CashRegister getNextCash() {
-		Collections.sort(this.cashes);
+		Collections.sort(this.cashes, new CashRegisterComparator());
 		return this.cashes.get(0);
 	}
 

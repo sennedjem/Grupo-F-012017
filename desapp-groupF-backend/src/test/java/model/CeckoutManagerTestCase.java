@@ -50,9 +50,9 @@ public class CeckoutManagerTestCase {
 	@Test
 	public void testGetNextWithZeroEmptyRegister(){
 		CashRegister c1 = mock(CashRegister.class);
-		CashRegister c2 = mock(CashRegister.class);		
-		when(c1.getWaitingTime()).thenReturn(20L);
-		when(c2.getWaitingTime()).thenReturn(29L);
+		CashRegister c2 = mock(CashRegister.class);
+		when(c1.getWaitingTime()).thenReturn(0L);
+		when(c2.getWaitingTime()).thenReturn(2L);
 		List<CashRegister> registers = new ArrayList<CashRegister>();
 		registers.add(c1);
 		registers.add(c2);
@@ -61,5 +61,21 @@ public class CeckoutManagerTestCase {
 		CashRegister next = this.checkoutManager.getNextCash();
 		
 		assertEquals(next, c1);
+	}
+	
+	@Test
+	public void testGetNextWithOneEmptyRegister(){
+		CashRegister c1 = mock(CashRegister.class);
+		CashRegister c2 = mock(CashRegister.class);		
+		when(c1.getWaitingTime()).thenReturn(20L);
+		when(c2.getWaitingTime()).thenReturn(0L);
+		List<CashRegister> registers = new ArrayList<CashRegister>();
+		registers.add(c1);
+		registers.add(c2);
+		
+		this.checkoutManager.setCashes(registers);
+		CashRegister next = this.checkoutManager.getNextCash();
+		
+		assertEquals(next, c2);
 	}
 }

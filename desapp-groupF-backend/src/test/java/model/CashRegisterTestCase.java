@@ -13,13 +13,17 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
+import utils.CashRegisterComparator;
+
 public class CashRegisterTestCase {
 
 	private CashRegister cashRegister;
-	
+	private CashRegisterComparator comparator;	
+
 	@Before
 	public void setUp(){
 		this.cashRegister = new CashRegister();
+		this.comparator = new CashRegisterComparator();
 	}
 	
 	@Test
@@ -97,7 +101,7 @@ public class CashRegisterTestCase {
 	
 	@Test
 	public void testCompareToTheSame(){
-		assertEquals(this.cashRegister.compareTo(this.cashRegister), 0, 0);		
+		assertEquals(comparator.compare(this.cashRegister,this.cashRegister), 0, 0);		
 	}
 	 
 	
@@ -111,8 +115,8 @@ public class CashRegisterTestCase {
 		cashRegister2.addPurchase(p1);
 		cashRegister2.addPurchase(p2);
 		
-		assertEquals(cashRegister2.compareTo(this.cashRegister), 1, 0);
-		assertEquals(this.cashRegister.compareTo(cashRegister2), -1, 0);
+		assertEquals(comparator.compare(cashRegister2,this.cashRegister), 1, 0);
+		assertEquals(comparator.compare(this.cashRegister,cashRegister2), -1, 0);
 	}	
 	
 }
