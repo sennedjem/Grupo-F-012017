@@ -7,7 +7,7 @@ public class Money {
 	private Integer id;
 	
 	public Money(){
-		super();
+
 	}
 	public Money(Integer entire, Integer decimal){
 		this.entirePart = entire;

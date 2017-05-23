@@ -10,6 +10,7 @@ import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.orm.hibernate4.HibernateCallback;
 
+import fixture.ProductFixture;
 import model.Product;
 
 @Transactional
@@ -17,6 +18,10 @@ public class ProductRepository extends HibernateGenericDAO<Product> implements G
 
     private static final long serialVersionUID = -4036535812105672110L;
 
+    public List<Product> findAll(){
+    	return ProductFixture.createProducts();
+    }
+    
     @SuppressWarnings({ "unchecked", "rawtypes" })
     public List<Product> filterProduct(final String pattern) {
         return (List<Product>) this.getHibernateTemplate().execute(new HibernateCallback() {
