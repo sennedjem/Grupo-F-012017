@@ -9,6 +9,7 @@ import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import org.springframework.dao.DataAccessException;
@@ -71,8 +72,19 @@ public class ProductServicesRest {
     @GET
     @Path("/getAll")
     @Produces("application/json")
-	    public List<Product> getProducts() {
-        return productRepository.findAll();
+	    public Response getProducts() {
+    	try{
+			List<Product> products = productRepository.findAll();
+		    return Response.ok(products, MediaType.APPLICATION_JSON)
+		            .header("Access-Control-Allow-Origin", "*")
+		            .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
+		            .header("Access-Control-Allow-Credentials", "true")
+		            .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+		            .header("Access-Control-Max-Age", "1209600")
+		            .build();
+		}catch(Exception e){
+			return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Exception raised").build();
+		}
     }
     
     @GET
