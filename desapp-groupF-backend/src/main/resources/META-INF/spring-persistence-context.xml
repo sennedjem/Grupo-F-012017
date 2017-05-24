@@ -109,28 +109,8 @@
 	<bean id="persistence.productRepository" class="repositories.ProductRepository" >
 		<property name="sessionFactory" ref="persistence.sessionFactory" />
 	</bean>
-	
-	<bean id="persistence.managementRepository" class="repositories.ManagementRepository" >
-		<property name="sessionFactory" ref="persistence.sessionFactory" />
-	</bean>
-	
-	<bean id="persistence.byCategoryRepository" class="repositories.ByCategoryRepository" >
-		<property name="sessionFactory" ref="persistence.sessionFactory" />
-	</bean>
-
-	<bean id="persistence.byCombinationRepository" class="repositories.ByCombinationRepository" >
-		<property name="sessionFactory" ref="persistence.sessionFactory" />
-	</bean>
-
-	<bean id="persistence.byProductRepository" class="repositories.ByProductRepository" >
-		<property name="sessionFactory" ref="persistence.sessionFactory" />
-	</bean>
 
 	<bean id="persistence.moneyRepository" class="repositories.MoneyRepository" >
-		<property name="sessionFactory" ref="persistence.sessionFactory" />
-	</bean>
-	
-	<bean id="persistence.offerRepository" class="repositories.OfferRepository" >
 		<property name="sessionFactory" ref="persistence.sessionFactory" />
 	</bean>
 </beans>

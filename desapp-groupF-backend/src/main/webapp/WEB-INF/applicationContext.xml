@@ -43,9 +43,13 @@ http://cxf.apache.org/core http://cxf.apache.org/schemas/core.xsd">
 		</jaxrs:features>
 	</jaxrs:server>
 
+	<bean id="fixture" class="fixture.ProductFixture" init-method="createProducts">
+		<property name="productService" ref="services.product" />
+	</bean>
 	
 	<bean id="postsRest" class="servicesRest.ProductServicesRest">
 		<property name="productRepository" ref="persistence.productRepository" />
+		<property name="moneyRepository" ref="persistence.moneyRepository" />
 	</bean>
 
 </beans>

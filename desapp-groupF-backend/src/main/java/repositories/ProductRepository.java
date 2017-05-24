@@ -17,10 +17,6 @@ import model.Product;
 public class ProductRepository extends HibernateGenericDAO<Product> implements GenericRepository<Product> {
 
     private static final long serialVersionUID = -4036535812105672110L;
-
-    public List<Product> findAll(){
-    	return ProductFixture.createProducts();
-    }
     
     @SuppressWarnings({ "unchecked", "rawtypes" })
     public List<Product> filterProduct(final String pattern) {

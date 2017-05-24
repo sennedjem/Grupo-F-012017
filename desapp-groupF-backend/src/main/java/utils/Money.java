@@ -14,6 +14,14 @@ public class Money {
 		this.decimalPart = decimal;
 	}
 
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer Id) {
+		this.id = Id;
+	}
+	
 	public Integer getEntirePart() {
 		return entirePart;
 	}
@@ -90,6 +98,11 @@ public class Money {
 		
 		decimal = Integer.parseInt(current);
 		return new Money(entire, decimal);
+	}
+
+public boolean valid() {
+		
+		return this.id != null ;
 	}
 
 }

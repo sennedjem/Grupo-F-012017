@@ -1,6 +1,5 @@
 package servicesRest;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.transaction.Transactional;
@@ -14,7 +13,9 @@ import javax.ws.rs.core.Response;
 
 import org.springframework.dao.DataAccessException;
 
+import fixture.ProductFixture;
 import model.Product;
+import repositories.MoneyRepository;
 import repositories.ProductRepository;
 import utils.Money;
 
@@ -25,6 +26,7 @@ import utils.Money;
 public class ProductServicesRest {
 	
 	ProductRepository productRepository;
+	MoneyRepository moneyRepository;
 	
 	@DELETE
 	@Path("/deleteProduct")
@@ -54,10 +56,22 @@ public class ProductServicesRest {
 		return Response.ok().build();
 	}
 	
+	@POST
+	@Consumes("application/json")
+	@Path("/addMoney")
+	@Transactional
+	public Response addMoney(Money money){
+		if(!money.valid()){
+			return Response.status(Response.Status.NOT_ACCEPTABLE).build();
+		}
+		moneyRepository.save(money);
+		return Response.ok().build();
+	}
+	
     @GET
     @Path("/getAll")
     @Produces("application/json")
-    public List<Product> getProducts() {
+	    public List<Product> getProducts() {
         return productRepository.findAll();
     }
     
@@ -65,10 +79,11 @@ public class ProductServicesRest {
     @Path("/moneys")
     @Produces("application/json")
     public List<Money> getMoneys() {
-        List<Money> mns = new ArrayList<Money>();
-        mns.add(new Money(50,00));
-        mns.add(new Money(20,00));
-        return mns;
+    	return moneyRepository.findAll();
+    }
+    
+    public void setMoneyRepository(final MoneyRepository moneyRepository) {
+    	this.moneyRepository = moneyRepository;
     }
     
     public void setProductRepository(final ProductRepository productRepository) {
