@@ -13,14 +13,14 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import org.springframework.dao.DataAccessException;
+import org.apache.cxf.rs.security.cors.CrossOriginResourceSharing;
 
-import fixture.ProductFixture;
 import model.Product;
 import repositories.MoneyRepository;
 import repositories.ProductRepository;
 import utils.Money;
 
-
+@CrossOriginResourceSharing(allowAllOrigins = true)
 @Path("/products")
 @Produces("application/json")
 
@@ -76,6 +76,7 @@ public class ProductServicesRest {
     	try{
 			List<Product> products = productRepository.findAll();
 		    return Response.ok(products, MediaType.APPLICATION_JSON)
+		    		.status(200)
 		            .header("Access-Control-Allow-Origin", "*")
 		            .header("Access-Control-Allow-Headers", "origin, content-type, accept, authorization")
 		            .header("Access-Control-Allow-Credentials", "true")
