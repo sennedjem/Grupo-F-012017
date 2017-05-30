@@ -47,6 +47,10 @@ public class Product {
 		this.id = id;
 	}
 
+	public static String getClassName(){
+		return "Product";
+	}
+	
 	public String getName() {
 		return name;
 	}

@@ -4,13 +4,14 @@ import javax.transaction.Transactional;
 
 import builders.ProductBuilder;
 import model.Product;
+import services.ProductManagementService;
 import services.ProductService;
 import utils.Category;
 import utils.Money;
 
 public class ProductFixture {
 	
-	private ProductService productService;
+	private ProductManagementService productManagement;
 	
 	
 	@Transactional
@@ -31,11 +32,11 @@ public class ProductFixture {
 				"http://jumbo.vteximg.com.br/arquivos/ids/159435-100-100/263427.jpg",
 				"Sprite", Category.FOOD, new Money(22,0), "Gaseosa x 2.25L");
 		
-		this.productService.save(product);
-		this.productService.save(product1);
-		this.productService.save(product2);
-		this.productService.save(product3);
-		this.productService.save(product4);
+		this.productManagement.save(product);
+		this.productManagement.save(product1);
+		this.productManagement.save(product2);
+		this.productManagement.save(product3);
+		this.productManagement.save(product4);
 	}
 	
 	public Product createProduct(Integer id, String urlimg, String brand, Category cat, Money value, String name){
@@ -43,11 +44,11 @@ public class ProductFixture {
 		return builder.withBrand(brand).withCategory(cat).withId(id).withStock(2).withImage(urlimg).withName(name).withPrice(value).build();
 	}
 
-	public ProductService getProductService() {
-		return productService;
+	public ProductManagementService getProductManagementService() {
+		return productManagement;
 	}
 
-	public void setProductService(ProductService productService) {
-		this.productService = productService;
+	public void setProductManagementService(ProductManagementService productService) {
+		this.productManagement = productService;
 	}
 }

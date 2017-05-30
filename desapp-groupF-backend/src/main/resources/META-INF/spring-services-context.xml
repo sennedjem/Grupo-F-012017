@@ -10,11 +10,16 @@
 	<bean id="services.general" class="services.GeneralService">
 		<property name="productService" ref="services.product" />
 		<property name="moneyService" ref="services.money" />
+		<property name="productManagementService" ref="services.productManagementService" />
 	</bean>
 
 	<bean id="services.product" class="services.ProductService">
 		<property name="repository" ref="persistence.productRepository" />
 	</bean>
+	
+	<bean id="services.productManagementService" class="services.ProductManagementService">
+		<property name="repository" ref="persistence.productManagementRepository" />
+	</bean> 
 	
 	<bean id="services.money" class="services.MoneyService">
 		<property name="repository" ref="persistence.moneyRepository" />

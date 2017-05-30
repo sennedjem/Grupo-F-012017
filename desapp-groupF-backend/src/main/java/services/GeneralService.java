@@ -9,6 +9,7 @@ public class GeneralService {
 	private MoneyService moneyService;
 	private ByCategoryService byCategoryService;
 	private ByCombinationService byCombinationService;
+	private ProductManagementService productManagementService;
 	private ByProductService byProductService;
 	
 	public ProductService getProductService() {
@@ -65,6 +66,14 @@ public class GeneralService {
 
 	public void setMoneyService(MoneyService moneyService) {
 		this.moneyService = moneyService;
+	}
+
+	public ProductManagementService getProductManagementService() {
+		return productManagementService;
+	}
+
+	public void setProductManagementService(ProductManagementService productManagementService) {
+		this.productManagementService = productManagementService;
 	}
 
 }
