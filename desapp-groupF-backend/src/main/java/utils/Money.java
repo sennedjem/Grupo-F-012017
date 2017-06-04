@@ -1,10 +1,12 @@
 package utils;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 public class Money {
 	
 	private Integer entirePart;
 	private Integer decimalPart;
-	private Integer id;
 	
 	public Money(){
 
@@ -14,13 +16,6 @@ public class Money {
 		this.decimalPart = decimal;
 	}
 
-	public Integer getId() {
-		return id;
-	}
-
-	public void setId(Integer Id) {
-		this.id = Id;
-	}
 	
 	public Integer getEntirePart() {
 		return entirePart;
@@ -100,9 +95,5 @@ public class Money {
 		return new Money(entire, decimal);
 	}
 
-public boolean valid() {
-		
-		return this.id != null ;
-	}
 
 }

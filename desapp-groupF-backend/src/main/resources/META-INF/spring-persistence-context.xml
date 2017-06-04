@@ -109,10 +109,6 @@
 	<bean id="persistence.productRepository" class="repositories.ProductRepository" >
 		<property name="sessionFactory" ref="persistence.sessionFactory" />
 	</bean>
-
-	<bean id="persistence.moneyRepository" class="repositories.MoneyRepository" >
-		<property name="sessionFactory" ref="persistence.sessionFactory" />
-	</bean>
 	
 	<bean id="persistence.productManagementRepository" class="repositories.ProductManagementRepository" >
 		<property name="sessionFactory" ref="persistence.sessionFactory" />

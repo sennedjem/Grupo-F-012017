@@ -9,7 +9,10 @@
 		</id>
 		<property name="name" />
 		<property name="brand" />
-		<one-to-one name="price" class="utils.Money"/>
+        <component name="price">
+            <property name="entirePart"/>
+            <property name="decimalPart"/>
+        </component>
 		<property name="stock" />
 		<property name="image" />
 		<property name="category" not-null="false" />

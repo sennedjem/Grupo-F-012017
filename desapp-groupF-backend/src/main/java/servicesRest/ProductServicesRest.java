@@ -62,9 +62,6 @@ public class ProductServicesRest {
 	@Path("/addMoney")
 	@Transactional
 	public Response addMoney(Money money){
-		if(!money.valid()){
-			return Response.status(Response.Status.NOT_ACCEPTABLE).build();
-		}
 		productManagementService.save(money);
 		return Response.ok().build();
 	}
