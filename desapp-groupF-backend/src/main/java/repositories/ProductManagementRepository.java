@@ -6,6 +6,7 @@ import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
 import org.springframework.transaction.annotation.Transactional;
 
 import model.Product;
+import utils.Category;
 
 public class ProductManagementRepository extends HibernateDaoSupport{
 
@@ -14,7 +15,7 @@ public class ProductManagementRepository extends HibernateDaoSupport{
 		List<Product> find = (List<Product>) this.getHibernateTemplate().find("from " + Product.getClassName() + " o");
         return find;
 	}
-	
+
 	@Transactional
     public void save(final Object aProduct) {
         this.getHibernateTemplate().save(aProduct);

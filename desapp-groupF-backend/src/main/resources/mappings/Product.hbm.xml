@@ -12,6 +12,6 @@
 		<one-to-one name="price" class="utils.Money"/>
 		<property name="stock" />
 		<property name="image" />
-		<property name="category" />
+		<property name="category" not-null="false" />
 	</class>
 </hibernate-mapping>

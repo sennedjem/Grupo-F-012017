@@ -6,6 +6,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import model.Product;
 import repositories.ProductManagementRepository;
+import utils.Category;
 
 public class ProductManagementService{
 	

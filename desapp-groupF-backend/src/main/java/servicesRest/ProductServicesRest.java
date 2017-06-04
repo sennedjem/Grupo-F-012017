@@ -16,7 +16,6 @@ import org.apache.cxf.rs.security.cors.CrossOriginResourceSharing;
 import org.springframework.dao.DataAccessException;
 
 import model.Product;
-import repositories.MoneyRepository;
 import repositories.ProductRepository;
 import services.ProductManagementService;
 import utils.Money;
@@ -58,6 +57,18 @@ public class ProductServicesRest {
 		return Response.ok().build();
 	}
 	
+	@POST
+	@Consumes("application/json")
+	@Path("/addMoney")
+	@Transactional
+	public Response addMoney(Money money){
+		if(!money.valid()){
+			return Response.status(Response.Status.NOT_ACCEPTABLE).build();
+		}
+		productManagementService.save(money);
+		return Response.ok().build();
+	}
+	
     @GET
     @Path("/getProducts")
     @Produces("application/json")
@@ -71,8 +82,7 @@ public class ProductServicesRest {
 		return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Exception raised").build();
 		}
     }
-    
-    
+        
     public void setProductRepository(final ProductRepository productRepository) {
     	this.productRepository = productRepository;
     }

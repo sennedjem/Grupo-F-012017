@@ -22,15 +22,15 @@ public class MarketingManagerTestCase {
 	public void setUp(){
 		management = new Management();
 		marketingManager = new MarketingManager(management);
-		product1 = new Product(1, "Remera", "Levi's", new Money(100,0), 45,"urlOfImage", Category.CLOTHING);
-		product2 = new Product(2, "Remera", "Levi's", new Money(125,0), 45,"urlOfImage", Category.CLOTHING);
+		product1 = new Product(1, "Remera", "Levi's", new Money(100,0), 45,"urlOfImage", Category.Clothing);
+		product2 = new Product(2, "Remera", "Levi's", new Money(125,0), 45,"urlOfImage", Category.Clothing);
 	}
 
 	@Test
 	public void testAddOffersByCategory() {
 		assertEquals(0, management.getOffers().size());
 		marketingManager.createOfferByCategory(1, LocalDate.of(2017, 04, 06), LocalDate.of(2017, 04, 16),
-                10, Category.CLOTHING);
+                10, Category.Clothing);
 		assertEquals(1, management.getOffers().size());
 	}
 	

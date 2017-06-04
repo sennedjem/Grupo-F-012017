@@ -22,7 +22,7 @@ public class ProductTestCase extends TestCase{
 	
 	@Test
 	public void testProductConstructor(){
-		Product aProduct = new Product(1, "Remera", "Levi's", aMoney, 45,"urlOfImage", Category.CLOTHING);
+		Product aProduct = new Product(1, "Remera", "Levi's", aMoney, 45,"urlOfImage", Category.Clothing);
 		Integer id = aProduct.getId();
 		String name = aProduct.getName();
 		String brand = aProduct.getBrand();
@@ -37,32 +37,32 @@ public class ProductTestCase extends TestCase{
 		assertEquals(price, aMoney);
 		assertEquals(stock, 45, 0);
 		assertEquals(image, "urlOfImage");
-		assertEquals(category, Category.CLOTHING);
+		assertEquals(category, Category.Clothing);
 	}
 	
 	@Test
 	public void testAProductEqualsTheSameProduct(){
-		Product aProduct = builder.withBrand("Marolio").withCategory(Category.FOOD).withName("Aceite").withImage("someUrl").withStock(10).withPrice(aMoney).build();
+		Product aProduct = builder.withBrand("Marolio").withCategory(Category.Food).withName("Aceite").withImage("someUrl").withStock(10).withPrice(aMoney).build();
 		assertTrue(aProduct.equals(aProduct));
 	}
 	
 	@Test
 	public void testAProductIsNotEqualToOtherProduct(){
 		Money otherMoney = new Money(10,00);
-		Product aProduct = builder.withBrand("Marolio").withCategory(Category.FOOD).withName("Aceite").withImage("someUrl").withStock(10).withPrice(aMoney).build();
-		Product otherProduct = builder.withBrand("Natura").withCategory(Category.FOOD).withName("Mayonesa").withImage("someUrl").withStock(10).withPrice(otherMoney).build();
+		Product aProduct = builder.withBrand("Marolio").withCategory(Category.Food).withName("Aceite").withImage("someUrl").withStock(10).withPrice(aMoney).build();
+		Product otherProduct = builder.withBrand("Natura").withCategory(Category.Food).withName("Mayonesa").withImage("someUrl").withStock(10).withPrice(otherMoney).build();
 		assertFalse(aProduct.equals(otherProduct));
 	}	
 	
 	@Test
 	public void testAProductIsNotEqualToNull(){
-		Product aProduct = builder.withBrand("Marolio").withCategory(Category.FOOD).withName("Aceite").withImage("someUrl").withStock(10).withPrice(aMoney).build();
+		Product aProduct = builder.withBrand("Marolio").withCategory(Category.Food).withName("Aceite").withImage("someUrl").withStock(10).withPrice(aMoney).build();
 		assertFalse(aProduct.equals(null));
 	}
 
 	@Test
 	public void testAProductIsNotEqualToANumber(){
-		Product aProduct = builder.withBrand("Marolio").withCategory(Category.FOOD).withName("Aceite").withImage("someUrl").withStock(10).withPrice(aMoney).build();
+		Product aProduct = builder.withBrand("Marolio").withCategory(Category.Food).withName("Aceite").withImage("someUrl").withStock(10).withPrice(aMoney).build();
 		assertFalse(aProduct.equals(1));
 	}
 	
@@ -104,14 +104,14 @@ public class ProductTestCase extends TestCase{
 	
 	@Test
 	public void testGetSetCategory(){
-		Product aProduct = builder.withCategory(Category.CLEANING).build();
+		Product aProduct = builder.withCategory(Category.Cleaning).build();
 		Category previousCategory = aProduct.getCategory();
-		aProduct.setCategory(Category.CLOTHING);
+		aProduct.setCategory(Category.Clothing);
 		Category newCategory = aProduct.getCategory();
 		
 		assertFalse(previousCategory.equals(newCategory));
-		assertEquals(previousCategory, Category.CLEANING);
-		assertEquals(newCategory, Category.CLOTHING);
+		assertEquals(previousCategory, Category.Cleaning);
+		assertEquals(newCategory, Category.Clothing);
 	}
 	
 }

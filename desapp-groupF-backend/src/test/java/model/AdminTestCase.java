@@ -21,8 +21,8 @@ public class AdminTestCase {
 	@Before
 	public void setUp(){
 		
-		product1 = new Product(1, "Remera", "Levi's", new Money(100,0), 45,"urlOfImage", Category.CLOTHING);
-		product2 = new Product(2, "Remera", "Levi's", new Money(125,0), 45,"urlOfImage", Category.CLOTHING);
+		product1 = new Product(1, "Remera", "Levi's", new Money(100,0), 45,"urlOfImage", Category.Clothing);
+		product2 = new Product(2, "Remera", "Levi's", new Money(125,0), 45,"urlOfImage", Category.Clothing);
 
 		management = new Management();
 		management.addProduct(product1);
@@ -91,12 +91,12 @@ public class AdminTestCase {
 	
 	@Test
 	public void testModifyProductCategory() throws ProductDoesNotExistWithThisIdException{
-		admin.modifyProductCategory(1, Category.SPORTS);
-		assertEquals(Category.SPORTS, this.product1.getCategory());
+		admin.modifyProductCategory(1, Category.Sports);
+		assertEquals(Category.Sports, this.product1.getCategory());
 	}	
 	
 	@Test(expected = ProductDoesNotExistWithThisIdException.class)
 	public void testModifyProductCategoryException() throws ProductDoesNotExistWithThisIdException{
-		admin.modifyProductCategory(2, Category.SPORTS);
+		admin.modifyProductCategory(2, Category.Sports);
 	}
 }
