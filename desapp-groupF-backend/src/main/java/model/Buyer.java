@@ -6,26 +6,25 @@ import utils.Money;
 
 public class Buyer {
 
-	private TurnsManager turnsManager;
+	//private TurnsManager turnsManager;
 	private Profile profile = new Profile();
 	private List<ProductList> purchaseHistory;
 	private Purchase currentPurchase;
-	private AlertSystem alertSystem;
+	//private AlertSystem alertSystem;
+	private String userName;
 	
-	
+	/*
 	public void setTurnsManager(TurnsManager turnsManager){
 		this.turnsManager = turnsManager;
-		
 	}
 	
 	public void requestTurn() {
 		turnsManager.requestTurn();
-		
 	}
-
+	*/
+	
 	public void setPurchaseHistory(List<ProductList> purchaseHistory) {
 		this.purchaseHistory = purchaseHistory;
-		
 	}
 	
 	public List<ProductList> getPurchaseHistory(){
@@ -46,7 +45,7 @@ public class Buyer {
 		this.purchaseHistory.add(productList);
 	}
 
-
+	/*
 	public void setAlertSystem(AlertSystem alertSystem) {
 		this.alertSystem = alertSystem;
 		
@@ -54,8 +53,8 @@ public class Buyer {
 
 	public void addProduct(Product capitanDelEspacio, Integer cant) throws Exception {
 		this.alertSystem.addProduct(capitanDelEspacio,cant,currentPurchase,profile);
-		
 	}
+	*/
 
 	public Profile getProfile() {
 		return profile;
