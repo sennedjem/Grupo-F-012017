@@ -8,6 +8,7 @@ public class ListItem {
 	private Integer quantity;
 	private boolean purchased;
 	private Money totalValue;
+	private Integer id;
 	
 	public ListItem(Product product, Integer quantity){
 		this.product = product;
@@ -16,6 +17,14 @@ public class ListItem {
 		this.setTotalValue(product.getPrice().times(quantity));
 	}
 
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	
 	public Product getProduct() {
 		return product;
 	}

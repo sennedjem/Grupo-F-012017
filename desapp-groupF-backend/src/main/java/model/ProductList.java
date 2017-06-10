@@ -10,6 +10,7 @@ import java.util.ArrayList;
 public class ProductList {
 	
 	private String name;
+	private Integer id;
 	private List<ListItem> products = new ArrayList<ListItem>();
 	
 	public ProductList(String name){
