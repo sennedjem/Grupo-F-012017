@@ -113,4 +113,8 @@
 	<bean id="persistence.productManagementRepository" class="repositories.ProductManagementRepository" >
 		<property name="sessionFactory" ref="persistence.sessionFactory" />
 	</bean>
+	
+	<bean id="persistence.buyerRepository" class="repositories.BuyerRepository"> 
+		<property name="sessionFactory" ref="persistence.sessionFactory" />
+	</bean>
 </beans>
