@@ -32,12 +32,9 @@ public class ProductServicesRest {
 	@DELETE
 	@Path("/deleteProduct")
 	@Transactional
-	public Response deleteProduct(Product product){
-		if(!product.valid()){
-			return Response.status(Response.Status.NOT_ACCEPTABLE).build();
-		}
+	public Response deleteProduct(Integer id){ 
 		try{
-			productManagementService.delete(product);
+			productManagementService.delete(id);
 			return Response.ok().build();
 		} catch(DataAccessException exception){
 			return Response.status(Response.Status.NOT_ACCEPTABLE).build();
