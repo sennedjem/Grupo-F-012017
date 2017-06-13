@@ -6,7 +6,11 @@ public class Profile {
 
 	private Money maxAmount;
 	private Address address;
+	private Integer id;
 	
+	public Profile(){
+		
+	}
 	public Address getAddress(){
 		return address;
 	}
@@ -21,6 +25,14 @@ public class Profile {
 
 	public void setMaxAmount(Money maxAmount) {
 		this.maxAmount = maxAmount;
+	}
+	
+	public Integer getId(){
+		return id;
+	}
+	
+	public void setId(Integer id){
+		this.id = id;
 	}
 
 

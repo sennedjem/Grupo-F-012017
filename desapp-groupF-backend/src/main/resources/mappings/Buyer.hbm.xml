@@ -11,8 +11,8 @@
 			<key column="id"/>
 			<one-to-many class="model.ProductList"/>
 		</bag>
-		<!-- 
 		<one-to-one name="profile" class="model.Profile"/>
+		<!-- 
 		<one-to-one name="currentPurchase" class="model.Purchase"/>
 		 -->
 	</class>
