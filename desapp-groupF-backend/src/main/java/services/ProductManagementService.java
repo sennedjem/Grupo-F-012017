@@ -32,8 +32,8 @@ public class ProductManagementService{
 	}
 	
 	@Transactional
-	public void delete(Object entity){
-		this.getRepository().delete(entity);
+	public void delete(Integer id){
+		this.getRepository().delete(id);
 	}
 
 }

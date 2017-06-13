@@ -2,6 +2,7 @@ package repositories;
 
 import java.util.List;
 
+import org.hibernate.Session;
 import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -22,7 +23,9 @@ public class ProductManagementRepository extends HibernateDaoSupport{
         this.getHibernateTemplate().flush();
     }
 	
-	public void delete(final Object entity) {
-        this.getHibernateTemplate().delete(entity);
+	public void delete(final Integer id) {
+		Session session = this.currentSession();
+		String hql = "delete from Product where ID= :id";
+		session.createQuery(hql).setLong("id", new Integer(id)).executeUpdate();
     }
 }
