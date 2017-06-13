@@ -23,6 +23,14 @@ public class Buyer {
 	}
 	*/
 	
+	public String getUserName(){
+		return userName;
+	}
+	
+	public void setUserName(String userName){
+		this.userName = userName;
+	}
+	
 	public void setPurchaseHistory(List<ProductList> purchaseHistory) {
 		this.purchaseHistory = purchaseHistory;
 	}
