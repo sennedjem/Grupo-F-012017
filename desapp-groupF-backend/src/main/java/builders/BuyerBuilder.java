@@ -29,19 +29,23 @@ public class BuyerBuilder {
 		return result;
 	}
 	
-	public void withProfile(Profile profile){
+	public BuyerBuilder withProfile(Profile profile){
 		this.buyer.setProfile(profile);
+		return this;
 	}
 	
-	public void withPurchaseHistory(List<ProductList> purchaseHistory){
+	public BuyerBuilder withPurchaseHistory(List<ProductList> purchaseHistory){
 		this.buyer.setPurchaseHistory(purchaseHistory);
+		return this;
 	}
 	
-	public void withUserName(String userName){
+	public BuyerBuilder withUserName(String userName){
 		this.buyer.setUserName(userName);
+		return this;
 	}
 	
-	public void setCurrentPurchase(Purchase purchase){
+	public BuyerBuilder withCurrentPurchase(Purchase purchase){
 		this.buyer.setCurrentPurchase(purchase);
+		return this;
 	}
 }
