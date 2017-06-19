@@ -7,15 +7,17 @@ public class ListItem {
 	private Product product;
 	private Integer quantity;
 	private boolean purchased;
-	private Money totalValue;
 	private Integer id;
 	
 	public ListItem(Product product, Integer quantity){
 		this.product = product;
 		this.quantity = quantity;
 		this.purchased = false;
-		this.setTotalValue(product.getPrice().times(quantity));
 	}
+
+	public ListItem() {
+	}
+
 
 	public Integer getId() {
 		return id;
@@ -50,10 +52,7 @@ public class ListItem {
 	}
 
 	public Money getTotalValue() {
-		return totalValue;
+		return product.getPrice().times(quantity);
 	}
 
-	public void setTotalValue(Money totalValue) {
-		this.totalValue = totalValue;
-	}
 }
