@@ -37,3 +37,18 @@ NOTES:
 
 KNOWN ISSUES:
 
+---------------------------------------------------------------------
+release 3.0.0
+---------------------------------------------------------------------
+NEW FEATURES:
+* Pantalla de listado y agregado de productos
+* Aplicación responsive
+* Auditoria de servicios (logs)
+* Autenticación con Auth0
+
+NOTES:
+* Falta envio a domicilio
+* Falta crear ofertas por categoria de producto 
+* Falta poder ver historial de compra
+
+KNOWN ISSUES:
