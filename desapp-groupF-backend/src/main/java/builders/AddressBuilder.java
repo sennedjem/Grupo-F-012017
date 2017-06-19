@@ -11,16 +11,16 @@ public class AddressBuilder {
 		address = new Address();
 	}
 	
-	public Address getBuyer(){
+	public Address getAddress(){
 		return address;
 	}
 	
-	public void setBuyer(Address address){
+	public void setAddress(Address address){
 		this.address = address;
 	}
 	
 	public Address build(){
-		Address result = this.getBuyer();
+		Address result = this.getAddress();
 		this.address = new Address();
 		return result;
 	}

@@ -1,18 +1,24 @@
 package services;
 
+import model.Buyer;
+import model.User;
 import repositories.BuyerRepository;
-import repositories.ProductManagementRepository;
 
 public class UsersService {
 	
-	private BuyerRepository buyerRepo;
+	
+	private BuyerRepository buyerRepository;
 	
 	 public BuyerRepository getBuyerRepository() {
-	        return this.buyerRepo;
+	        return this.buyerRepository;
 	 }	
 	 
-	 public void setRepository(BuyerRepository rep) {
-	        this.buyerRepo = rep;
+	 public void setBuyerRepository(BuyerRepository rep) {
+	        this.buyerRepository = rep;
 	 }	
+	 
+	 public void save(Buyer user){
+		 buyerRepository.save(user);
+	 }
 
 }

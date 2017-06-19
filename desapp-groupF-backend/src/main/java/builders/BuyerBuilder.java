@@ -39,13 +39,18 @@ public class BuyerBuilder {
 		return this;
 	}
 	
-	public BuyerBuilder withUserName(String userName){
-		this.buyer.setUserName(userName);
+	public BuyerBuilder withBuyerName(String buyerName){
+		this.buyer.setBuyerName(buyerName);
 		return this;
 	}
 	
 	public BuyerBuilder withCurrentPurchase(Purchase purchase){
 		this.buyer.setCurrentPurchase(purchase);
+		return this;
+	}
+	
+	public BuyerBuilder withId(Integer id){
+		this.buyer.setId(id);
 		return this;
 	}
 }

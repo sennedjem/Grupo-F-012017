@@ -47,6 +47,10 @@ http://cxf.apache.org/core http://cxf.apache.org/schemas/core.xsd">
 		<property name="productManagementService" ref="services.productManagementService" />
 	</bean>
 	
+	<bean id="buyerFixture" class="fixture.BuyerFixture" init-method="createBuyers">
+		<property name="usersService" ref="services.usersService" />
+	</bean>
+	
 	<bean id="postsRest" class="servicesRest.ProductServicesRest">
 		<property name="productManagementService" ref="services.productManagementService" />
 		<property name="productRepository" ref="persistence.productRepository" />

@@ -20,5 +20,9 @@
 		<property name="repository" ref="persistence.productManagementRepository" />
 	</bean> 
 	
+	<bean id="services.usersService" class="services.UsersService">
+		<property name="buyerRepository" ref="persistence.buyerRepository" />
+	</bean> 
+	
 	
 </beans>
