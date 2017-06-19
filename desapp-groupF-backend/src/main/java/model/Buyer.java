@@ -4,14 +4,15 @@ import java.util.List;
 
 import utils.Money;
 
-public class Buyer {
+public class Buyer extends User{
 
 	//private TurnsManager turnsManager;
 	private Profile profile = new Profile();
 	private List<ProductList> purchaseHistory;
 	private Purchase currentPurchase;
 	//private AlertSystem alertSystem;
-	private String userName;
+	private String buyerName;
+	private Integer id;
 	
 	/*
 	public void setTurnsManager(TurnsManager turnsManager){
@@ -23,12 +24,20 @@ public class Buyer {
 	}
 	*/
 	
-	public String getUserName(){
-		return userName;
+	public Integer getId(){
+		return id;
 	}
 	
-	public void setUserName(String userName){
-		this.userName = userName;
+	public void setId(Integer id){
+		this.id = id;
+	}
+	
+	public String getBuyerName(){
+		return buyerName;
+	}
+	
+	public void setBuyerName(String buyerName){
+		this.buyerName = buyerName;
 	}
 	
 	public void setPurchaseHistory(List<ProductList> purchaseHistory) {

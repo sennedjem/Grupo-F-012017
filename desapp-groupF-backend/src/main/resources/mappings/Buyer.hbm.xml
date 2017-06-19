@@ -4,15 +4,18 @@
 <hibernate-mapping default-access="field"
 	default-cascade="save-update">
 	<class name="model.Buyer">
-		<id column="ID" name="userName">
+		<id column="ID" name="id">
 			<generator class="native" />
 		</id>
-		<bag name="purchaseHistory" cascade="all" inverse="false">
+		<property name="buyerName"></property>
+
+		
+		<!-- 
+		<one-to-one name="profile" class="model.Profile"/>
+		<bag name="purchaseHistory">
 			<key column="id"/>
 			<one-to-many class="model.ProductList"/>
 		</bag>
-		<one-to-one name="profile" class="model.Profile"/>
-		<!-- 
 		<one-to-one name="currentPurchase" class="model.Purchase"/>
 		 -->
 	</class>

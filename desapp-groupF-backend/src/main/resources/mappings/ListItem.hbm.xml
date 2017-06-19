@@ -9,10 +9,6 @@
 		</id>
 		<property name="quantity"/>
 		<property name="purchased"/>
-		<component name="totalValue">
-            <property name="entirePart"/>
-            <property name="decimalPart"/>
-        </component>
         <one-to-one name="product" class="model.Product"/>
 	</class>
 </hibernate-mapping>
