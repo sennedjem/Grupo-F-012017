@@ -24,6 +24,18 @@ public class ProductList {
 		return this.products;
 	}
 	
+	public void setProducts(List<ListItem> products){
+		this.products = products;
+	}
+	
+	public void setId(Integer id){
+		this.id = id;
+	}
+	
+	public Integer getId(){
+		return this.id;
+	}
+	
 	public String getName(){
 		return this.name;
 	}
