@@ -5,11 +5,15 @@
 	default-cascade="save-update">
 	<class name="model.Profile">
 		<id column="ID" name="id">
+			<generator class="native" />
 		</id>
-		<one-to-one name="address" class="model.Address"/>
 		<component name="maxAmount">
             <property name="entirePart"/>
             <property name="decimalPart"/>
         </component>
+        <component name="address">
+        	<property name="street"/>
+			<property name="district"/>
+		</component>
 	</class>
 </hibernate-mapping>
