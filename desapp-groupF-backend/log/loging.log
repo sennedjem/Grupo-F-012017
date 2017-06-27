@@ -182,3 +182,209 @@ Content-Type: application/json
 Headers: {Content-Type=[application/json], Date=[Fri, 16 Jun 2017 02:44:35 GMT]}
 Payload: [{"name":"Papas Fritas","id":1,"category":"Food","image":"https://www.vegaffinity.com/imagenes/alimentos/pringlesoriginal.png","brand":"Pringles","stock":2,"price":{"decimalPart":0,"entirePart":50}},{"name":"Maní x 500 gr.","id":2,"category":"Food","image":"http://jumbo.vteximg.com.br/arquivos/ids/161514-100-100/1582126.jpg","brand":"ALoLoco","stock":2,"price":{"decimalPart":0,"entirePart":25}},{"name":"Jamón cocido x 100 gr.","id":3,"category":"Food","image":"http://jumbo.vteximg.com.br/arquivos/ids/169721-100-100/705256-KG.jpg","brand":"Bocatti","stock":2,"price":{"decimalPart":0,"entirePart":40}},{"name":"Aperitivo x 1L","id":4,"category":"Drinks","image":"http://walmartar.vteximg.com.br/arquivos/ids/780751-100-100/0779095000019-1.jpg","brand":"Gancia","stock":2,"price":{"decimalPart":0,"entirePart":80}},{"name":"Gaseosa x 2.25L","id":5,"category":"Food","image":"http://jumbo.vteximg.com.br/arquivos/ids/159435-100-100/263427.jpg","brand":"Sprite","stock":2,"price":{"decimalPart":0,"entirePart":22}}]
 --------------------------------------
+2017-06-27 19:18:08,728 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 202 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 202 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:18:08,799 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 20 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 20 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:18:08,810 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 10 ms to scan 1 urls, producing 6 keys and 29 values 
+1}:229 - Reflections took 10 ms to scan 1 urls, producing 6 keys and 29 values 
+2017-06-27 19:18:08,838 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 18 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 18 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-06-27 19:18:09,061 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 218 ms to scan 110 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 218 ms to scan 110 urls, producing 0 keys and 0 values 
+2017-06-27 19:18:45,445 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 139 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 139 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:18:45,482 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 21 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 21 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:18:45,492 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 8 ms to scan 1 urls, producing 6 keys and 29 values 
+1}:229 - Reflections took 8 ms to scan 1 urls, producing 6 keys and 29 values 
+2017-06-27 19:18:45,505 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 12 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 12 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-06-27 19:18:45,694 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 184 ms to scan 110 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 184 ms to scan 110 urls, producing 0 keys and 0 values 
+2017-06-27 19:19:30,110 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 103 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 103 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:19:30,144 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 19 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 19 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:19:30,153 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 8 ms to scan 1 urls, producing 6 keys and 29 values 
+1}:229 - Reflections took 8 ms to scan 1 urls, producing 6 keys and 29 values 
+2017-06-27 19:19:30,164 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 10 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 10 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-06-27 19:19:30,362 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 193 ms to scan 110 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 193 ms to scan 110 urls, producing 0 keys and 0 values 
+2017-06-27 19:19:56,536 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 109 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 109 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:19:56,574 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 22 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 22 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:19:56,584 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 9 ms to scan 1 urls, producing 6 keys and 29 values 
+1}:229 - Reflections took 9 ms to scan 1 urls, producing 6 keys and 29 values 
+2017-06-27 19:19:56,597 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 12 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 12 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-06-27 19:19:56,762 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 160 ms to scan 110 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 160 ms to scan 110 urls, producing 0 keys and 0 values 
+2017-06-27 19:20:30,439 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 127 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 127 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:20:30,478 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 22 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 22 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:20:30,488 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 9 ms to scan 1 urls, producing 6 keys and 29 values 
+1}:229 - Reflections took 9 ms to scan 1 urls, producing 6 keys and 29 values 
+2017-06-27 19:20:30,671 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 182 ms to scan 110 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 182 ms to scan 110 urls, producing 0 keys and 0 values 
+2017-06-27 19:21:28,429 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 124 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 124 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:21:28,474 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 22 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 22 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:21:28,485 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 10 ms to scan 1 urls, producing 6 keys and 29 values 
+1}:229 - Reflections took 10 ms to scan 1 urls, producing 6 keys and 29 values 
+2017-06-27 19:21:28,498 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 12 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 12 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-06-27 19:21:28,694 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 193 ms to scan 110 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 193 ms to scan 110 urls, producing 0 keys and 0 values 
+2017-06-27 19:24:27,013 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 144 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 144 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:24:27,047 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 19 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 19 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:24:27,057 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 8 ms to scan 1 urls, producing 6 keys and 29 values 
+1}:229 - Reflections took 8 ms to scan 1 urls, producing 6 keys and 29 values 
+2017-06-27 19:24:27,240 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 182 ms to scan 110 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 182 ms to scan 110 urls, producing 0 keys and 0 values 
+2017-06-27 19:29:10,937 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 106 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 106 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:29:10,961 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 9 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 9 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:29:10,969 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values 
+1}:229 - Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values 
+2017-06-27 19:29:10,975 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 5 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 5 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:29:10,990 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 14 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 14 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:29:10,998 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 1 urls, producing 3 keys and 6 values 
+1}:229 - Reflections took 6 ms to scan 1 urls, producing 3 keys and 6 values 
+2017-06-27 19:29:11,006 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 7 ms to scan 2 urls, producing 4 keys and 4 values 
+1}:229 - Reflections took 7 ms to scan 2 urls, producing 4 keys and 4 values 
+2017-06-27 19:33:46,556 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 139 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 139 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:33:46,588 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 11 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 11 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:33:46,596 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values 
+1}:229 - Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values 
+2017-06-27 19:33:46,603 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 6 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:33:46,628 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 24 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 24 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:33:46,635 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 1 urls, producing 3 keys and 6 values 
+1}:229 - Reflections took 6 ms to scan 1 urls, producing 3 keys and 6 values 
+2017-06-27 19:33:46,643 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 7 ms to scan 2 urls, producing 4 keys and 4 values 
+1}:229 - Reflections took 7 ms to scan 2 urls, producing 4 keys and 4 values 
+2017-06-27 19:37:09,481 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 130 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 130 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:37:09,518 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 12 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 12 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:37:09,526 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values 
+1}:229 - Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values 
+2017-06-27 19:37:09,535 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 8 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 8 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:37:09,549 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 13 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 13 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:37:09,556 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 1 urls, producing 3 keys and 6 values 
+1}:229 - Reflections took 6 ms to scan 1 urls, producing 3 keys and 6 values 
+2017-06-27 19:37:09,564 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 7 ms to scan 2 urls, producing 4 keys and 4 values 
+1}:229 - Reflections took 7 ms to scan 2 urls, producing 4 keys and 4 values 
+2017-06-27 19:40:06,598 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 137 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 137 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-06-27 19:40:06,626 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 6 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:40:06,633 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 6 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:40:06,639 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values 
+1}:229 - Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values 
+2017-06-27 19:40:06,644 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:40:06,656 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 11 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 11 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:40:06,664 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 7 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 7 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-06-27 19:40:06,669 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 3 ms to scan 1 urls, producing 3 keys and 6 values 
+1}:229 - Reflections took 3 ms to scan 1 urls, producing 3 keys and 6 values 
+2017-06-27 19:40:06,676 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 2 urls, producing 4 keys and 4 values 
+1}:229 - Reflections took 6 ms to scan 2 urls, producing 4 keys and 4 values 
+2017-06-27 19:40:32,983 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 132 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 132 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-06-27 19:40:33,009 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 7 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 7 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:40:33,015 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 5 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 5 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:40:33,021 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values 
+1}:229 - Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values 
+2017-06-27 19:40:33,027 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:40:33,040 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 11 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 11 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:40:33,045 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 4 ms to scan 1 urls, producing 3 keys and 6 values 
+1}:229 - Reflections took 4 ms to scan 1 urls, producing 3 keys and 6 values 
+2017-06-27 19:40:33,052 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 2 urls, producing 4 keys and 4 values 
+1}:229 - Reflections took 6 ms to scan 2 urls, producing 4 keys and 4 values 
+2017-06-27 19:48:50,470 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 127 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 127 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-06-27 19:48:50,494 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 5 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 5 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:48:50,500 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 6 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:48:50,506 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values 
+1}:229 - Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values 
+2017-06-27 19:48:50,512 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 5 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 5 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:48:50,528 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 14 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 14 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:48:50,536 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 5 ms to scan 1 urls, producing 3 keys and 6 values 
+1}:229 - Reflections took 5 ms to scan 1 urls, producing 3 keys and 6 values 
+2017-06-27 19:48:50,550 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 11 ms to scan 2 urls, producing 4 keys and 4 values 
+1}:229 - Reflections took 11 ms to scan 2 urls, producing 4 keys and 4 values 
+2017-06-27 19:49:31,498 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 142 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 142 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-06-27 19:49:31,524 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 6 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:49:31,530 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:49:31,535 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values 
+1}:229 - Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values 
+2017-06-27 19:49:31,540 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:49:31,551 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 10 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 10 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:49:31,557 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 4 ms to scan 1 urls, producing 3 keys and 6 values 
+1}:229 - Reflections took 4 ms to scan 1 urls, producing 3 keys and 6 values 
+2017-06-27 19:49:31,566 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 7 ms to scan 2 urls, producing 4 keys and 4 values 
+1}:229 - Reflections took 7 ms to scan 2 urls, producing 4 keys and 4 values 
+2017-06-27 19:52:10,009 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 133 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 133 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 19:52:10,037 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 12 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 12 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:52:10,043 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values 
+1}:229 - Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values 
+2017-06-27 19:52:10,058 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 14 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 14 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 19:52:10,071 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 11 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 11 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 19:52:10,078 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 1 urls, producing 3 keys and 6 values 
+1}:229 - Reflections took 6 ms to scan 1 urls, producing 3 keys and 6 values 
+2017-06-27 19:52:10,088 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 9 ms to scan 2 urls, producing 4 keys and 4 values 
+1}:229 - Reflections took 9 ms to scan 2 urls, producing 4 keys and 4 values 
+2017-06-27 19:52:10,098 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 8 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 8 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-06-27 20:01:30,665 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 136 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 136 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-06-27 20:01:30,696 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 11 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 11 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 20:01:30,702 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values 
+1}:229 - Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values 
+2017-06-27 20:01:30,707 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-06-27 20:01:30,721 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 13 ms to scan 2 urls, producing 4 keys and 9 values 
+1}:229 - Reflections took 13 ms to scan 2 urls, producing 4 keys and 9 values 
+2017-06-27 20:01:30,729 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 1 urls, producing 3 keys and 6 values 
+1}:229 - Reflections took 6 ms to scan 1 urls, producing 3 keys and 6 values 
+2017-06-27 20:01:30,739 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 9 ms to scan 2 urls, producing 4 keys and 4 values 
+1}:229 - Reflections took 9 ms to scan 2 urls, producing 4 keys and 4 values 
+2017-06-27 20:01:30,753 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 9 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 9 ms to scan 2 urls, producing 7 keys and 19 values 
