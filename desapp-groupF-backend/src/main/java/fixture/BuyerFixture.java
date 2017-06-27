@@ -35,7 +35,7 @@ public class BuyerFixture {
 		Address larreta = createAddress("larreta 1471","florencio varela",1);
 		Profile profile1 = createProfile(new Money(2,2),larreta,1);
 		Purchase purchase = new Purchase();
-		Buyer buyer1 = createBuyer(1,"sal",purchaseHistorySal,profile1,purchase);
+		Buyer buyer1 = createBuyer(1,"sebastianariell@gmail.com","sal",purchaseHistorySal,profile1,purchase);
 		usersService.save(buyer1);
 	}
 
@@ -60,9 +60,9 @@ public class BuyerFixture {
 	}
 	
 	
-	public Buyer createBuyer(Integer id,String userName, List<ProductList> purchaseHistory, Profile profile, Purchase purchase){
+	public Buyer createBuyer(Integer id,String email,String userName, List<ProductList> purchaseHistory, Profile profile, Purchase purchase){
 		BuyerBuilder buyerBuilder = new BuyerBuilder();
-		return buyerBuilder.withId(id).withBuyerName(userName).withPurchaseHistory(purchaseHistory).withProfile(profile).withCurrentPurchase(purchase).build();
+		return buyerBuilder.withId(id).withBuyerName(userName).withEmail(email).withPurchaseHistory(purchaseHistory).withProfile(profile).withCurrentPurchase(purchase).build();
 	}
 	
 	public Profile createProfile(Money maxAmount, Address address, Integer id){

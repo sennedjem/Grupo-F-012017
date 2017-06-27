@@ -29,6 +29,7 @@ http://cxf.apache.org/core http://cxf.apache.org/schemas/core.xsd">
 	<jaxrs:server id="post" address="/"  > 
 		<jaxrs:serviceBeans>
 			<ref bean="postsRest" />
+			<ref bean="usersRest" />
 		</jaxrs:serviceBeans>
 		<jaxrs:extensionMappings>
 			<entry key="json" value="application/json" />
@@ -54,6 +55,10 @@ http://cxf.apache.org/core http://cxf.apache.org/schemas/core.xsd">
 	<bean id="postsRest" class="servicesRest.ProductServicesRest">
 		<property name="productManagementService" ref="services.productManagementService" />
 		<property name="productRepository" ref="persistence.productRepository" />
+	</bean>
+	
+	<bean id="usersRest" class="servicesRest.UserServicesRest">
+		<property name="usersService" ref="services.usersService" />
 	</bean>
 
 </beans>

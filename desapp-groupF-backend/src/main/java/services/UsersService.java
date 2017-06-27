@@ -4,7 +4,7 @@ import model.Buyer;
 import model.User;
 import repositories.BuyerRepository;
 
-public class UsersService {
+public class UsersService extends GenericService<Buyer>{
 	
 	
 	private BuyerRepository buyerRepository;
@@ -18,7 +18,7 @@ public class UsersService {
 	 }	
 	 
 	 public void save(Buyer user){
-		 buyerRepository.save(user);
+	 	 buyerRepository.save(user);
 	 }
 
 }

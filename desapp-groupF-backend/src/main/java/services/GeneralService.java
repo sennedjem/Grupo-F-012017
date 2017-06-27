@@ -10,6 +10,7 @@ public class GeneralService {
 	private ByCombinationService byCombinationService;
 	private ProductManagementService productManagementService;
 	private ByProductService byProductService;
+	private UsersService usersService;
 	
 	public ProductService getProductService() {
 		return productService;
@@ -65,6 +66,14 @@ public class GeneralService {
 
 	public void setProductManagementService(ProductManagementService productManagementService) {
 		this.productManagementService = productManagementService;
+	}
+	
+	public UsersService getUsersService(){
+		return usersService;
+	}
+	
+	public void setUsersService(UsersService usersService){
+		this.usersService = usersService;
 	}
 
 }
