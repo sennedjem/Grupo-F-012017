@@ -8,7 +8,7 @@
 			<generator class="native" />
 		</id>
 		<property name="buyerName"></property>
-		<property name="email"></property>
+		<property name="buyerEmail"></property>
 		<one-to-one name="profile" class="model.Profile"/>
 		
 		<!-- 
