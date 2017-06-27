@@ -5,7 +5,6 @@
 	default-cascade="save-update">
 	<class name="model.Address">
 		<id column="ID" name="id">
-			<generator class="native" />
 		</id>
 		<property name="street" />
 		<property name="district" />

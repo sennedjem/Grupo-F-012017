@@ -8,10 +8,11 @@
 			<generator class="native" />
 		</id>
 		<property name="buyerName"></property>
-
+		<property name="email"></property>
+		<one-to-one name="profile" class="model.Profile"/>
 		
 		<!-- 
-		<one-to-one name="profile" class="model.Profile"/>
+		
 		<bag name="purchaseHistory">
 			<key column="id"/>
 			<one-to-many class="model.ProductList"/>

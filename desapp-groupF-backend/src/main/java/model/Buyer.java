@@ -13,6 +13,7 @@ public class Buyer extends User{
 	//private AlertSystem alertSystem;
 	private String buyerName;
 	private Integer id;
+	private String email;
 	
 	/*
 	public void setTurnsManager(TurnsManager turnsManager){
@@ -83,6 +84,11 @@ public class Buyer extends User{
 	
 	public void setMaxAmount(Money cant){
 		this.profile.setMaxAmount(cant);
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+		
 	}
 	
 
