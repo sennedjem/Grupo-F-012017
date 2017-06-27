@@ -1,5 +1,6 @@
 package servicesRest;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.ws.rs.GET;
@@ -26,7 +27,7 @@ public class UserServicesRest {
     @Path("/getUsers")
     @Produces("application/json")
     public Response getUsers() {
-    	List<Buyer> users = usersService.getRepository().findAll();
+    	List<Buyer> users = usersService.getBuyerRepository().findAll();
 	    return Response.ok(users, MediaType.APPLICATION_JSON)
 	    		.status(200)
 	            .build();
