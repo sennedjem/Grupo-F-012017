@@ -35,9 +35,5 @@ public class AddressBuilder {
 		return this;
 	}
 	
-	public AddressBuilder withId(Integer id){
-		this.address.setId(id);
-		return this;
-	}
 	
 }

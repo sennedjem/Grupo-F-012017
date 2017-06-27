@@ -32,10 +32,10 @@ public class BuyerFixture {
 		List<ListItem> productsSal = listItems();
 		ProductList productListSal = createProductList(productsSal,"lista sal",1);
 		purchaseHistorySal.add(productListSal);
-		Address larreta = createAddress("larreta 1471","florencio varela",1);
+		Address larreta = createAddress("larreta 1471","florencio varela");
 		Profile profile1 = createProfile(new Money(2,2),larreta,1);
 		Purchase purchase = new Purchase();
-		Buyer buyer1 = createBuyer(1,"sebastianariell@gmail.com","sal",purchaseHistorySal,profile1,purchase);
+		Buyer buyer1 = createBuyer(1,"sebastianariell@gmail.com","salado",purchaseHistorySal,profile1,purchase);
 		usersService.save(buyer1);
 	}
 
@@ -67,12 +67,12 @@ public class BuyerFixture {
 	
 	public Profile createProfile(Money maxAmount, Address address, Integer id){
 		ProfileBuilder profileBuilder = new ProfileBuilder();
-		return profileBuilder.withAddress(address).withMaxAmount(maxAmount).withId(id).build();
+		return profileBuilder.withAddress(address).withMaxAmount(maxAmount).build();
 	}
 	
-	public Address createAddress(String street, String district, Integer id){
+	public Address createAddress(String street, String district){
 		AddressBuilder addresBuilder = new AddressBuilder();
-		return addresBuilder.withId(id).withStreet(street).withDistrict(district).build();
+		return addresBuilder.withStreet(street).withDistrict(district).build();
 	}
 	
 	public void setUsersService(UsersService usersService){

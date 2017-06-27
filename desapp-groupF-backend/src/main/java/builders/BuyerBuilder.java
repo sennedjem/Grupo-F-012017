@@ -55,7 +55,7 @@ public class BuyerBuilder {
 	}
 	
 	public BuyerBuilder withEmail(String email){
-		this.buyer.setEmail(email);
+		this.buyer.setBuyerEmail(email);
 		return this;
 	}
 }

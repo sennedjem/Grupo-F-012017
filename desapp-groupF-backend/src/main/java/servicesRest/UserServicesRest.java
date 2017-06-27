@@ -3,8 +3,12 @@ package servicesRest;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.transaction.Transactional;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -12,6 +16,7 @@ import javax.ws.rs.core.Response;
 import org.apache.cxf.rs.security.cors.CrossOriginResourceSharing;
 
 import model.Buyer;
+import model.Product;
 import model.User;
 import services.UsersService;
 
@@ -31,8 +36,16 @@ public class UserServicesRest {
 	    return Response.ok(users, MediaType.APPLICATION_JSON)
 	    		.status(200)
 	            .build();
-
     }
+    
+	@GET
+	@Consumes("application/json")
+	@Path("/getUser/{email}")
+	public Response getUserByEmail(@PathParam("email") final String email){
+	    return Response.ok(usersService.getUserByEmail(email), MediaType.APPLICATION_JSON)
+	    		.status(200)
+	            .build();
+	}
     
 
     public void setUsersService(final UsersService usersService) {
