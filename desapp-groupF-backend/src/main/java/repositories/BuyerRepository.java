@@ -21,4 +21,12 @@ public class BuyerRepository extends HibernateGenericDAO<Buyer> implements Gener
 		}
 		return null;
 	}
+	
+	public Buyer getById(Integer id){
+		List<Buyer> buyersFinded = (List<Buyer>) this.getHibernateTemplate().find("FROM Buyer bu WHERE bu.id = ?",id);
+		if (buyersFinded.size()>0){
+			return buyersFinded.get(0);
+		}
+		return null;
+	}
 }

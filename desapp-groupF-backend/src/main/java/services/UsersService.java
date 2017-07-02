@@ -1,7 +1,11 @@
 package services;
 
 import builders.ProfileBuilder;
+import exceptions.MaxAmountExceededException;
 import model.Buyer;
+import model.ListItem;
+import model.MaxAmountAlert;
+import model.Product;
 import model.Purchase;
 import model.User;
 import repositories.BuyerRepository;
@@ -38,4 +42,13 @@ public class UsersService extends GenericService<Buyer>{
 	 public boolean emailExist(String email){
 		 return buyerRepository.getByEmail(email) != null;
 	 }
+
+	public void addProduct(Product product,Integer quantity, Integer buyerId) throws MaxAmountExceededException  {
+		Buyer buyer = buyerRepository.getById(buyerId);
+		MaxAmountAlert maxAmountAlert = new MaxAmountAlert();
+		maxAmountAlert.addProduct(product, quantity, buyer.getCurrentPurchase(), buyer.getProfile());
+		this.save(buyer);
+		buyer = buyerRepository.getById(buyerId);
+		String sarasa = "sarasa";
+	}
 }

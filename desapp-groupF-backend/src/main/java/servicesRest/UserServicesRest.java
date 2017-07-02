@@ -15,7 +15,9 @@ import javax.ws.rs.core.Response;
 
 import org.apache.cxf.rs.security.cors.CrossOriginResourceSharing;
 
+import exceptions.MaxAmountExceededException;
 import model.Buyer;
+import model.ListItem;
 import model.Product;
 import model.User;
 import services.UsersService;
@@ -46,7 +48,24 @@ public class UserServicesRest {
 	    		.status(200)
 	            .build();
 	}
-    
+	
+	@POST
+	@Consumes("application/json")
+	@Path("/{id}/addProduct")
+	@Transactional
+	public Response addProduct(@PathParam("id") Integer id,ListItem product){
+		try {
+			usersService.addProduct(product.getProduct(),product.getQuantity(),id);
+			String sarasa = "sarasa";
+			sarasa = "soroso";
+			return Response.ok().build();
+		} catch (MaxAmountExceededException e) {
+			e.printStackTrace();
+		    return Response.ok("amount exceeded", MediaType.APPLICATION_JSON)
+		    		.status(200)
+		            .build();
+		}
+	}
 
     public void setUsersService(final UsersService usersService) {
     	this.usersService = usersService;

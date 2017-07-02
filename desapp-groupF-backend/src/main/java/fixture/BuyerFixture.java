@@ -33,7 +33,7 @@ public class BuyerFixture {
 		ProductList productListSal = createProductList(productsSal,"lista sal");
 		purchaseHistorySal.add(productListSal);
 		Address larreta = createAddress("larreta 1471","florencio varela");
-		Profile profile1 = createProfile(new Money(2,2),larreta,1);
+		Profile profile1 = createProfile(new Money(120,0),larreta,1);
 		Purchase purchase = new Purchase();
 		purchase.setProducts(productListSal);
 		Buyer buyer1 = createBuyer(1,"sebastianariell@gmail.com","sal",purchaseHistorySal,profile1,purchase);
