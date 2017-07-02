@@ -8,6 +8,7 @@ import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -76,7 +77,21 @@ public class ProductServicesRest {
 		return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Exception raised").build();
 		}
     }
-        
+   
+    @GET
+    @Path("/getByID/{id}")
+    @Produces("application/json")
+    public Response getByID(@PathParam("id") final Integer id) {
+	try{
+		Product product = productManagementService.getByID(id);
+	    return Response.ok(product, MediaType.APPLICATION_JSON)
+	    		.status(200)
+	            .build();
+	}catch(Exception e){
+		return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Exception raised").build();
+		}
+    }
+   
     public void setProductRepository(final ProductRepository productRepository) {
     	this.productRepository = productRepository;
     }

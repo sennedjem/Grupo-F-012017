@@ -388,3 +388,1039 @@ Payload: [{"name":"Papas Fritas","id":1,"category":"Food","image":"https://www.v
 1}:229 - Reflections took 9 ms to scan 2 urls, producing 4 keys and 4 values 
 2017-06-27 20:01:30,753 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 9 ms to scan 2 urls, producing 7 keys and 19 values 
 1}:229 - Reflections took 9 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-07-02 14:50:49,066 INFO  org.springframework.web.context.ContextLoader (ContextLoader.java:285) - Root WebApplicationContext: initialization started
+1}:285 - Root WebApplicationContext: initialization started
+2017-07-02 14:50:49,205 INFO  org.springframework.context.support.AbstractApplicationContext (AbstractApplicationContext.java:510) - Refreshing Root WebApplicationContext: startup date [Sun Jul 02 14:50:49 ART 2017]; root of context hierarchy
+1}:510 - Refreshing Root WebApplicationContext: startup date [Sun Jul 02 14:50:49 ART 2017]; root of context hierarchy
+2017-07-02 14:50:49,266 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-persistence-context.xml]
+1}:317 - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-persistence-context.xml]
+2017-07-02 14:50:49,414 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-services-context.xml]
+1}:317 - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-services-context.xml]
+2017-07-02 14:50:49,482 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-aspects-context.xml]
+1}:317 - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-aspects-context.xml]
+2017-07-02 14:50:49,513 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+1}:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2017-07-02 14:50:49,544 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-07-02 14:50:49,570 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2017-07-02 14:50:49,584 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2017-07-02 14:50:49,886 INFO  org.springframework.core.io.support.PropertiesLoaderSupport (PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/hibernate.properties]
+1}:172 - Loading properties file from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/hibernate.properties]
+2017-07-02 14:50:49,887 INFO  org.springframework.core.io.support.PropertiesLoaderSupport (PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/jdbc.properties]
+1}:172 - Loading properties file from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/jdbc.properties]
+2017-07-02 14:50:50,600 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+1}:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-07-02 14:50:50,611 INFO  org.hibernate.Version (Version.java:54) - HHH000412: Hibernate Core {4.3.6.Final}
+1}:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-07-02 14:50:50,613 INFO  org.hibernate.cfg.Environment (Environment.java:239) - HHH000206: hibernate.properties not found
+1}:239 - HHH000206: hibernate.properties not found
+2017-07-02 14:50:50,615 INFO  org.hibernate.cfg.Environment (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+1}:346 - HHH000021: Bytecode provider name : javassist
+2017-07-02 14:50:50,658 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:50:50,698 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:50:50,709 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:50:50,719 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:50:50,728 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:50:50,743 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:50:50,755 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:50:50,764 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:50:50,775 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:50:50,784 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:50:51,456 INFO  org.hibernate.dialect.Dialect (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+1}:145 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2017-07-02 14:50:51,627 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+1}:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-02 14:50:51,635 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+1}:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-02 14:50:52,164 INFO  org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:343) - HHH000227: Running hbm2ddl schema export
+1}:343 - HHH000227: Running hbm2ddl schema export
+2017-07-02 14:50:52,169 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table ListItem drop constraint FK_p6l7a7x05sua2wuyo090o2wm3
+1}:425 - HHH000389: Unsuccessful: alter table ListItem drop constraint FK_p6l7a7x05sua2wuyo090o2wm3
+2017-07-02 14:50:52,169 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - user lacks privilege or object not found: PUBLIC.LISTITEM
+1}:426 - user lacks privilege or object not found: PUBLIC.LISTITEM
+2017-07-02 14:50:52,169 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table Offer drop constraint FK_19gb4jx6t6eqwrhf64pnab8i7
+1}:425 - HHH000389: Unsuccessful: alter table Offer drop constraint FK_19gb4jx6t6eqwrhf64pnab8i7
+2017-07-02 14:50:52,170 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - user lacks privilege or object not found: PUBLIC.OFFER
+1}:426 - user lacks privilege or object not found: PUBLIC.OFFER
+2017-07-02 14:50:52,170 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table Product drop constraint FK_ih5k4ovono1qth89u0wuovvyw
+1}:425 - HHH000389: Unsuccessful: alter table Product drop constraint FK_ih5k4ovono1qth89u0wuovvyw
+2017-07-02 14:50:52,170 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - user lacks privilege or object not found: PUBLIC.PRODUCT
+1}:426 - user lacks privilege or object not found: PUBLIC.PRODUCT
+2017-07-02 14:50:52,196 INFO  org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:405) - HHH000230: Schema export complete
+1}:405 - HHH000230: Schema export complete
+2017-07-02 14:50:52,270 INFO  org.springframework.orm.hibernate4.HibernateTransactionManager (HibernateTransactionManager.java:360) - Using DataSource [org.apache.commons.dbcp.BasicDataSource@44c5a16f] of Hibernate SessionFactory for HibernateTransactionManager
+1}:360 - Using DataSource [org.apache.commons.dbcp.BasicDataSource@44c5a16f] of Hibernate SessionFactory for HibernateTransactionManager
+2017-07-02 14:50:52,317 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+1}:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-07-02 14:50:52,345 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory (SQLErrorCodesFactory.java:126) - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+1}:126 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-07-02 14:50:52,395 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,395 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,395 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,395 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,396 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,396 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,396 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,506 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,506 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,507 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,507 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,507 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,507 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,507 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,522 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,522 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,522 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,523 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,523 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,523 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,523 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:50:52,911 INFO  org.apache.cxf.endpoint.ServerImpl (ServerImpl.java:84) - Setting the server's publish address to be /
+1}:84 - Setting the server's publish address to be /
+2017-07-02 14:50:53,289 INFO  org.springframework.web.context.ContextLoader (ContextLoader.java:325) - Root WebApplicationContext: initialization completed in 4221 ms
+1}:325 - Root WebApplicationContext: initialization completed in 4221 ms
+2017-07-02 14:51:00,755 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getProducts
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getProducts
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+2017-07-02 14:51:00,778 WARN  org.apache.cxf.jaxrs.model.OperationResourceInfoComparator (OperationResourceInfoComparator.java:113) - Both servicesRest.ProductServicesRest#getProducts and servicesRest.ProductServicesRest#getProducts are equal candidates for handling the current request which can lead to unpredictable results
+1}:113 - Both servicesRest.ProductServicesRest#getProducts and servicesRest.ProductServicesRest#getProducts are equal candidates for handling the current request which can lead to unpredictable results
+2017-07-02 14:51:00,808 INFO  aspects.LoggerAspect (LoggerAspect.java:18) - Method intercepted in servicesRest.ProductServicesRest
+1}:18 - Method intercepted in servicesRest.ProductServicesRest
+2017-07-02 14:51:00,808 INFO  aspects.LoggerAspect (LoggerAspect.java:19) - Starting logging...
+1}:19 - Starting logging...
+2017-07-02 14:51:00,810 INFO  aspects.LoggerAspect (LoggerAspect.java:20) - Entering in Method :  getProducts
+1}:20 - Entering in Method :  getProducts
+2017-07-02 14:51:00,811 INFO  aspects.LoggerAspect (LoggerAspect.java:21) - With arguments: [Ljava.lang.Object;@62597fe
+1}:21 - With arguments: [Ljava.lang.Object;@62597fe
+2017-07-02 14:51:00,811 INFO  aspects.LoggerAspect (LoggerAspect.java:22) - Ending logging...
+1}:22 - Ending logging...
+2017-07-02 14:51:01,516 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:51:01 GMT]}
+Payload: [{"name":"Papas Fritas","id":1,"category":"Food","price":{"entirePart":50,"decimalPart":0},"stock":2,"brand":"Pringles","image":"https://www.vegaffinity.com/imagenes/alimentos/pringlesoriginal.png"},{"name":"Maní x 500 gr.","id":2,"category":"Food","price":{"entirePart":25,"decimalPart":0},"stock":2,"brand":"ALoLoco","image":"http://jumbo.vteximg.com.br/arquivos/ids/161514-100-100/1582126.jpg"},{"name":"Jamón cocido x 100 gr.","id":3,"category":"Food","price":{"entirePart":40,"decimalPart":0},"stock":2,"brand":"Bocatti","image":"http://jumbo.vteximg.com.br/arquivos/ids/169721-100-100/705256-KG.jpg"},{"name":"Aperitivo x 1L","id":4,"category":"Drinks","price":{"entirePart":80,"decimalPart":0},"stock":2,"brand":"Gancia","image":"http://walmartar.vteximg.com.br/arquivos/ids/780751-100-100/0779095000019-1.jpg"},{"name":"Gaseosa x 2.25L","id":5,"category":"Food","price":{"entirePart":22,"decimalPart":0},"stock":2,"brand":"Sprite","image":"http://jumbo.vteximg.com.br/arquivos/ids/159435-100-100/263427.jpg"}]
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:51:01 GMT]}
+Payload: [{"name":"Papas Fritas","id":1,"category":"Food","price":{"entirePart":50,"decimalPart":0},"stock":2,"brand":"Pringles","image":"https://www.vegaffinity.com/imagenes/alimentos/pringlesoriginal.png"},{"name":"Maní x 500 gr.","id":2,"category":"Food","price":{"entirePart":25,"decimalPart":0},"stock":2,"brand":"ALoLoco","image":"http://jumbo.vteximg.com.br/arquivos/ids/161514-100-100/1582126.jpg"},{"name":"Jamón cocido x 100 gr.","id":3,"category":"Food","price":{"entirePart":40,"decimalPart":0},"stock":2,"brand":"Bocatti","image":"http://jumbo.vteximg.com.br/arquivos/ids/169721-100-100/705256-KG.jpg"},{"name":"Aperitivo x 1L","id":4,"category":"Drinks","price":{"entirePart":80,"decimalPart":0},"stock":2,"brand":"Gancia","image":"http://walmartar.vteximg.com.br/arquivos/ids/780751-100-100/0779095000019-1.jpg"},{"name":"Gaseosa x 2.25L","id":5,"category":"Food","price":{"entirePart":22,"decimalPart":0},"stock":2,"brand":"Sprite","image":"http://jumbo.vteximg.com.br/arquivos/ids/159435-100-100/263427.jpg"}]
+--------------------------------------
+2017-07-02 14:51:11,269 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID/3
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID/3
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+2017-07-02 14:51:11,295 WARN  org.apache.cxf.jaxrs.utils.JAXRSUtils (JAXRSUtils.java:474) - No operation matching request path "/desapp-groupF-backend/rest/products/getByID/3" is found, Relative Path: /getByID/3, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,image/apng,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+1}:474 - No operation matching request path "/desapp-groupF-backend/rest/products/getByID/3" is found, Relative Path: /getByID/3, HTTP Method: GET, ContentType: */*, Accept: text/html,application/xhtml+xml,image/webp,image/apng,application/xml;q=0.9,*/*;q=0.8,. Please enable FINE/TRACE log level for more details.
+2017-07-02 14:51:11,296 WARN  org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper (WebApplicationExceptionMapper.java:73) - javax.ws.rs.ClientErrorException
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:110)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:158)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:478)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:216)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:88)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:249)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:181)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:289)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:265)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at utils.CORSFilter.doFilter(CORSFilter.java:27)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+
+1}:73 - javax.ws.rs.ClientErrorException
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:110)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:158)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:478)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:216)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:88)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:249)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:181)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:289)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:265)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at utils.CORSFilter.doFilter(CORSFilter.java:27)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+
+2017-07-02 14:51:11,297 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, OPTIONS, HEAD], Date=[Sun, 02 Jul 2017 17:51:11 GMT], Content-Length=[0]}
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, OPTIONS, HEAD], Date=[Sun, 02 Jul 2017 17:51:11 GMT], Content-Length=[0]}
+--------------------------------------
+2017-07-02 14:51:56,509 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getProducts
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Postman-Token=[927a300d-bf20-4c0e-9a9a-c1ecac734eb7], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getProducts
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Postman-Token=[927a300d-bf20-4c0e-9a9a-c1ecac734eb7], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+2017-07-02 14:51:56,510 WARN  org.apache.cxf.jaxrs.model.OperationResourceInfoComparator (OperationResourceInfoComparator.java:113) - Both servicesRest.ProductServicesRest#getProducts and servicesRest.ProductServicesRest#getProducts are equal candidates for handling the current request which can lead to unpredictable results
+1}:113 - Both servicesRest.ProductServicesRest#getProducts and servicesRest.ProductServicesRest#getProducts are equal candidates for handling the current request which can lead to unpredictable results
+2017-07-02 14:51:56,511 INFO  aspects.LoggerAspect (LoggerAspect.java:18) - Method intercepted in servicesRest.ProductServicesRest
+1}:18 - Method intercepted in servicesRest.ProductServicesRest
+2017-07-02 14:51:56,511 INFO  aspects.LoggerAspect (LoggerAspect.java:19) - Starting logging...
+1}:19 - Starting logging...
+2017-07-02 14:51:56,511 INFO  aspects.LoggerAspect (LoggerAspect.java:20) - Entering in Method :  getProducts
+1}:20 - Entering in Method :  getProducts
+2017-07-02 14:51:56,512 INFO  aspects.LoggerAspect (LoggerAspect.java:21) - With arguments: [Ljava.lang.Object;@27c5d545
+1}:21 - With arguments: [Ljava.lang.Object;@27c5d545
+2017-07-02 14:51:56,512 INFO  aspects.LoggerAspect (LoggerAspect.java:22) - Ending logging...
+1}:22 - Ending logging...
+2017-07-02 14:51:56,518 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:51:56 GMT]}
+Payload: [{"name":"Papas Fritas","id":1,"category":"Food","price":{"entirePart":50,"decimalPart":0},"stock":2,"brand":"Pringles","image":"https://www.vegaffinity.com/imagenes/alimentos/pringlesoriginal.png"},{"name":"Maní x 500 gr.","id":2,"category":"Food","price":{"entirePart":25,"decimalPart":0},"stock":2,"brand":"ALoLoco","image":"http://jumbo.vteximg.com.br/arquivos/ids/161514-100-100/1582126.jpg"},{"name":"Jamón cocido x 100 gr.","id":3,"category":"Food","price":{"entirePart":40,"decimalPart":0},"stock":2,"brand":"Bocatti","image":"http://jumbo.vteximg.com.br/arquivos/ids/169721-100-100/705256-KG.jpg"},{"name":"Aperitivo x 1L","id":4,"category":"Drinks","price":{"entirePart":80,"decimalPart":0},"stock":2,"brand":"Gancia","image":"http://walmartar.vteximg.com.br/arquivos/ids/780751-100-100/0779095000019-1.jpg"},{"name":"Gaseosa x 2.25L","id":5,"category":"Food","price":{"entirePart":22,"decimalPart":0},"stock":2,"brand":"Sprite","image":"http://jumbo.vteximg.com.br/arquivos/ids/159435-100-100/263427.jpg"}]
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:51:56 GMT]}
+Payload: [{"name":"Papas Fritas","id":1,"category":"Food","price":{"entirePart":50,"decimalPart":0},"stock":2,"brand":"Pringles","image":"https://www.vegaffinity.com/imagenes/alimentos/pringlesoriginal.png"},{"name":"Maní x 500 gr.","id":2,"category":"Food","price":{"entirePart":25,"decimalPart":0},"stock":2,"brand":"ALoLoco","image":"http://jumbo.vteximg.com.br/arquivos/ids/161514-100-100/1582126.jpg"},{"name":"Jamón cocido x 100 gr.","id":3,"category":"Food","price":{"entirePart":40,"decimalPart":0},"stock":2,"brand":"Bocatti","image":"http://jumbo.vteximg.com.br/arquivos/ids/169721-100-100/705256-KG.jpg"},{"name":"Aperitivo x 1L","id":4,"category":"Drinks","price":{"entirePart":80,"decimalPart":0},"stock":2,"brand":"Gancia","image":"http://walmartar.vteximg.com.br/arquivos/ids/780751-100-100/0779095000019-1.jpg"},{"name":"Gaseosa x 2.25L","id":5,"category":"Food","price":{"entirePart":22,"decimalPart":0},"stock":2,"brand":"Sprite","image":"http://jumbo.vteximg.com.br/arquivos/ids/159435-100-100/263427.jpg"}]
+--------------------------------------
+2017-07-02 14:52:31,948 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Postman-Token=[e27b0a71-519e-6a6f-da2f-9145d81c53e2], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Postman-Token=[e27b0a71-519e-6a6f-da2f-9145d81c53e2], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+2017-07-02 14:52:31,949 WARN  org.apache.cxf.jaxrs.model.OperationResourceInfoComparator (OperationResourceInfoComparator.java:113) - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+1}:113 - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+2017-07-02 14:52:31,993 ERROR org.apache.cxf.jaxrs.utils.InjectionUtils (InjectionUtils.java:403) - Class java.lang.Integer can not be instantiated using a constructor with a single String argument
+1}:403 - Class java.lang.Integer can not be instantiated using a constructor with a single String argument
+2017-07-02 14:52:31,995 WARN  org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper (WebApplicationExceptionMapper.java:73) - javax.ws.rs.ClientErrorException: java.lang.reflect.InvocationTargetException
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:110)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:158)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:407)
+	at org.apache.cxf.jaxrs.provider.PrimitiveTextProvider.readFrom(PrimitiveTextProvider.java:56)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1268)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1215)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameter(JAXRSUtils.java:757)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:716)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:253)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:88)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:249)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:181)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:289)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:265)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at utils.CORSFilter.doFilter(CORSFilter.java:27)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:395)
+	... 36 more
+Caused by: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.<init>(Unknown Source)
+	... 41 more
+
+1}:73 - javax.ws.rs.ClientErrorException: java.lang.reflect.InvocationTargetException
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:110)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:158)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:407)
+	at org.apache.cxf.jaxrs.provider.PrimitiveTextProvider.readFrom(PrimitiveTextProvider.java:56)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1268)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1215)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameter(JAXRSUtils.java:757)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:716)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:253)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:88)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:249)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:181)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:289)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:265)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at utils.CORSFilter.doFilter(CORSFilter.java:27)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:395)
+	... 36 more
+Caused by: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.<init>(Unknown Source)
+	... 41 more
+
+2017-07-02 14:52:31,996 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 4
+Response-Code: 400
+Content-Type: 
+Headers: {Date=[Sun, 02 Jul 2017 17:52:31 GMT], Content-Length=[0]}
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 4
+Response-Code: 400
+Content-Type: 
+Headers: {Date=[Sun, 02 Jul 2017 17:52:31 GMT], Content-Length=[0]}
+--------------------------------------
+2017-07-02 14:52:54,818 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], id=[3], Postman-Token=[13535cec-40f2-90c7-b031-1cbca5984216], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], id=[3], Postman-Token=[13535cec-40f2-90c7-b031-1cbca5984216], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+2017-07-02 14:52:54,818 WARN  org.apache.cxf.jaxrs.model.OperationResourceInfoComparator (OperationResourceInfoComparator.java:113) - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+1}:113 - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+2017-07-02 14:52:54,820 ERROR org.apache.cxf.jaxrs.utils.InjectionUtils (InjectionUtils.java:403) - Class java.lang.Integer can not be instantiated using a constructor with a single String argument
+1}:403 - Class java.lang.Integer can not be instantiated using a constructor with a single String argument
+2017-07-02 14:52:54,821 WARN  org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper (WebApplicationExceptionMapper.java:73) - javax.ws.rs.ClientErrorException: java.lang.reflect.InvocationTargetException
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:110)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:158)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:407)
+	at org.apache.cxf.jaxrs.provider.PrimitiveTextProvider.readFrom(PrimitiveTextProvider.java:56)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1268)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1215)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameter(JAXRSUtils.java:757)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:716)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:253)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:88)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:249)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:181)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:289)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:265)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at utils.CORSFilter.doFilter(CORSFilter.java:27)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:395)
+	... 36 more
+Caused by: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.<init>(Unknown Source)
+	... 41 more
+
+1}:73 - javax.ws.rs.ClientErrorException: java.lang.reflect.InvocationTargetException
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:110)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:158)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:407)
+	at org.apache.cxf.jaxrs.provider.PrimitiveTextProvider.readFrom(PrimitiveTextProvider.java:56)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1268)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1215)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameter(JAXRSUtils.java:757)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:716)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:253)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:88)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:249)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:181)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:289)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:265)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at utils.CORSFilter.doFilter(CORSFilter.java:27)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:395)
+	... 36 more
+Caused by: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.<init>(Unknown Source)
+	... 41 more
+
+2017-07-02 14:52:54,822 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 5
+Response-Code: 400
+Content-Type: 
+Headers: {Date=[Sun, 02 Jul 2017 17:52:54 GMT], Content-Length=[0]}
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 5
+Response-Code: 400
+Content-Type: 
+Headers: {Date=[Sun, 02 Jul 2017 17:52:54 GMT], Content-Length=[0]}
+--------------------------------------
+2017-07-02 14:55:07,375 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID?id=3
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Postman-Token=[1d69ce89-3ecc-a55e-2ed8-4d98bc9ba06c], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID?id=3
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Postman-Token=[1d69ce89-3ecc-a55e-2ed8-4d98bc9ba06c], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+2017-07-02 14:55:07,376 WARN  org.apache.cxf.jaxrs.model.OperationResourceInfoComparator (OperationResourceInfoComparator.java:113) - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+1}:113 - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+2017-07-02 14:55:07,377 ERROR org.apache.cxf.jaxrs.utils.InjectionUtils (InjectionUtils.java:403) - Class java.lang.Integer can not be instantiated using a constructor with a single String argument
+1}:403 - Class java.lang.Integer can not be instantiated using a constructor with a single String argument
+2017-07-02 14:55:07,379 WARN  org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper (WebApplicationExceptionMapper.java:73) - javax.ws.rs.ClientErrorException: java.lang.reflect.InvocationTargetException
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:110)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:158)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:407)
+	at org.apache.cxf.jaxrs.provider.PrimitiveTextProvider.readFrom(PrimitiveTextProvider.java:56)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1268)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1215)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameter(JAXRSUtils.java:757)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:716)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:253)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:88)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:249)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:181)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:289)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:265)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at utils.CORSFilter.doFilter(CORSFilter.java:27)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:395)
+	... 36 more
+Caused by: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.<init>(Unknown Source)
+	... 41 more
+
+1}:73 - javax.ws.rs.ClientErrorException: java.lang.reflect.InvocationTargetException
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:110)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:158)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:407)
+	at org.apache.cxf.jaxrs.provider.PrimitiveTextProvider.readFrom(PrimitiveTextProvider.java:56)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBodyReader(JAXRSUtils.java:1268)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1215)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameter(JAXRSUtils.java:757)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:716)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:253)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:88)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:249)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:248)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:222)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:153)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:181)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:289)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:265)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at utils.CORSFilter.doFilter(CORSFilter.java:27)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.cxf.jaxrs.utils.InjectionUtils.handleParameter(InjectionUtils.java:395)
+	... 36 more
+Caused by: java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.<init>(Unknown Source)
+	... 41 more
+
+2017-07-02 14:55:07,380 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 6
+Response-Code: 400
+Content-Type: 
+Headers: {Date=[Sun, 02 Jul 2017 17:55:07 GMT], Content-Length=[0]}
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 6
+Response-Code: 400
+Content-Type: 
+Headers: {Date=[Sun, 02 Jul 2017 17:55:07 GMT], Content-Length=[0]}
+--------------------------------------
+2017-07-02 14:56:43,903 INFO  org.springframework.web.context.ContextLoader (ContextLoader.java:285) - Root WebApplicationContext: initialization started
+1}:285 - Root WebApplicationContext: initialization started
+2017-07-02 14:56:44,077 INFO  org.springframework.context.support.AbstractApplicationContext (AbstractApplicationContext.java:510) - Refreshing Root WebApplicationContext: startup date [Sun Jul 02 14:56:44 ART 2017]; root of context hierarchy
+1}:510 - Refreshing Root WebApplicationContext: startup date [Sun Jul 02 14:56:44 ART 2017]; root of context hierarchy
+2017-07-02 14:56:44,146 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-persistence-context.xml]
+1}:317 - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-persistence-context.xml]
+2017-07-02 14:56:44,535 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-services-context.xml]
+1}:317 - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-services-context.xml]
+2017-07-02 14:56:44,603 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-aspects-context.xml]
+1}:317 - Loading XML bean definitions from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-aspects-context.xml]
+2017-07-02 14:56:44,645 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+1}:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2017-07-02 14:56:44,689 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-07-02 14:56:44,719 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2017-07-02 14:56:44,732 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2017-07-02 14:56:45,097 INFO  org.springframework.core.io.support.PropertiesLoaderSupport (PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/hibernate.properties]
+1}:172 - Loading properties file from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/hibernate.properties]
+2017-07-02 14:56:45,098 INFO  org.springframework.core.io.support.PropertiesLoaderSupport (PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/jdbc.properties]
+1}:172 - Loading properties file from URL [file:/C:/Users/rodri/Desktop/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/jdbc.properties]
+2017-07-02 14:56:45,778 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+1}:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-07-02 14:56:45,790 INFO  org.hibernate.Version (Version.java:54) - HHH000412: Hibernate Core {4.3.6.Final}
+1}:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-07-02 14:56:45,793 INFO  org.hibernate.cfg.Environment (Environment.java:239) - HHH000206: hibernate.properties not found
+1}:239 - HHH000206: hibernate.properties not found
+2017-07-02 14:56:45,795 INFO  org.hibernate.cfg.Environment (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+1}:346 - HHH000021: Bytecode provider name : javassist
+2017-07-02 14:56:45,846 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:56:45,891 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:56:45,913 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:56:45,923 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:56:45,933 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:56:45,957 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:56:45,972 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:56:45,984 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:56:46,006 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:56:46,017 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-02 14:56:46,683 INFO  org.hibernate.dialect.Dialect (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+1}:145 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2017-07-02 14:56:46,825 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+1}:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-02 14:56:46,839 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+1}:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-02 14:56:47,333 INFO  org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:343) - HHH000227: Running hbm2ddl schema export
+1}:343 - HHH000227: Running hbm2ddl schema export
+2017-07-02 14:56:47,338 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table ListItem drop constraint FK_p6l7a7x05sua2wuyo090o2wm3
+1}:425 - HHH000389: Unsuccessful: alter table ListItem drop constraint FK_p6l7a7x05sua2wuyo090o2wm3
+2017-07-02 14:56:47,338 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - user lacks privilege or object not found: PUBLIC.LISTITEM
+1}:426 - user lacks privilege or object not found: PUBLIC.LISTITEM
+2017-07-02 14:56:47,339 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table Offer drop constraint FK_19gb4jx6t6eqwrhf64pnab8i7
+1}:425 - HHH000389: Unsuccessful: alter table Offer drop constraint FK_19gb4jx6t6eqwrhf64pnab8i7
+2017-07-02 14:56:47,339 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - user lacks privilege or object not found: PUBLIC.OFFER
+1}:426 - user lacks privilege or object not found: PUBLIC.OFFER
+2017-07-02 14:56:47,339 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table Product drop constraint FK_ih5k4ovono1qth89u0wuovvyw
+1}:425 - HHH000389: Unsuccessful: alter table Product drop constraint FK_ih5k4ovono1qth89u0wuovvyw
+2017-07-02 14:56:47,339 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - user lacks privilege or object not found: PUBLIC.PRODUCT
+1}:426 - user lacks privilege or object not found: PUBLIC.PRODUCT
+2017-07-02 14:56:47,360 INFO  org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:405) - HHH000230: Schema export complete
+1}:405 - HHH000230: Schema export complete
+2017-07-02 14:56:47,445 INFO  org.springframework.orm.hibernate4.HibernateTransactionManager (HibernateTransactionManager.java:360) - Using DataSource [org.apache.commons.dbcp.BasicDataSource@44c5a16f] of Hibernate SessionFactory for HibernateTransactionManager
+1}:360 - Using DataSource [org.apache.commons.dbcp.BasicDataSource@44c5a16f] of Hibernate SessionFactory for HibernateTransactionManager
+2017-07-02 14:56:47,495 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+1}:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-07-02 14:56:47,528 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory (SQLErrorCodesFactory.java:126) - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+1}:126 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-07-02 14:56:47,595 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,595 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,595 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,595 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,595 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,596 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,596 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,702 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,702 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,703 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,703 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,703 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,703 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,703 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,718 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,718 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,718 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,719 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,719 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,719 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:47,719 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-02 14:56:48,137 INFO  org.apache.cxf.endpoint.ServerImpl (ServerImpl.java:84) - Setting the server's publish address to be /
+1}:84 - Setting the server's publish address to be /
+2017-07-02 14:56:48,480 INFO  org.springframework.web.context.ContextLoader (ContextLoader.java:325) - Root WebApplicationContext: initialization completed in 4574 ms
+1}:325 - Root WebApplicationContext: initialization completed in 4574 ms
+2017-07-02 14:56:57,802 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getProducts
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getProducts
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+2017-07-02 14:56:57,815 WARN  org.apache.cxf.jaxrs.model.OperationResourceInfoComparator (OperationResourceInfoComparator.java:113) - Both servicesRest.ProductServicesRest#getProducts and servicesRest.ProductServicesRest#getProducts are equal candidates for handling the current request which can lead to unpredictable results
+1}:113 - Both servicesRest.ProductServicesRest#getProducts and servicesRest.ProductServicesRest#getProducts are equal candidates for handling the current request which can lead to unpredictable results
+2017-07-02 14:56:57,822 INFO  aspects.LoggerAspect (LoggerAspect.java:18) - Method intercepted in servicesRest.ProductServicesRest
+1}:18 - Method intercepted in servicesRest.ProductServicesRest
+2017-07-02 14:56:57,822 INFO  aspects.LoggerAspect (LoggerAspect.java:19) - Starting logging...
+1}:19 - Starting logging...
+2017-07-02 14:56:57,824 INFO  aspects.LoggerAspect (LoggerAspect.java:20) - Entering in Method :  getProducts
+1}:20 - Entering in Method :  getProducts
+2017-07-02 14:56:57,825 INFO  aspects.LoggerAspect (LoggerAspect.java:21) - With arguments: [Ljava.lang.Object;@1869e38d
+1}:21 - With arguments: [Ljava.lang.Object;@1869e38d
+2017-07-02 14:56:57,825 INFO  aspects.LoggerAspect (LoggerAspect.java:22) - Ending logging...
+1}:22 - Ending logging...
+2017-07-02 14:56:58,493 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:56:58 GMT]}
+Payload: [{"name":"Papas Fritas","id":1,"category":"Food","brand":"Pringles","image":"https://www.vegaffinity.com/imagenes/alimentos/pringlesoriginal.png","price":{"decimalPart":0,"entirePart":50},"stock":2},{"name":"Maní x 500 gr.","id":2,"category":"Food","brand":"ALoLoco","image":"http://jumbo.vteximg.com.br/arquivos/ids/161514-100-100/1582126.jpg","price":{"decimalPart":0,"entirePart":25},"stock":2},{"name":"Jamón cocido x 100 gr.","id":3,"category":"Food","brand":"Bocatti","image":"http://jumbo.vteximg.com.br/arquivos/ids/169721-100-100/705256-KG.jpg","price":{"decimalPart":0,"entirePart":40},"stock":2},{"name":"Aperitivo x 1L","id":4,"category":"Drinks","brand":"Gancia","image":"http://walmartar.vteximg.com.br/arquivos/ids/780751-100-100/0779095000019-1.jpg","price":{"decimalPart":0,"entirePart":80},"stock":2},{"name":"Gaseosa x 2.25L","id":5,"category":"Food","brand":"Sprite","image":"http://jumbo.vteximg.com.br/arquivos/ids/159435-100-100/263427.jpg","price":{"decimalPart":0,"entirePart":22},"stock":2}]
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:56:58 GMT]}
+Payload: [{"name":"Papas Fritas","id":1,"category":"Food","brand":"Pringles","image":"https://www.vegaffinity.com/imagenes/alimentos/pringlesoriginal.png","price":{"decimalPart":0,"entirePart":50},"stock":2},{"name":"Maní x 500 gr.","id":2,"category":"Food","brand":"ALoLoco","image":"http://jumbo.vteximg.com.br/arquivos/ids/161514-100-100/1582126.jpg","price":{"decimalPart":0,"entirePart":25},"stock":2},{"name":"Jamón cocido x 100 gr.","id":3,"category":"Food","brand":"Bocatti","image":"http://jumbo.vteximg.com.br/arquivos/ids/169721-100-100/705256-KG.jpg","price":{"decimalPart":0,"entirePart":40},"stock":2},{"name":"Aperitivo x 1L","id":4,"category":"Drinks","brand":"Gancia","image":"http://walmartar.vteximg.com.br/arquivos/ids/780751-100-100/0779095000019-1.jpg","price":{"decimalPart":0,"entirePart":80},"stock":2},{"name":"Gaseosa x 2.25L","id":5,"category":"Food","brand":"Sprite","image":"http://jumbo.vteximg.com.br/arquivos/ids/159435-100-100/263427.jpg","price":{"decimalPart":0,"entirePart":22},"stock":2}]
+--------------------------------------
+2017-07-02 14:57:08,076 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+2017-07-02 14:57:08,078 WARN  org.apache.cxf.jaxrs.model.OperationResourceInfoComparator (OperationResourceInfoComparator.java:113) - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+1}:113 - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+2017-07-02 14:57:08,081 INFO  aspects.LoggerAspect (LoggerAspect.java:18) - Method intercepted in servicesRest.ProductServicesRest
+1}:18 - Method intercepted in servicesRest.ProductServicesRest
+2017-07-02 14:57:08,081 INFO  aspects.LoggerAspect (LoggerAspect.java:19) - Starting logging...
+1}:19 - Starting logging...
+2017-07-02 14:57:08,081 INFO  aspects.LoggerAspect (LoggerAspect.java:20) - Entering in Method :  getByID
+1}:20 - Entering in Method :  getByID
+2017-07-02 14:57:08,082 INFO  aspects.LoggerAspect (LoggerAspect.java:21) - With arguments: [Ljava.lang.Object;@102a9965
+1}:21 - With arguments: [Ljava.lang.Object;@102a9965
+2017-07-02 14:57:08,082 INFO  aspects.LoggerAspect (LoggerAspect.java:22) - Ending logging...
+1}:22 - Ending logging...
+2017-07-02 14:57:08,134 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:57:08 GMT]}
+Payload: {"name":"Papas Fritas","id":1,"category":"Food","brand":"Pringles","image":"https://www.vegaffinity.com/imagenes/alimentos/pringlesoriginal.png","price":{"decimalPart":0,"entirePart":50},"stock":2}
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:57:08 GMT]}
+Payload: {"name":"Papas Fritas","id":1,"category":"Food","brand":"Pringles","image":"https://www.vegaffinity.com/imagenes/alimentos/pringlesoriginal.png","price":{"decimalPart":0,"entirePart":50},"stock":2}
+--------------------------------------
+2017-07-02 14:57:11,432 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID/2
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID/2
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+2017-07-02 14:57:11,433 WARN  org.apache.cxf.jaxrs.model.OperationResourceInfoComparator (OperationResourceInfoComparator.java:113) - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+1}:113 - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+2017-07-02 14:57:11,434 INFO  aspects.LoggerAspect (LoggerAspect.java:18) - Method intercepted in servicesRest.ProductServicesRest
+1}:18 - Method intercepted in servicesRest.ProductServicesRest
+2017-07-02 14:57:11,434 INFO  aspects.LoggerAspect (LoggerAspect.java:19) - Starting logging...
+1}:19 - Starting logging...
+2017-07-02 14:57:11,434 INFO  aspects.LoggerAspect (LoggerAspect.java:20) - Entering in Method :  getByID
+1}:20 - Entering in Method :  getByID
+2017-07-02 14:57:11,435 INFO  aspects.LoggerAspect (LoggerAspect.java:21) - With arguments: [Ljava.lang.Object;@416736fa
+1}:21 - With arguments: [Ljava.lang.Object;@416736fa
+2017-07-02 14:57:11,435 INFO  aspects.LoggerAspect (LoggerAspect.java:22) - Ending logging...
+1}:22 - Ending logging...
+2017-07-02 14:57:11,439 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:57:11 GMT]}
+Payload: {"name":"Maní x 500 gr.","id":2,"category":"Food","brand":"ALoLoco","image":"http://jumbo.vteximg.com.br/arquivos/ids/161514-100-100/1582126.jpg","price":{"decimalPart":0,"entirePart":25},"stock":2}
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:57:11 GMT]}
+Payload: {"name":"Maní x 500 gr.","id":2,"category":"Food","brand":"ALoLoco","image":"http://jumbo.vteximg.com.br/arquivos/ids/161514-100-100/1582126.jpg","price":{"decimalPart":0,"entirePart":25},"stock":2}
+--------------------------------------
+2017-07-02 14:57:13,362 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID/3
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8080/desapp-groupF-backend/rest/products/getByID/3
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8], accept-encoding=[gzip, deflate, br], Accept-Language=[es-419,es;q=0.8], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36]}
+--------------------------------------
+2017-07-02 14:57:13,364 WARN  org.apache.cxf.jaxrs.model.OperationResourceInfoComparator (OperationResourceInfoComparator.java:113) - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+1}:113 - Both servicesRest.ProductServicesRest#getByID and servicesRest.ProductServicesRest#getByID are equal candidates for handling the current request which can lead to unpredictable results
+2017-07-02 14:57:13,364 INFO  aspects.LoggerAspect (LoggerAspect.java:18) - Method intercepted in servicesRest.ProductServicesRest
+1}:18 - Method intercepted in servicesRest.ProductServicesRest
+2017-07-02 14:57:13,365 INFO  aspects.LoggerAspect (LoggerAspect.java:19) - Starting logging...
+1}:19 - Starting logging...
+2017-07-02 14:57:13,365 INFO  aspects.LoggerAspect (LoggerAspect.java:20) - Entering in Method :  getByID
+1}:20 - Entering in Method :  getByID
+2017-07-02 14:57:13,365 INFO  aspects.LoggerAspect (LoggerAspect.java:21) - With arguments: [Ljava.lang.Object;@1b9f365e
+1}:21 - With arguments: [Ljava.lang.Object;@1b9f365e
+2017-07-02 14:57:13,366 INFO  aspects.LoggerAspect (LoggerAspect.java:22) - Ending logging...
+1}:22 - Ending logging...
+2017-07-02 14:57:13,369 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 4
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:57:13 GMT]}
+Payload: {"name":"Jamón cocido x 100 gr.","id":3,"category":"Food","brand":"Bocatti","image":"http://jumbo.vteximg.com.br/arquivos/ids/169721-100-100/705256-KG.jpg","price":{"decimalPart":0,"entirePart":40},"stock":2}
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 4
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:57:13 GMT]}
+Payload: {"name":"Jamón cocido x 100 gr.","id":3,"category":"Food","brand":"Bocatti","image":"http://jumbo.vteximg.com.br/arquivos/ids/169721-100-100/705256-KG.jpg","price":{"decimalPart":0,"entirePart":40},"stock":2}
+--------------------------------------
