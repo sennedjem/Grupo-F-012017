@@ -32,7 +32,7 @@ public class PurchaseTestCase {
 	public void testGetTotal(){
 		Money money = new Money(20,20);
 		Mockito.when(productList.totalAmount()).thenReturn(money);
-		assertEquals(money,purchase.getTotal());
+		assertEquals(money,purchase.getTotalAmount());
 	}
 
 }

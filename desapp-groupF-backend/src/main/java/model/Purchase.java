@@ -7,6 +7,15 @@ public class Purchase {
 	private ProductList products;
 	@SuppressWarnings("unused")
 	private Boolean purchased = false;
+	private Integer id;
+	
+	public void setId(Integer id){
+		this.id = id;
+	}
+	
+	public Integer getId(){
+		return this.id;
+	}
 	
 	public ProductList getProducts() {
 		return products;
@@ -18,7 +27,7 @@ public class Purchase {
 		this.products.addProduct(capitanDelEspacio, cant);
 	}
 	
-	public Money getTotal(){
+	public Money getTotalAmount(){
 		return products.totalAmount();
 	}
 

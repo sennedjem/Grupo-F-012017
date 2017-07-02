@@ -2,6 +2,7 @@ package services;
 
 import builders.ProfileBuilder;
 import model.Buyer;
+import model.Purchase;
 import model.User;
 import repositories.BuyerRepository;
 
@@ -26,10 +27,12 @@ public class UsersService extends GenericService<Buyer>{
 		 if (!(emailExist(email))){
 			 Buyer buyer = new Buyer();
 			 buyer.setBuyerEmail(email);
+			 buyer.setCurrentPurchase(new Purchase());
 			 this.save(buyer);
 			 
 		 }
-		 return buyerRepository.getByEmail(email);
+		 Buyer toReturn =buyerRepository.getByEmail(email);
+		 return toReturn;
 	 }
 
 	 public boolean emailExist(String email){

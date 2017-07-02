@@ -25,7 +25,7 @@ public class AlertSystemTestCase {
 		capitanDelEspacio = Mockito.mock(Product.class);
 		profile = Mockito.mock(Profile.class);
 		Mockito.when(capitanDelEspacio.getPrice()).thenReturn(money);
-		Mockito.when(purchase.getTotal()).thenReturn(money);
+		Mockito.when(purchase.getTotalAmount()).thenReturn(money);
 	}
 
 	@Test(expected = MaxAmountExceededException.class)

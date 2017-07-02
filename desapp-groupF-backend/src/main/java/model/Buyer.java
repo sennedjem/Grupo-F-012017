@@ -51,9 +51,13 @@ public class Buyer extends User{
 
 	public void setCurrentPurchase(Purchase currentPurchase) {
 		this.currentPurchase = currentPurchase;
-		
 	}
 
+	
+	public Purchase getCurrentPurchase(){
+		return this.currentPurchase;
+	}
+	
 	public void makePurchase() {
 		addProductListToHistory(currentPurchase.getProducts());
 		this.currentPurchase = new Purchase();
@@ -90,7 +94,7 @@ public class Buyer extends User{
 		this.buyerEmail = email;
 	}
 	
-	public String getBuyerEmail(String email){
+	public String getBuyerEmail(){
 		return this.buyerEmail;
 	}
 	

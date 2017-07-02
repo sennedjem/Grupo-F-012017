@@ -13,7 +13,7 @@ public class MaxAmountAlert extends AlertSystem{
 	}
 
 	private Boolean maxAmountExceeded(Purchase currentPurchase, Profile profile) {
-		return currentPurchase.getTotal().higher(profile.getMaxAmount());
+		return currentPurchase.getTotalAmount().higher(profile.getMaxAmount());
 	}
 
 

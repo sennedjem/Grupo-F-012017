@@ -30,12 +30,13 @@ public class BuyerFixture {
 	public void createBuyers(){
 		List<ProductList> purchaseHistorySal = new ArrayList<ProductList>();
 		List<ListItem> productsSal = listItems();
-		ProductList productListSal = createProductList(productsSal,"lista sal",1);
+		ProductList productListSal = createProductList(productsSal,"lista sal");
 		purchaseHistorySal.add(productListSal);
 		Address larreta = createAddress("larreta 1471","florencio varela");
 		Profile profile1 = createProfile(new Money(2,2),larreta,1);
 		Purchase purchase = new Purchase();
-		Buyer buyer1 = createBuyer(1,"sebastianariell@gmail.com","salado",purchaseHistorySal,profile1,purchase);
+		purchase.setProducts(productListSal);
+		Buyer buyer1 = createBuyer(1,"sebastianariell@gmail.com","sal",purchaseHistorySal,profile1,purchase);
 		usersService.save(buyer1);
 	}
 
@@ -51,12 +52,12 @@ public class BuyerFixture {
 
 	public ListItem createListItem(Integer quantity, Integer id, Product product, boolean purchased){
 		ListItemBuilder listItemBuilder = new ListItemBuilder();
-		return listItemBuilder.withQuantity(quantity).withId(id).withPurchased(purchased).withProduct(product).build();
+		return listItemBuilder.withQuantity(quantity).withPurchased(purchased).withProduct(product).build();
 	}
 
-	public ProductList createProductList(List<ListItem> products, String name, Integer id){
+	public ProductList createProductList(List<ListItem> products, String name){
 		ProductListBuilder productListBuilder = new ProductListBuilder();
-		return productListBuilder.withName(name).withId(id).withProducts(products).build();
+		return productListBuilder.withName(name).withProducts(products).build();
 	}
 	
 	
