@@ -2,6 +2,7 @@ package repositories;
 
 import java.util.List;
 
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
 import org.springframework.transaction.annotation.Transactional;
@@ -15,6 +16,12 @@ public class ProductManagementRepository extends HibernateDaoSupport{
 	public List<Product> findAllProducts(){
 		List<Product> find = (List<Product>) this.getHibernateTemplate().find("from " + Product.getClassName() + " o");
         return find;
+	}
+	
+	public Product getByID(Integer id){
+		Session session = this.currentSession();
+		Product product = (Product) session.get(Product.class, id);
+		return product;
 	}
 
 	@Transactional

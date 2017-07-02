@@ -35,5 +35,10 @@ public class ProductManagementService{
 	public void delete(Integer id){
 		this.getRepository().delete(id);
 	}
+	
+	@Transactional
+	public Product getByID(Integer id){
+		return this.getRepository().getByID(id);
+	}
 
 }
