@@ -7,6 +7,7 @@ import javax.transaction.Transactional;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
@@ -56,8 +57,6 @@ public class UserServicesRest {
 	public Response addProduct(@PathParam("id") Integer id,ListItem product){
 		try {
 			usersService.addProduct(product.getProduct(),product.getQuantity(),id);
-			String sarasa = "sarasa";
-			sarasa = "soroso";
 			return Response.ok().build();
 		} catch (MaxAmountExceededException e) {
 			e.printStackTrace();
@@ -66,6 +65,16 @@ public class UserServicesRest {
 		            .build();
 		}
 	}
+	
+	@PUT
+	@Consumes("application/json")
+	@Path("/update")
+	@Transactional
+	public Response updateBuyer(Buyer buyer){
+		usersService.update(buyer);
+		return Response.ok().build(); 
+	}
+	
 
     public void setUsersService(final UsersService usersService) {
     	this.usersService = usersService;
