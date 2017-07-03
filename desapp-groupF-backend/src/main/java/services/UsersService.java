@@ -9,6 +9,7 @@ import model.Product;
 import model.Purchase;
 import model.User;
 import repositories.BuyerRepository;
+import repositories.ListItemRepository;
 
 public class UsersService extends GenericService<Buyer>{
 	
@@ -35,7 +36,7 @@ public class UsersService extends GenericService<Buyer>{
 			 this.save(buyer);
 			 
 		 }
-		 Buyer toReturn =buyerRepository.getByEmail(email);
+		 Buyer toReturn = buyerRepository.getByEmail(email);
 		 return toReturn;
 	 }
 
@@ -47,7 +48,7 @@ public class UsersService extends GenericService<Buyer>{
 		Buyer buyer = buyerRepository.getById(buyerId);
 		MaxAmountAlert maxAmountAlert = new MaxAmountAlert();
 		maxAmountAlert.addProduct(product, quantity, buyer.getCurrentPurchase(), buyer.getProfile());
-		this.save(buyer);
+		buyerRepository.update(buyer);
 		buyer = buyerRepository.getById(buyerId);
 		String sarasa = "sarasa";
 	}

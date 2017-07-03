@@ -55,6 +55,8 @@ public class ProductList {
 		}
 		
 		if (!exists){
+			ListItem productWithQuantity = new ListItem(product, quantity);
+			productWithQuantity.setId(15);
 			this.products.add(new ListItem(product, quantity));
 		}
 	}

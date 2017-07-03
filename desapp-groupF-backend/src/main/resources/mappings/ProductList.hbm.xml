@@ -8,7 +8,7 @@
 			<generator class="native" />
 		</id>
 		<bag name="products" cascade="all" inverse="false" lazy="false">
-			<key column="id"/>
+			<key column="IDListItem" not-null="false"/>
 			<one-to-many class="model.ListItem"/>
 		</bag>
 		<property name="name"/>
