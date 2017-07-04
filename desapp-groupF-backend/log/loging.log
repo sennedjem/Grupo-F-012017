@@ -1918,3 +1918,223 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	... 28 more
 2017-07-04 04:20:43,987 INFO  org.springframework.context.support.AbstractApplicationContext (AbstractApplicationContext.java:862) - Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Tue Jul 04 04:20:41 ART 2017]; root of context hierarchy
 1}:862 - Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Tue Jul 04 04:20:41 ART 2017]; root of context hierarchy
+2017-07-04 16:55:48,707 INFO  org.springframework.web.context.ContextLoader (ContextLoader.java:285) - Root WebApplicationContext: initialization started
+1}:285 - Root WebApplicationContext: initialization started
+2017-07-04 16:55:49,101 INFO  org.springframework.context.support.AbstractApplicationContext (AbstractApplicationContext.java:510) - Refreshing Root WebApplicationContext: startup date [Tue Jul 04 16:55:49 ART 2017]; root of context hierarchy
+1}:510 - Refreshing Root WebApplicationContext: startup date [Tue Jul 04 16:55:49 ART 2017]; root of context hierarchy
+2017-07-04 16:55:49,190 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from URL [file:/home/sebastian/proyectos/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-persistence-context.xml]
+1}:317 - Loading XML bean definitions from URL [file:/home/sebastian/proyectos/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-persistence-context.xml]
+2017-07-04 16:55:49,563 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from URL [file:/home/sebastian/proyectos/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-services-context.xml]
+1}:317 - Loading XML bean definitions from URL [file:/home/sebastian/proyectos/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-services-context.xml]
+2017-07-04 16:55:49,585 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from URL [file:/home/sebastian/proyectos/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-aspects-context.xml]
+1}:317 - Loading XML bean definitions from URL [file:/home/sebastian/proyectos/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/spring-aspects-context.xml]
+2017-07-04 16:55:49,620 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+1}:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2017-07-04 16:55:49,660 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-07-04 16:55:49,677 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-extension-soap.xml]
+2017-07-04 16:55:49,707 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf-servlet.xml]
+2017-07-04 16:55:50,191 INFO  org.springframework.core.io.support.PropertiesLoaderSupport (PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:/home/sebastian/proyectos/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/hibernate.properties]
+1}:172 - Loading properties file from URL [file:/home/sebastian/proyectos/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/hibernate.properties]
+2017-07-04 16:55:50,192 INFO  org.springframework.core.io.support.PropertiesLoaderSupport (PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:/home/sebastian/proyectos/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/jdbc.properties]
+1}:172 - Loading properties file from URL [file:/home/sebastian/proyectos/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/jdbc.properties]
+2017-07-04 16:55:51,226 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+1}:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-07-04 16:55:51,231 INFO  org.hibernate.Version (Version.java:54) - HHH000412: Hibernate Core {4.3.6.Final}
+1}:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-07-04 16:55:51,234 INFO  org.hibernate.cfg.Environment (Environment.java:239) - HHH000206: hibernate.properties not found
+1}:239 - HHH000206: hibernate.properties not found
+2017-07-04 16:55:51,237 INFO  org.hibernate.cfg.Environment (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+1}:346 - HHH000021: Bytecode provider name : javassist
+2017-07-04 16:55:51,302 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 16:55:51,356 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 16:55:51,370 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 16:55:51,382 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 16:55:51,393 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 16:55:51,404 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 16:55:51,417 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 16:55:51,426 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 16:55:51,436 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 16:55:51,445 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 16:55:51,455 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 16:55:52,270 INFO  org.hibernate.dialect.Dialect (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+1}:145 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2017-07-04 16:55:52,434 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+1}:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-04 16:55:52,438 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+1}:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-04 16:55:52,785 INFO  org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:343) - HHH000227: Running hbm2ddl schema export
+1}:343 - HHH000227: Running hbm2ddl schema export
+2017-07-04 16:55:52,790 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table ListItem drop constraint FK_m59p1auh2mujvoa396iov4xm5
+1}:425 - HHH000389: Unsuccessful: alter table ListItem drop constraint FK_m59p1auh2mujvoa396iov4xm5
+2017-07-04 16:55:52,791 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.LISTITEM
+1}:426 - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.LISTITEM
+2017-07-04 16:55:52,792 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table Offer drop constraint FK_19gb4jx6t6eqwrhf64pnab8i7
+1}:425 - HHH000389: Unsuccessful: alter table Offer drop constraint FK_19gb4jx6t6eqwrhf64pnab8i7
+2017-07-04 16:55:52,792 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.OFFER
+1}:426 - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.OFFER
+2017-07-04 16:55:52,792 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table Product drop constraint FK_ih5k4ovono1qth89u0wuovvyw
+1}:425 - HHH000389: Unsuccessful: alter table Product drop constraint FK_ih5k4ovono1qth89u0wuovvyw
+2017-07-04 16:55:52,792 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.PRODUCT
+1}:426 - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.PRODUCT
+2017-07-04 16:55:52,793 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table ProductList drop constraint FK_t2a1r3u40xmqiegsfq3qy4h01
+1}:425 - HHH000389: Unsuccessful: alter table ProductList drop constraint FK_t2a1r3u40xmqiegsfq3qy4h01
+2017-07-04 16:55:52,793 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.PRODUCTLIST
+1}:426 - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.PRODUCTLIST
+2017-07-04 16:55:52,802 INFO  org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:405) - HHH000230: Schema export complete
+1}:405 - HHH000230: Schema export complete
+2017-07-04 16:55:52,925 INFO  org.springframework.orm.hibernate4.HibernateTransactionManager (HibernateTransactionManager.java:360) - Using DataSource [org.apache.commons.dbcp.BasicDataSource@5116ac09] of Hibernate SessionFactory for HibernateTransactionManager
+1}:360 - Using DataSource [org.apache.commons.dbcp.BasicDataSource@5116ac09] of Hibernate SessionFactory for HibernateTransactionManager
+2017-07-04 16:55:52,992 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+1}:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-07-04 16:55:53,029 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory (SQLErrorCodesFactory.java:126) - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+1}:126 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-07-04 16:55:53,094 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,094 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,094 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,094 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,094 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,094 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,094 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,181 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,181 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,182 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,182 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,182 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,182 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,182 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,200 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,200 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,200 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,201 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,201 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,201 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,201 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 16:55:53,752 INFO  org.apache.cxf.endpoint.ServerImpl (ServerImpl.java:84) - Setting the server's publish address to be /
+1}:84 - Setting the server's publish address to be /
+2017-07-04 16:55:54,206 INFO  org.springframework.web.context.ContextLoader (ContextLoader.java:325) - Root WebApplicationContext: initialization completed in 5485 ms
+1}:325 - Root WebApplicationContext: initialization completed in 5485 ms
+2017-07-04 16:56:27,236 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8080/desapp-groupF-backend/rest/users/getUser/sebastianariell@gmail.com
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, sdch, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Postman-Token=[1164a1a3-6b09-a116-ea55-8c7302cdfc8a], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8080/desapp-groupF-backend/rest/users/getUser/sebastianariell@gmail.com
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, sdch, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8080], Postman-Token=[1164a1a3-6b09-a116-ea55-8c7302cdfc8a], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36]}
+--------------------------------------
+2017-07-04 16:56:27,269 WARN  org.apache.cxf.jaxrs.model.OperationResourceInfoComparator (OperationResourceInfoComparator.java:113) - Both servicesRest.UserServicesRest#getUserByEmail and servicesRest.UserServicesRest#getUserByEmail are equal candidates for handling the current request which can lead to unpredictable results
+1}:113 - Both servicesRest.UserServicesRest#getUserByEmail and servicesRest.UserServicesRest#getUserByEmail are equal candidates for handling the current request which can lead to unpredictable results
+2017-07-04 16:56:27,332 INFO  aspects.LoggerAspect (LoggerAspect.java:18) - Method intercepted in servicesRest.UserServicesRest
+1}:18 - Method intercepted in servicesRest.UserServicesRest
+2017-07-04 16:56:27,332 INFO  aspects.LoggerAspect (LoggerAspect.java:19) - Starting logging...
+1}:19 - Starting logging...
+2017-07-04 16:56:27,334 INFO  aspects.LoggerAspect (LoggerAspect.java:20) - Entering in Method :  getUserByEmail
+1}:20 - Entering in Method :  getUserByEmail
+2017-07-04 16:56:27,334 INFO  aspects.LoggerAspect (LoggerAspect.java:21) - With arguments: [Ljava.lang.Object;@527c9094
+1}:21 - With arguments: [Ljava.lang.Object;@527c9094
+2017-07-04 16:56:27,334 INFO  aspects.LoggerAspect (LoggerAspect.java:22) - Ending logging...
+1}:22 - Ending logging...
+2017-07-04 16:56:27,515 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker (HqlSqlWalker.java:996) - [DEPRECATION] Encountered positional parameter near line 1, column 43.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+1}:996 - [DEPRECATION] Encountered positional parameter near line 1, column 43.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2017-07-04 16:56:27,957 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 04 Jul 2017 19:56:27 GMT]}
+Payload: {"currentPurchase":{"products":{"products":[{"totalValue":{"entirePart":100,"decimalPart":0},"product":{"category":"Food","image":"https://www.vegaffinity.com/imagenes/alimentos/pringlesoriginal.png","price":{"entirePart":50,"decimalPart":0},"stock":2,"brand":"Pringles","name":"Papas Fritas","id":1},"quantity":2,"purchased":true,"id":1}],"quantityOfProductTypes":1,"quantityOfProducts":2,"name":"lista sal","id":1},"totalAmount":{"entirePart":100,"decimalPart":0},"durationOfPurchase":2,"id":1},"profile":{"maxAmount":{"entirePart":120,"decimalPart":0},"address":{"district":"florencio varela","street":"larreta 1471"},"id":1},"buyerName":"sal","purchaseHistory":[],"buyerEmail":"sebastianariell@gmail.com","id":1,"management":null}
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 04 Jul 2017 19:56:27 GMT]}
+Payload: {"currentPurchase":{"products":{"products":[{"totalValue":{"entirePart":100,"decimalPart":0},"product":{"category":"Food","image":"https://www.vegaffinity.com/imagenes/alimentos/pringlesoriginal.png","price":{"entirePart":50,"decimalPart":0},"stock":2,"brand":"Pringles","name":"Papas Fritas","id":1},"quantity":2,"purchased":true,"id":1}],"quantityOfProductTypes":1,"quantityOfProducts":2,"name":"lista sal","id":1},"totalAmount":{"entirePart":100,"decimalPart":0},"durationOfPurchase":2,"id":1},"profile":{"maxAmount":{"entirePart":120,"decimalPart":0},"address":{"district":"florencio varela","street":"larreta 1471"},"id":1},"buyerName":"sal","purchaseHistory":[],"buyerEmail":"sebastianariell@gmail.com","id":1,"management":null}
+--------------------------------------
+2017-07-04 16:56:52,207 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8080/desapp-groupF-backend/rest/users/getUserProfile/sebastianariell@gmail.com
+Http-Method: GET
+Content-Type: application/json
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, sdch, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], content-type=[application/json], Host=[localhost:8080], Postman-Token=[a75e9ab9-66a3-bd7f-662e-f1a1f68a23bd], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36]}
+--------------------------------------
+1}:249 - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8080/desapp-groupF-backend/rest/users/getUserProfile/sebastianariell@gmail.com
+Http-Method: GET
+Content-Type: application/json
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, sdch, br], Accept-Language=[es-419,es;q=0.8], Cache-Control=[no-cache], connection=[keep-alive], content-type=[application/json], Host=[localhost:8080], Postman-Token=[a75e9ab9-66a3-bd7f-662e-f1a1f68a23bd], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36]}
+--------------------------------------
+2017-07-04 16:56:52,207 WARN  org.apache.cxf.jaxrs.model.OperationResourceInfoComparator (OperationResourceInfoComparator.java:113) - Both servicesRest.UserServicesRest#getUserProfileByEmail and servicesRest.UserServicesRest#getUserProfileByEmail are equal candidates for handling the current request which can lead to unpredictable results
+1}:113 - Both servicesRest.UserServicesRest#getUserProfileByEmail and servicesRest.UserServicesRest#getUserProfileByEmail are equal candidates for handling the current request which can lead to unpredictable results
+2017-07-04 16:56:52,209 INFO  aspects.LoggerAspect (LoggerAspect.java:18) - Method intercepted in servicesRest.UserServicesRest
+1}:18 - Method intercepted in servicesRest.UserServicesRest
+2017-07-04 16:56:52,209 INFO  aspects.LoggerAspect (LoggerAspect.java:19) - Starting logging...
+1}:19 - Starting logging...
+2017-07-04 16:56:52,209 INFO  aspects.LoggerAspect (LoggerAspect.java:20) - Entering in Method :  getUserProfileByEmail
+1}:20 - Entering in Method :  getUserProfileByEmail
+2017-07-04 16:56:52,209 INFO  aspects.LoggerAspect (LoggerAspect.java:21) - With arguments: [Ljava.lang.Object;@6373afb5
+1}:21 - With arguments: [Ljava.lang.Object;@6373afb5
+2017-07-04 16:56:52,209 INFO  aspects.LoggerAspect (LoggerAspect.java:22) - Ending logging...
+1}:22 - Ending logging...
+2017-07-04 16:56:52,222 INFO  org.apache.cxf.interceptor.AbstractLoggingInterceptor (AbstractLoggingInterceptor.java:249) - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 04 Jul 2017 19:56:52 GMT]}
+Payload: {"maxAmount":{"entirePart":120,"decimalPart":0},"address":{"district":"florencio varela","street":"larreta 1471"},"id":1}
+--------------------------------------
+1}:249 - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 04 Jul 2017 19:56:52 GMT]}
+Payload: {"maxAmount":{"entirePart":120,"decimalPart":0},"address":{"district":"florencio varela","street":"larreta 1471"},"id":1}
+--------------------------------------

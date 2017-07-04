@@ -51,6 +51,15 @@ public class UserServicesRest {
 	            .build();
 	}
 	
+	@GET
+	@Consumes("application/json")
+	@Path("/getUserProfile/{email}")
+	public Response getUserProfileByEmail(@PathParam("email") final String email){
+	    return Response.ok(usersService.getUserProfileByEmail(email), MediaType.APPLICATION_JSON)
+	    		.status(200)
+	            .build();
+	}
+	
 	@POST
 	@Consumes("application/json")
 	@Path("/{id}/addProduct")

@@ -80,4 +80,9 @@ public class UsersService extends GenericService<Buyer>{
 		buyer.getProfile().update(profile);
 		this.update(buyer);
 	}
+
+	public Profile getUserProfileByEmail(String email) {
+		Buyer buyer = getUserByEmail(email);
+		return buyer.getProfile();
+	}
 }
