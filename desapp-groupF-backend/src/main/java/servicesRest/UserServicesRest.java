@@ -75,6 +75,14 @@ public class UserServicesRest {
 		return Response.ok().build(); 
 	}
 	
+	@POST
+	@Consumes("application/json")
+	@Path("/{id}/makePurchase")
+	@Transactional
+	public Response makePurchase(@PathParam("id") Integer id){
+		usersService.makePurchase(id);
+		return Response.ok().build();
+	}
 
     public void setUsersService(final UsersService usersService) {
     	this.usersService = usersService;

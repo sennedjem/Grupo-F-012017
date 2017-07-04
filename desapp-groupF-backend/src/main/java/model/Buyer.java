@@ -10,7 +10,6 @@ public class Buyer extends User{
 	private Profile profile = new Profile();
 	private List<ProductList> purchaseHistory;
 	private Purchase currentPurchase;
-	//private AlertSystem alertSystem;
 	private String buyerName;
 	private Integer id;
 	private String buyerEmail;
@@ -60,23 +59,12 @@ public class Buyer extends User{
 	
 	public void makePurchase() {
 		addProductListToHistory(currentPurchase.getProducts());
-		this.currentPurchase = new Purchase();
+		this.setCurrentPurchase(new Purchase());
 	}
 	
 	private void addProductListToHistory(ProductList productList){
 		this.purchaseHistory.add(productList);
 	}
-
-	/*
-	public void setAlertSystem(AlertSystem alertSystem) {
-		this.alertSystem = alertSystem;
-		
-	}
-
-	public void addProduct(Product capitanDelEspacio, Integer cant) throws Exception {
-		this.alertSystem.addProduct(capitanDelEspacio,cant,currentPurchase,profile);
-	}
-	*/
 
 	public Profile getProfile() {
 		return profile;

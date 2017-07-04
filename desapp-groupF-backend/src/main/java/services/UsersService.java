@@ -24,8 +24,12 @@ public class UsersService extends GenericService<Buyer>{
 	        this.buyerRepository = rep;
 	 }	
 	 
-	 public void save(Buyer user){
-	 	 buyerRepository.save(user);
+	 public void save(Buyer buyer){
+	 	 buyerRepository.save(buyer);
+	 }
+	 
+	 public void update(Buyer buyer){
+		 buyerRepository.update(buyer);
 	 }
 	 
 	 public Buyer getUserByEmail(String email){
@@ -48,8 +52,13 @@ public class UsersService extends GenericService<Buyer>{
 		Buyer buyer = buyerRepository.getById(buyerId);
 		MaxAmountAlert maxAmountAlert = new MaxAmountAlert();
 		maxAmountAlert.addProduct(product, quantity, buyer.getCurrentPurchase(), buyer.getProfile());
-		buyerRepository.update(buyer);
-		buyer = buyerRepository.getById(buyerId);
-		String sarasa = "sarasa";
+		this.update(buyer);
+	}
+
+	public void makePurchase(Integer id) {
+		Buyer buyer = buyerRepository.getById(id);
+		buyer.makePurchase();
+		this.save(buyer);
+		
 	}
 }

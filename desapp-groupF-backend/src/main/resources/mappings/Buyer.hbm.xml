@@ -10,14 +10,10 @@
 		<property name="buyerName"></property>
 		<property name="buyerEmail"></property>
 		<one-to-one name="profile" class="model.Profile"/>
-		<one-to-one name="currentPurchase" class="model.Purchase"/>
-		<!-- 
-		
-		<bag name="purchaseHistory">
-			<key column="id"/>
+		<one-to-one name="currentPurchase" class="model.Purchase" cascade="all-delete-orphan"/>
+		<bag name="purchaseHistory" lazy="false">
+			<key column="IDPurchaseHistory"/>
 			<one-to-many class="model.ProductList"/>
 		</bag>
-		
-		 -->
 	</class>
 </hibernate-mapping>

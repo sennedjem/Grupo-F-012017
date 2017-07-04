@@ -31,7 +31,7 @@ public class BuyerFixture {
 		List<ProductList> purchaseHistorySal = new ArrayList<ProductList>();
 		List<ListItem> productsSal = listItems();
 		ProductList productListSal = createProductList(productsSal,"lista sal");
-		purchaseHistorySal.add(productListSal);
+		//purchaseHistorySal.add(productListSal);
 		Address larreta = createAddress("larreta 1471","florencio varela");
 		Profile profile1 = createProfile(new Money(120,0),larreta,1);
 		Purchase purchase = new Purchase();
