@@ -21,15 +21,10 @@ public class ArchitectureTest {
 	private String packageServiceRest = "servicesRest";
 	private String packageUtils = "utils";
 
-	/*
-	 * Se verifica que en los paquetes "NO service" no haya clases que
-	 * extiendan de "GenericService"
-	 * 
-	 */
 	@Test
 	public void testPackegeWhithoutService() throws InstantiationException, IllegalAccessException {
 
-		int correctClasses = 0;
+		int classesExtendOfGenericService = 0;
 		ArrayList<String> namesPackages = new ArrayList<String>();
 
 		namesPackages.add(this.packageAspects);
@@ -42,31 +37,31 @@ public class ArchitectureTest {
 
 		for (String pack : namesPackages) {
 			Object[] classes = this.getAllClassForPackage(pack, GenericService.class);
-			correctClasses += classes.length;
+			classesExtendOfGenericService += classes.length;
 		}
-		assertEquals(0, correctClasses);
+		assertEquals(0, classesExtendOfGenericService);
 	}
 
 	@Test
 	public void testPackegeWhithService() throws InstantiationException, IllegalAccessException {
 
-		int correctClasses = 0;
+		int classesExtendOfGenericService = 0;
 		ArrayList<String> namesPackages = new ArrayList<String>();
 
 		namesPackages.add(this.packageServices);
 
 		for (String pack : namesPackages) {
 			Object[] classes = this.getAllClassForPackage(pack, GenericService.class);
-			correctClasses += classes.length;
+			classesExtendOfGenericService += classes.length;
 		}
-		assertNotEquals(0, correctClasses);
+		assertNotEquals(0, classesExtendOfGenericService);
 	}
 	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
-	public Object[] getAllClassForPackage(String namePackage, Class xclase) {
+	public Object[] getAllClassForPackage(String namePackage, Class xClass) {
 
 		Reflections reflections = new Reflections(namePackage);
-		Object[] classes = ((HashSet) reflections.getSubTypesOf(xclase)).toArray();
+		Object[] classes = ((HashSet) reflections.getSubTypesOf(xClass)).toArray();
 		return classes;
 	}
 

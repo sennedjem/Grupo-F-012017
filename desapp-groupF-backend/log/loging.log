@@ -1424,3 +1424,497 @@ Content-Type: application/json
 Headers: {Content-Type=[application/json], Date=[Sun, 02 Jul 2017 17:57:13 GMT]}
 Payload: {"name":"Jamón cocido x 100 gr.","id":3,"category":"Food","brand":"Bocatti","image":"http://jumbo.vteximg.com.br/arquivos/ids/169721-100-100/705256-KG.jpg","price":{"decimalPart":0,"entirePart":40},"stock":2}
 --------------------------------------
+2017-07-04 04:03:04,510 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 128 ms to scan 1 urls, producing 1 keys and 1 values 
+1}:229 - Reflections took 128 ms to scan 1 urls, producing 1 keys and 1 values 
+2017-07-04 04:03:04,552 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 10 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 10 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-07-04 04:03:04,560 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 6 ms to scan 1 urls, producing 1 keys and 3 values 
+1}:229 - Reflections took 6 ms to scan 1 urls, producing 1 keys and 3 values 
+2017-07-04 04:03:04,565 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+1}:229 - Reflections took 4 ms to scan 1 urls, producing 0 keys and 0 values 
+2017-07-04 04:03:04,580 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 14 ms to scan 2 urls, producing 5 keys and 10 values 
+1}:229 - Reflections took 14 ms to scan 2 urls, producing 5 keys and 10 values 
+2017-07-04 04:03:04,588 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 7 ms to scan 1 urls, producing 3 keys and 6 values 
+1}:229 - Reflections took 7 ms to scan 1 urls, producing 3 keys and 6 values 
+2017-07-04 04:03:04,596 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 7 ms to scan 2 urls, producing 4 keys and 4 values 
+1}:229 - Reflections took 7 ms to scan 2 urls, producing 4 keys and 4 values 
+2017-07-04 04:03:04,607 INFO  org.reflections.Reflections (Reflections.java:229) - Reflections took 8 ms to scan 2 urls, producing 7 keys and 19 values 
+1}:229 - Reflections took 8 ms to scan 2 urls, producing 7 keys and 19 values 
+2017-07-04 04:19:54,639 INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper (AbstractTestContextBootstrapper.java:256) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+1}:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-04 04:19:54,714 INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper (AbstractTestContextBootstrapper.java:182) - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7cd62f43, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d4b1c02, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6093dd95, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5622fdf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4883b407]
+1}:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7cd62f43, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d4b1c02, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6093dd95, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5622fdf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4883b407]
+2017-07-04 04:19:54,849 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/spring-persistence-context.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/spring-persistence-context.xml]
+2017-07-04 04:19:55,220 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/spring-services-context.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/spring-services-context.xml]
+2017-07-04 04:19:55,326 INFO  org.springframework.context.support.AbstractApplicationContext (AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.GenericApplicationContext@4fe3c938: startup date [Tue Jul 04 04:19:55 ART 2017]; root of context hierarchy
+1}:510 - Refreshing org.springframework.context.support.GenericApplicationContext@4fe3c938: startup date [Tue Jul 04 04:19:55 ART 2017]; root of context hierarchy
+2017-07-04 04:19:55,603 INFO  org.springframework.core.io.support.PropertiesLoaderSupport (PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:/home/sergio/git/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/hibernate.properties]
+1}:172 - Loading properties file from URL [file:/home/sergio/git/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/hibernate.properties]
+2017-07-04 04:19:55,603 INFO  org.springframework.core.io.support.PropertiesLoaderSupport (PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:/home/sergio/git/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/jdbc.properties]
+1}:172 - Loading properties file from URL [file:/home/sergio/git/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/jdbc.properties]
+2017-07-04 04:19:56,255 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+1}:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-07-04 04:19:56,276 INFO  org.hibernate.Version (Version.java:54) - HHH000412: Hibernate Core {4.3.6.Final}
+1}:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-07-04 04:19:56,288 INFO  org.hibernate.cfg.Environment (Environment.java:239) - HHH000206: hibernate.properties not found
+1}:239 - HHH000206: hibernate.properties not found
+2017-07-04 04:19:56,291 INFO  org.hibernate.cfg.Environment (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+1}:346 - HHH000021: Bytecode provider name : javassist
+2017-07-04 04:19:56,378 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:19:56,424 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:19:56,443 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:19:56,462 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:19:56,477 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:19:56,492 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:19:56,507 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:19:56,520 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:19:56,532 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:19:56,542 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:19:56,566 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:19:57,388 INFO  org.hibernate.dialect.Dialect (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+1}:145 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2017-07-04 04:19:57,577 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+1}:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-04 04:19:57,592 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+1}:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-04 04:19:58,008 INFO  org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:343) - HHH000227: Running hbm2ddl schema export
+1}:343 - HHH000227: Running hbm2ddl schema export
+2017-07-04 04:19:58,013 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table ListItem drop constraint FK_m59p1auh2mujvoa396iov4xm5
+1}:425 - HHH000389: Unsuccessful: alter table ListItem drop constraint FK_m59p1auh2mujvoa396iov4xm5
+2017-07-04 04:19:58,014 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.LISTITEM
+1}:426 - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.LISTITEM
+2017-07-04 04:19:58,014 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table Offer drop constraint FK_19gb4jx6t6eqwrhf64pnab8i7
+1}:425 - HHH000389: Unsuccessful: alter table Offer drop constraint FK_19gb4jx6t6eqwrhf64pnab8i7
+2017-07-04 04:19:58,014 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.OFFER
+1}:426 - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.OFFER
+2017-07-04 04:19:58,015 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table Product drop constraint FK_ih5k4ovono1qth89u0wuovvyw
+1}:425 - HHH000389: Unsuccessful: alter table Product drop constraint FK_ih5k4ovono1qth89u0wuovvyw
+2017-07-04 04:19:58,015 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.PRODUCT
+1}:426 - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.PRODUCT
+2017-07-04 04:19:58,023 INFO  org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:405) - HHH000230: Schema export complete
+1}:405 - HHH000230: Schema export complete
+2017-07-04 04:19:58,079 INFO  org.springframework.orm.hibernate4.HibernateTransactionManager (HibernateTransactionManager.java:360) - Using DataSource [org.apache.commons.dbcp.BasicDataSource@655a5d9c] of Hibernate SessionFactory for HibernateTransactionManager
+1}:360 - Using DataSource [org.apache.commons.dbcp.BasicDataSource@655a5d9c] of Hibernate SessionFactory for HibernateTransactionManager
+2017-07-04 04:19:58,137 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+1}:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-07-04 04:19:58,184 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory (SQLErrorCodesFactory.java:126) - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+1}:126 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-07-04 04:19:58,260 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,260 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,261 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,264 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,264 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,265 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,265 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,489 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,489 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,489 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,489 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,490 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,490 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,490 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,510 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,511 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,511 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,511 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,512 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,512 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,512 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:19:58,650 ERROR org.springframework.test.context.TestContextManager (TestContextManager.java:215) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d4b1c02] to prepare test instance [services.OfferServiceTestCase@159e366]
+1}:215 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d4b1c02] to prepare test instance [services.OfferServiceTestCase@159e366]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'services.OfferServiceTestCase': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.OfferService services.OfferServiceTestCase.offerService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.OfferService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.offer)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:252)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.OfferService services.OfferServiceTestCase.offerService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.OfferService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.offer)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.OfferService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.offer)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 28 more
+2017-07-04 04:19:58,657 ERROR org.springframework.test.context.TestContextManager (TestContextManager.java:215) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d4b1c02] to prepare test instance [services.OfferServiceTestCase@7668d560]
+1}:215 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d4b1c02] to prepare test instance [services.OfferServiceTestCase@7668d560]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'services.OfferServiceTestCase': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.OfferService services.OfferServiceTestCase.offerService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.OfferService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.offer)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:252)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.OfferService services.OfferServiceTestCase.offerService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.OfferService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.offer)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.OfferService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.offer)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 28 more
+2017-07-04 04:19:58,660 ERROR org.springframework.test.context.TestContextManager (TestContextManager.java:215) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d4b1c02] to prepare test instance [services.OfferServiceTestCase@5c371e13]
+1}:215 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d4b1c02] to prepare test instance [services.OfferServiceTestCase@5c371e13]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'services.OfferServiceTestCase': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.OfferService services.OfferServiceTestCase.offerService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.OfferService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.offer)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:252)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.OfferService services.OfferServiceTestCase.offerService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.OfferService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.offer)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.OfferService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.offer)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 28 more
+2017-07-04 04:19:58,664 INFO  org.springframework.context.support.AbstractApplicationContext (AbstractApplicationContext.java:862) - Closing org.springframework.context.support.GenericApplicationContext@4fe3c938: startup date [Tue Jul 04 04:19:55 ART 2017]; root of context hierarchy
+1}:862 - Closing org.springframework.context.support.GenericApplicationContext@4fe3c938: startup date [Tue Jul 04 04:19:55 ART 2017]; root of context hierarchy
+2017-07-04 04:20:41,557 INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper (AbstractTestContextBootstrapper.java:256) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+1}:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-07-04 04:20:41,582 INFO  org.springframework.test.context.support.AbstractTestContextBootstrapper (AbstractTestContextBootstrapper.java:182) - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6a41eaa2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7cd62f43, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6d4b1c02, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6093dd95, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5622fdf]
+1}:182 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6a41eaa2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7cd62f43, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6d4b1c02, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6093dd95, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5622fdf]
+2017-07-04 04:20:41,718 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/spring-persistence-context.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/spring-persistence-context.xml]
+2017-07-04 04:20:41,919 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [META-INF/spring-services-context.xml]
+1}:317 - Loading XML bean definitions from class path resource [META-INF/spring-services-context.xml]
+2017-07-04 04:20:41,963 INFO  org.springframework.context.support.AbstractApplicationContext (AbstractApplicationContext.java:510) - Refreshing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Tue Jul 04 04:20:41 ART 2017]; root of context hierarchy
+1}:510 - Refreshing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Tue Jul 04 04:20:41 ART 2017]; root of context hierarchy
+2017-07-04 04:20:42,108 INFO  org.springframework.core.io.support.PropertiesLoaderSupport (PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:/home/sergio/git/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/hibernate.properties]
+1}:172 - Loading properties file from URL [file:/home/sergio/git/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/hibernate.properties]
+2017-07-04 04:20:42,108 INFO  org.springframework.core.io.support.PropertiesLoaderSupport (PropertiesLoaderSupport.java:172) - Loading properties file from URL [file:/home/sergio/git/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/jdbc.properties]
+1}:172 - Loading properties file from URL [file:/home/sergio/git/Grupo-F-012017/desapp-groupF-backend/target/classes/META-INF/jdbc.properties]
+2017-07-04 04:20:42,369 INFO  org.hibernate.annotations.common.reflection.java.JavaReflectionManager (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+1}:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2017-07-04 04:20:42,380 INFO  org.hibernate.Version (Version.java:54) - HHH000412: Hibernate Core {4.3.6.Final}
+1}:54 - HHH000412: Hibernate Core {4.3.6.Final}
+2017-07-04 04:20:42,382 INFO  org.hibernate.cfg.Environment (Environment.java:239) - HHH000206: hibernate.properties not found
+1}:239 - HHH000206: hibernate.properties not found
+2017-07-04 04:20:42,385 INFO  org.hibernate.cfg.Environment (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+1}:346 - HHH000021: Bytecode provider name : javassist
+2017-07-04 04:20:42,437 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:20:42,484 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:20:42,504 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:20:42,522 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:20:42,538 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:20:42,553 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:20:42,565 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:20:42,575 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:20:42,587 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:20:42,598 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:20:42,620 WARN  org.hibernate.internal.util.xml.DTDEntityResolver (DTDEntityResolver.java:75) - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+1}:75 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-07-04 04:20:43,064 INFO  org.hibernate.dialect.Dialect (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+1}:145 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2017-07-04 04:20:43,150 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+1}:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2017-07-04 04:20:43,154 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+1}:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-04 04:20:43,463 INFO  org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:343) - HHH000227: Running hbm2ddl schema export
+1}:343 - HHH000227: Running hbm2ddl schema export
+2017-07-04 04:20:43,469 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table ListItem drop constraint FK_m59p1auh2mujvoa396iov4xm5
+1}:425 - HHH000389: Unsuccessful: alter table ListItem drop constraint FK_m59p1auh2mujvoa396iov4xm5
+2017-07-04 04:20:43,470 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.LISTITEM
+1}:426 - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.LISTITEM
+2017-07-04 04:20:43,470 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table Offer drop constraint FK_19gb4jx6t6eqwrhf64pnab8i7
+1}:425 - HHH000389: Unsuccessful: alter table Offer drop constraint FK_19gb4jx6t6eqwrhf64pnab8i7
+2017-07-04 04:20:43,470 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.OFFER
+1}:426 - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.OFFER
+2017-07-04 04:20:43,471 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:425) - HHH000389: Unsuccessful: alter table Product drop constraint FK_ih5k4ovono1qth89u0wuovvyw
+1}:425 - HHH000389: Unsuccessful: alter table Product drop constraint FK_ih5k4ovono1qth89u0wuovvyw
+2017-07-04 04:20:43,471 ERROR org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:426) - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.PRODUCT
+1}:426 - usuario no tiene privilegios suficientes o objeto no encontrado: PUBLIC.PRODUCT
+2017-07-04 04:20:43,478 INFO  org.hibernate.tool.hbm2ddl.SchemaExport (SchemaExport.java:405) - HHH000230: Schema export complete
+1}:405 - HHH000230: Schema export complete
+2017-07-04 04:20:43,520 INFO  org.springframework.orm.hibernate4.HibernateTransactionManager (HibernateTransactionManager.java:360) - Using DataSource [org.apache.commons.dbcp.BasicDataSource@1b5bc39d] of Hibernate SessionFactory for HibernateTransactionManager
+1}:360 - Using DataSource [org.apache.commons.dbcp.BasicDataSource@1b5bc39d] of Hibernate SessionFactory for HibernateTransactionManager
+2017-07-04 04:20:43,547 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader (XmlBeanDefinitionReader.java:317) - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+1}:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2017-07-04 04:20:43,588 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory (SQLErrorCodesFactory.java:126) - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+1}:126 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2017-07-04 04:20:43,630 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,631 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,631 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,631 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,632 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,632 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,632 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,755 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,755 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,755 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,756 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,756 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,756 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,756 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,775 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,775 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.hibernate.SessionFactory org.springframework.orm.hibernate4.support.HibernateDaoSupport.getSessionFactory()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,776 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final org.hibernate.Session org.springframework.orm.hibernate4.support.HibernateDaoSupport.currentSession() throws org.springframework.dao.DataAccessResourceFailureException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,776 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [protected final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.checkDaoConfig()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,776 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.orm.hibernate4.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate4.HibernateTemplate)] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,776 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final org.springframework.orm.hibernate4.HibernateTemplate org.springframework.orm.hibernate4.support.HibernateDaoSupport.getHibernateTemplate()] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,776 INFO  org.springframework.aop.framework.CglibAopProxy (CglibAopProxy.java:264) - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+1}:264 - Unable to proxy method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is final: All calls to this method via a proxy will NOT be routed to the target instance.
+2017-07-04 04:20:43,969 ERROR org.springframework.test.context.TestContextManager (TestContextManager.java:215) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7cd62f43] to prepare test instance [services.OfferServiceTestCase@1c65121]
+1}:215 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7cd62f43] to prepare test instance [services.OfferServiceTestCase@1c65121]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'services.OfferServiceTestCase': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.ByCategoryService services.OfferServiceTestCase.byCategoryService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.ByCategoryService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.byCategory)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:252)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.ByCategoryService services.OfferServiceTestCase.byCategoryService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.ByCategoryService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.byCategory)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.ByCategoryService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.byCategory)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 28 more
+2017-07-04 04:20:43,978 ERROR org.springframework.test.context.TestContextManager (TestContextManager.java:215) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7cd62f43] to prepare test instance [services.OfferServiceTestCase@3fcdcf]
+1}:215 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7cd62f43] to prepare test instance [services.OfferServiceTestCase@3fcdcf]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'services.OfferServiceTestCase': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.ByCategoryService services.OfferServiceTestCase.byCategoryService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.ByCategoryService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.byCategory)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:252)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.ByCategoryService services.OfferServiceTestCase.byCategoryService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.ByCategoryService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.byCategory)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.ByCategoryService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.byCategory)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 28 more
+2017-07-04 04:20:43,981 ERROR org.springframework.test.context.TestContextManager (TestContextManager.java:215) - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7cd62f43] to prepare test instance [services.OfferServiceTestCase@6c44052e]
+1}:215 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7cd62f43] to prepare test instance [services.OfferServiceTestCase@6c44052e]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'services.OfferServiceTestCase': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.ByCategoryService services.OfferServiceTestCase.byCategoryService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.ByCategoryService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.byCategory)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1202)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:385)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:252)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:254)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:217)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private services.ByCategoryService services.OfferServiceTestCase.byCategoryService; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.ByCategoryService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.byCategory)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:558)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [services.ByCategoryService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=services.byCategory)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1054)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:949)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:530)
+	... 28 more
+2017-07-04 04:20:43,987 INFO  org.springframework.context.support.AbstractApplicationContext (AbstractApplicationContext.java:862) - Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Tue Jul 04 04:20:41 ART 2017]; root of context hierarchy
+1}:862 - Closing org.springframework.context.support.GenericApplicationContext@5ec0a365: startup date [Tue Jul 04 04:20:41 ART 2017]; root of context hierarchy
