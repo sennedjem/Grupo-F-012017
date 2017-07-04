@@ -15,7 +15,7 @@ public class Profile {
 		return address;
 	}
 	
-	public void setDirection(Address address){
+	public void setAddress(Address address){
 		this.address = address;
 	}
 
@@ -33,6 +33,11 @@ public class Profile {
 	
 	public void setId(Integer id){
 		this.id = id;
+	}
+	public void update(Profile profile) {
+		this.setMaxAmount(profile.getMaxAmount());
+		this.setAddress(profile.getAddress());
+		
 	}
 
 

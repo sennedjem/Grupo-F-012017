@@ -31,7 +31,7 @@ public class ProfileBuilder {
 	}
 	
 	public ProfileBuilder withAddress(Address address){
-		this.profile.setDirection(address);
+		this.profile.setAddress(address);
 		return this;
 	}
 	
