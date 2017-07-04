@@ -96,11 +96,11 @@ public class UserServicesRest {
 	
 	@POST
 	@Consumes("application/json")
-	@Path("{id}/updateProfile")
+	@Path("{email}/updateProfile")
 	@Transactional
-	public Response updateProfile(@PathParam("id") Integer id,Profile profile){
-		if (usersService.profileIsValid(id,profile)){
-			usersService.updateProfile(id,profile);
+	public Response updateProfile(@PathParam("email") String email,Profile profile){
+		if (usersService.profileIsValid(email,profile)){
+			usersService.updateProfile(email,profile);
 			return Response.ok().build();
 		}
 		return Response.status(Response.Status.NOT_ACCEPTABLE).build();

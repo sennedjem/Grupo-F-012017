@@ -70,13 +70,13 @@ public class UsersService extends GenericService<Buyer>{
 		
 	}
 
-	public boolean profileIsValid(Integer id, Profile profile) {
-		Buyer buyer = getBuyerById(id);
+	public boolean profileIsValid(String email, Profile profile) {
+		Buyer buyer = getUserByEmail(email);
 		return buyer.getProfile().getId().equals(profile.getId());
 	}
 
-	public void updateProfile(Integer id, Profile profile) {
-		Buyer buyer = getBuyerById(id);
+	public void updateProfile(String email, Profile profile) {
+		Buyer buyer = getUserByEmail(email);
 		buyer.getProfile().update(profile);
 		this.update(buyer);
 	}
