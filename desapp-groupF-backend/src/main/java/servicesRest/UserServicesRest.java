@@ -20,6 +20,7 @@ import exceptions.MaxAmountExceededException;
 import model.Buyer;
 import model.ListItem;
 import model.Product;
+import model.Profile;
 import model.User;
 import services.UsersService;
 
@@ -82,6 +83,18 @@ public class UserServicesRest {
 	public Response makePurchase(@PathParam("id") Integer id){
 		usersService.makePurchase(id);
 		return Response.ok().build();
+	}
+	
+	@POST
+	@Consumes("application/json")
+	@Path("{id}/updateProfile")
+	@Transactional
+	public Response updateProfile(@PathParam("id") Integer id,Profile profile){
+		if (usersService.profileIsValid(id,profile)){
+			usersService.updateProfile(id,profile);
+			return Response.ok().build();
+		}
+		return Response.status(Response.Status.NOT_ACCEPTABLE).build();
 	}
 
     public void setUsersService(final UsersService usersService) {
